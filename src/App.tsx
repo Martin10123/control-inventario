@@ -1,5 +1,7 @@
+import { LoginPage } from "./auth";
+
 const App = () => {
-  return <div>Hola mundo!!</div>;
+  return <LoginPage />;
 };
 
 export default App;
