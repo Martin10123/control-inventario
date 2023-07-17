@@ -1,0 +1,37 @@
+.main__container {
+}
+
+.main__content {
+}
+
+.main__header {
+  align-items: center;
+  background: #00c0e8;
+  border-radius: 0 0 1.5rem 1.5rem;
+  box-shadow: 1px 1px 6px black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.main__header > svg {
+  color: #fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.main__photo_profile {
+  align-items: center;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.main__photo_profile > img {
+  border-radius: 100%;
+  cursor: pointer;
+  height: 2.5rem;
+  object-fit: cover;
+  width: 2.5rem;
+}

@@ -1,7 +1,7 @@
-import { LoginPage } from "./auth";
+import { MainPage } from "./pages";
 
 const App = () => {
-  return <LoginPage />;
+  return <MainPage />;
 };
 
 export default App;

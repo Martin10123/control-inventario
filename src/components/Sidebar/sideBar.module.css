@@ -1,0 +1,161 @@
+.sidebar__container {
+  background: #fff;
+  box-shadow: 1px 1px 6px gray;
+  height: 100vh;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.sidebar__content {
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar__content_info_user {
+  align-items: center;
+  border-bottom: 1px solid #808080cc;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.sidebar__info_user_and_arrow_back {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.sidebar__photo_user > img {
+  border-radius: 100%;
+  height: 3.5rem;
+  object-fit: cover;
+  width: 3.5rem;
+}
+
+.sidebar__displayName {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.sidebar__active {
+  align-items: center;
+  color: #808080cc;
+  display: flex;
+}
+
+.sidebar__content_info_user > svg {
+  color: #00c0e8;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.sidebar__title_list {
+  color: #808080cc;
+  padding: 1rem 1rem 0;
+}
+
+.sidebar__list_item {
+  padding: 1rem;
+  width: 100%;
+}
+
+.sidebar__item {
+  align-items: center;
+  border-radius: 0.5rem;
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+}
+
+.sidebar__item > svg {
+  color: #00c0e8;
+  font-size: 2rem;
+}
+
+.sidebar__inside_item,
+.sidebar__item_subtitles {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  transition: 0.5s ease-in-out;
+  width: 100%;
+}
+
+.sidebar__item:hover,
+.sidebar__item_subtitles:hover {
+  background: #00c0e84a;
+  color: #00c0e8;
+  transition: 0.5s ease-in-out;
+}
+
+.sidebar__inside_item > svg,
+.sidebar__item_subtitles > svg {
+  color: #00c0e8;
+  font-size: 1.7rem;
+}
+
+.sidebar__inside_item:hover > svg,
+.sidebar__item:hover > svg {
+  color: #00c0e8;
+}
+
+.sidebar__item_title {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.sidebar__list_item_subtitles {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sidebar__list_subtitles {
+  width: 94%;
+}
+
+.sidebar__item_subtitles {
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.sidebar__in {
+  -webkit-animation: text-focus-in 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    both;
+  animation: text-focus-in 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.sidebar__close {
+  transform: translate(-70rem, 0);
+  transition: 0.2s ease-in-out;
+  position: absolute;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
