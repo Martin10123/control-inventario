@@ -35,7 +35,7 @@ export const SideItem = ({
       </span>
 
       {subNames && (
-        <>{openSubTitle ? <IoIosArrowUp /> : <MdOutlineKeyboardArrowDown />}</>
+        <>{openSubTitle ? <MdOutlineKeyboardArrowDown /> : <IoIosArrowUp />}</>
       )}
     </li>
   );

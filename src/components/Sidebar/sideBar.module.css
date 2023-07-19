@@ -82,7 +82,7 @@
   align-items: center;
   display: flex;
   gap: 1rem;
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
   width: 100%;
 }
 
@@ -90,7 +90,7 @@
 .sidebar__item_subtitles:hover {
   background: #00c0e84a;
   color: #00c0e8;
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .sidebar__inside_item > svg,

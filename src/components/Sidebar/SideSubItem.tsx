@@ -9,8 +9,8 @@ interface Props {
 
 export const SideSubItem = ({ openSubTitle, subNames }: Props) => {
   const showSubTitles = openSubTitle
-    ? styles.sidebar__close
-    : styles.sidebar__in;
+    ? styles.sidebar__in
+    : styles.sidebar__close;
 
   return (
     <>
