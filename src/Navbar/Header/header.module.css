@@ -1,0 +1,34 @@
+.main__header {
+  align-items: center;
+  background: #fff;
+  border-radius: 0 0 1.5rem 1.5rem;
+  box-shadow: 1px 1px 6px #00c0e86b;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 8;
+}
+
+.main__header > svg {
+  color: #00c0e8;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.main__photo_profile {
+  align-items: center;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main__photo_profile > img {
+  border-radius: 100%;
+  cursor: pointer;
+  height: 2.5rem;
+  object-fit: cover;
+  width: 2.5rem;
+}

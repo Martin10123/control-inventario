@@ -1,7 +1,11 @@
-import { MainPage } from "./pages";
+import { ChangePassword } from "./auth";
 
 const App = () => {
-  return <MainPage />;
+  return (
+    <>
+      <ChangePassword />
+    </>
+  );
 };
 
 export default App;
