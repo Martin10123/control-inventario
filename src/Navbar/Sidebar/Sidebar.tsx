@@ -13,12 +13,11 @@ export interface SidebarClose {
 
 export const Sidebar = ({ openSidebar, setOpenSidebar }: SidebarClose) => {
   const [openSubTitle, setOpenSubTitle] = useState(false);
+  const styleAnimite = openSidebar ? "slideInUp" : "slideOutDown";
 
   return (
     <nav
-      className={`${styles.sidebar__container} ${
-        openSidebar ? styles.sidebar__in : styles.sidebar__close
-      }`}
+      className={`${styles.sidebar__container} animate__animated animate__${styleAnimite}`}
     >
       <div className={styles.sidebar__content}>
         <SideInfoUser setOpenSidebar={setOpenSidebar} />

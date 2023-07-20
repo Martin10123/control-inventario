@@ -1,6 +1,6 @@
 import { IoIosArrowBack } from "react-icons/io";
 import { photoUser } from "../../assets";
-import { SidebarClose } from "../../components";
+import { SidebarClose } from "..";
 
 import styles from "./sideBar.module.css";
 

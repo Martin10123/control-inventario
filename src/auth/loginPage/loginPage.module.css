@@ -1,10 +1,22 @@
 .login__container {
   align-items: center;
-  background: #10414e94;
   display: flex;
-  justify-content: center;
   height: 100vh;
+  justify-content: center;
+  position: relative;
   width: 100%;
+  z-index: 9999;
+}
+
+.login__container::before {
+  background: #10414e94;
+  content: "";
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
 }
 
 .login__image_back {
@@ -15,7 +27,7 @@
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: -1;
+  z-index: -2;
 }
 
 .login__content {

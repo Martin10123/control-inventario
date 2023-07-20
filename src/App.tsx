@@ -1,9 +1,11 @@
-import { ChangePassword } from "./auth";
+import { Header } from "./Navbar/Header/Header";
+import { UsersPage } from "./pages";
 
 const App = () => {
   return (
     <>
-      <ChangePassword />
+      <Header />
+      <UsersPage />
     </>
   );
 };

@@ -2,6 +2,7 @@ import { BiLeftArrow } from "react-icons/bi";
 
 import { FiLock, FiUnlock } from "react-icons/fi";
 import { GoShieldLock } from "react-icons/go";
+import { InputForm } from "../../components";
 
 import styles from "./changePassword.module.css";
 
@@ -24,32 +25,26 @@ export const ChangePassword = () => {
           </div>
 
           <form className={styles.cp__content_form}>
-            <div className={styles.cp__content_input_form}>
-              <FiUnlock />
-              <input
-                type="password"
-                className={styles.cp__input_form}
-                placeholder="Contraseña actual..."
-              />
-            </div>
-            <div className={styles.cp__content_input_form}>
-              <FiLock />
+            <InputForm
+              icon={<FiUnlock />}
+              name="oldPassword"
+              type="password"
+              placeholder="Contraseña actual"
+            />
 
-              <input
-                type="password"
-                className={styles.cp__input_form}
-                placeholder="Nueva contraseña..."
-              />
-            </div>
-            <div className={styles.cp__content_input_form}>
-              <GoShieldLock />
+            <InputForm
+              icon={<FiLock />}
+              name="newPassword"
+              type="password"
+              placeholder="Nueva contraseña..."
+            />
 
-              <input
-                type="password"
-                className={styles.cp__input_form}
-                placeholder="Confirmar contraseña..."
-              />
-            </div>
+            <InputForm
+              icon={<GoShieldLock />}
+              name="repeatPassword"
+              type="password"
+              placeholder="Confirmar contraseña..."
+            />
 
             <div className={styles.cp__content_button}>
               <button className={styles.cp__btn_change}>Actualizar</button>
