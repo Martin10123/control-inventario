@@ -1,0 +1,15 @@
+.btn__content_button {
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.btn__btn_save {
+  background: #00c0e8;
+  border-radius: 0.8rem;
+  border: none;
+  box-shadow: 1px 1px 6px #80808047;
+  color: #fff;
+  font-size: 1.2rem;
+  height: 4rem;
+  width: 100%;
+}

@@ -21,9 +21,9 @@ export const InputForm: FC<PropsInput> = ({
   stylesInput,
   stylesTitleError,
   ...rest
-}: PropsInput) => {
+}) => {
   return (
-    <div className={styles.if__content_input_error}>
+    <>
       <div
         className={styles.if__content_input_form}
         style={{ ...stylesCInputF }}
@@ -46,6 +46,6 @@ export const InputForm: FC<PropsInput> = ({
           </p>
         </div>
       )}
-    </div>
+    </>
   );
 };

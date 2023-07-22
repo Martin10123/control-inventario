@@ -1,6 +1,6 @@
 import { BiCurrentLocation } from "react-icons/bi";
 import { CheckOption } from "./CheckOption";
-import { InputForm } from "../../../components";
+import { ButtonForm, InputForm } from "../../../components";
 
 import styles from "./cuStyles.module.css";
 
@@ -31,9 +31,7 @@ export const InfoUserThree = () => {
         type="tel"
       />
 
-      <div className={styles.cu__content_button}>
-        <button className={styles.cu__btn_get_into}>Guardar</button>
-      </div>
+      <ButtonForm titleButton="Guardar" />
     </>
   );
 };

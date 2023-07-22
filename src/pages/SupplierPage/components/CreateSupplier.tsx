@@ -1,5 +1,5 @@
 import { LayoutModal } from "../../Layout";
-import { InputForm } from "../../../components";
+import { ButtonForm, InputForm } from "../../../components";
 import { BsTelephone } from "react-icons/bs";
 import { MdAlternateEmail, MdOutlineWorkOutline } from "react-icons/md";
 import { SlUser } from "react-icons/sl";
@@ -61,7 +61,7 @@ export const CreateSupplier = ({
           </select>
         </div>
 
-        <button className={styles.cs__btn_save}>Guardar</button>
+        <ButtonForm titleButton="Guardar" />
       </form>
     </LayoutModal>
   );
