@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { IoChevronBackSharp } from "react-icons/io5";
 import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
 
 import { InfoUserOne } from "./InfoUserOne";
 import { InfoUserTwo } from "./InfoUserTwo";
 import { InfoUserThree } from "./InfoUserThree";
+import { LayoutModal } from "../../Layout";
 
 import styles from "./cuStyles.module.css";
 
@@ -38,46 +38,43 @@ export const CreateUser = ({
     }
   };
 
-  const styleAnimite = openCreateUsers ? "zoomInDown" : "zoomOutDown";
+  const onCloseModal = () => {
+    setOpenCreateUsers(false);
+  };
 
   return (
-    <section
-      className={`${styles.cu__container} animate__animated animate__${styleAnimite}`}
+    <LayoutModal
+      knowIfOpenClose={openCreateUsers}
+      onCloseCreate={onCloseModal}
+      titleModal="Crear usuario"
     >
-      <div className={styles.cu__content}>
-        <nav className={styles.cu__nav_back}>
-          <IoChevronBackSharp onClick={() => setOpenCreateUsers(false)} />
-          <p>Nuevo usuario</p>
-        </nav>
+      <div className={styles.cu__content_form}>
+        <form className={styles.cu__form}>
+          {currentTab === 1 && <InfoUserOne />}
+          {currentTab === 2 && <InfoUserTwo />}
+          {currentTab === 3 && <InfoUserThree />}
+        </form>
 
-        <div className={styles.cu__content_form}>
-          <form className={styles.cu__form}>
-            {currentTab === 1 && <InfoUserOne />}
-            {currentTab === 2 && <InfoUserTwo />}
-            {currentTab === 3 && <InfoUserThree />}
-          </form>
+        <div className={styles.cu__content_btn__arrow_back_go}>
+          <button
+            className={styles.cu__btn_back_go}
+            disabled={isFirstTab}
+            onClick={handleBack}
+            style={{ background: isFirstTab ? "gray" : "" }}
+          >
+            <MdArrowBackIosNew />
+          </button>
 
-          <div className={styles.cu__content_btn__arrow_back_go}>
-            <button
-              className={styles.cu__btn_back_go}
-              disabled={isFirstTab}
-              onClick={handleBack}
-              style={{ background: isFirstTab ? "gray" : "" }}
-            >
-              <MdArrowBackIosNew />
-            </button>
-
-            <button
-              className={styles.cu__btn_back_go}
-              disabled={isLastTab}
-              onClick={handleNext}
-              style={{ background: isLastTab ? "gray" : "" }}
-            >
-              <MdArrowForwardIos />
-            </button>
-          </div>
+          <button
+            className={styles.cu__btn_back_go}
+            disabled={isLastTab}
+            onClick={handleNext}
+            style={{ background: isLastTab ? "gray" : "" }}
+          >
+            <MdArrowForwardIos />
+          </button>
         </div>
       </div>
-    </section>
+    </LayoutModal>
   );
 };

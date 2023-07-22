@@ -1,0 +1,39 @@
+.lym__container {
+  background: #fff;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.lym__content {
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}
+
+.lym__nav_back {
+  align-items: center;
+  background: #fff;
+  border-bottom: 1.2px solid #80808042;
+  display: flex;
+  gap: 1rem;
+  left: 0;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.lym__nav_back > svg {
+  color: #00c0e8;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+
+.lym__nav_back > p {
+  color: #00c0e8;
+  font-size: 1.2rem;
+}
