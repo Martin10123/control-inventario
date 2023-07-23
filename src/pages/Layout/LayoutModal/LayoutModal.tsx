@@ -15,7 +15,7 @@ export const LayoutModal = ({
   onCloseCreate,
   titleModal,
 }: PropsLaMo) => {
-  const styleAnimite = knowIfOpenClose ? "fadeInLeft" : "fadeOutRight";
+  const styleAnimite = knowIfOpenClose ? "fadeIn" : "fadeOutRight";
 
   return (
     <section

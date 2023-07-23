@@ -1,0 +1,23 @@
+.cp__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 1rem 1rem;
+  width: 100%;
+}
+
+.cp__form p {
+  color: #00c4e8;
+  font-size: 2rem;
+}
+
+.cp__description_textarea {
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 1px 1px 6px #80808047;
+  font-size: 1.2rem;
+  height: 12rem;
+  max-height: 18rem;
+  padding: 1rem;
+  width: 100%;
+}
