@@ -1,11 +1,11 @@
 import { Header } from "./Navbar/Header/Header";
-import { CategorysPage } from "./pages";
+import { ProductsPage } from "./pages";
 
 const App = () => {
   return (
     <>
       <Header />
-      <CategorysPage />
+      <ProductsPage />
     </>
   );
 };

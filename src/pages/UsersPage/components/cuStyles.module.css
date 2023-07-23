@@ -48,16 +48,6 @@
   z-index: 99;
 }
 
-.cu__select_profile {
-  background: #fff;
-  border-radius: 0.8rem;
-  border: none;
-  box-shadow: 1px 1px 6px #80808047;
-  font-size: 1.2rem;
-  height: 4rem;
-  width: 100%;
-}
-
 .cu__content_checkbox {
   display: flex;
   flex-direction: column;
@@ -86,22 +76,6 @@
 .cu__input_check {
   height: 1.4rem;
   width: 1.4rem;
-}
-
-.cu__content_button {
-  padding: 1rem 0;
-  width: 100%;
-}
-
-.cu__btn_get_into {
-  background: #00c0e8;
-  border-radius: 0.8rem;
-  border: none;
-  box-shadow: 1px 1px 6px #80808047;
-  color: #fff;
-  font-size: 1.2rem;
-  height: 4rem;
-  width: 100%;
 }
 
 .cu__content_btn__arrow_back_go {

@@ -1,6 +1,6 @@
 import { BsCamera } from "react-icons/bs";
 import { photoUser } from "../../../assets";
-import { InputForm } from "../../../components";
+import { InputForm, SelectForm } from "../../../components";
 import { listCreateUser } from "../../../helpers";
 
 import styles from "./cuStyles.module.css";
@@ -18,14 +18,12 @@ export const InfoUserOne = () => {
         </figure>
       </div>
 
-      <div className={styles.cu__content_select}>
-        <select className={styles.cu__select_profile}>
-          <option value="Administrador">Administrador</option>
-          <option value="Gerencia">Gerencia</option>
-          <option value="Ventas">Ventas</option>
-          <option value="Comprobantes">Comprobantes</option>
-        </select>
-      </div>
+      <SelectForm>
+        <option value="Administrador">Administrador</option>
+        <option value="Gerencia">Gerencia</option>
+        <option value="Ventas">Ventas</option>
+        <option value="Comprobantes">Comprobantes</option>
+      </SelectForm>
 
       {listCreateUser.slice(0, 4).map(({ Icon, name, placeholder, type }) => (
         <InputForm

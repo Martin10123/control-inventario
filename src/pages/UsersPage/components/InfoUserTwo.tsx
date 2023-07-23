@@ -6,7 +6,7 @@ export const InfoUserTwo = () => {
     <>
       <h2
         style={{
-          fontSize: "2.5rem",
+          fontSize: "2rem",
           color: "#00c4e8",
           marginBottom: "1.5rem",
           lineHeight: 1.3,

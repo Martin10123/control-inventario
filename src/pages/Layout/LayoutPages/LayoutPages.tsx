@@ -4,6 +4,7 @@ import { InputForm } from "../../../components";
 import styles from "./layout.module.css";
 
 interface ProsLayout {
+  chidrenAditional?: JSX.Element | JSX.Element[];
   children: JSX.Element | JSX.Element[];
   firstTitle: string;
   Icon?: JSX.Element;
@@ -13,6 +14,7 @@ interface ProsLayout {
 }
 
 export const LayoutPages = ({
+  chidrenAditional,
   children,
   firstTitle,
   Icon,
@@ -33,6 +35,8 @@ export const LayoutPages = ({
 
             <span onClick={onOpenAddNew}>{Icon}</span>
           </div>
+
+          {chidrenAditional}
 
           <div className={styles.lyp__content_table}>
             <InputForm

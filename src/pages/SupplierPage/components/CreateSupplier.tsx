@@ -1,5 +1,5 @@
 import { LayoutModal } from "../../Layout";
-import { ButtonForm, InputForm } from "../../../components";
+import { ButtonForm, InputForm, SelectForm } from "../../../components";
 import { BsTelephone } from "react-icons/bs";
 import { MdAlternateEmail, MdOutlineWorkOutline } from "react-icons/md";
 import { SlUser } from "react-icons/sl";
@@ -29,37 +29,40 @@ export const CreateSupplier = ({
     >
       <form className={styles.cs__form}>
         <InputForm icon={<SlUser />} placeholder="Nombre..." />
+
         <InputForm
           icon={<LiaUserLockSolid />}
           placeholder="Nombre contacto..."
         />
+
         <InputForm
           icon={<MdOutlineWorkOutline />}
           placeholder="Cargo contacto..."
         />
+
         <InputForm icon={<MdAlternateEmail />} placeholder="Email..." />
+
         <InputForm icon={<BsTelephone />} placeholder="Telefono..." />
+
         <InputForm
           icon={<HiOutlineLocationMarker />}
           placeholder="Dirección..."
         />
 
-        <div className={styles.cs__content_selects}>
-          <select className={styles.cs__select}>
-            <option value="">Paises</option>
-            <option value="Colombia">Colombia</option>
-          </select>
+        <SelectForm>
+          <option value="">Paises</option>
+          <option value="Colombia">Colombia</option>
+        </SelectForm>
 
-          <select className={styles.cs__select}>
-            <option value="">Departamento</option>
-            <option value="Bolivar">Bolivar</option>
-          </select>
+        <SelectForm>
+          <option value="">Departamento</option>
+          <option value="Bolivar">Bolivar</option>
+        </SelectForm>
 
-          <select className={styles.cs__select}>
-            <option value="">Ciudad</option>
-            <option value="">Cartagena</option>
-          </select>
-        </div>
+        <SelectForm>
+          <option value="">Ciudad</option>
+          <option value="">Cartagena</option>
+        </SelectForm>
 
         <ButtonForm titleButton="Guardar" />
       </form>
