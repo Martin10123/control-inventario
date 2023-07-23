@@ -9,7 +9,7 @@ import styles from "./componentsStyles.module.css";
 
 interface PropsCC {
   openCreateCategory: boolean;
-  setOpenCreateCategory: (v: boolean) => void;
+  onOpenAddNewCategory: () => void;
 }
 
 type TypeCards = {
@@ -17,16 +17,12 @@ type TypeCards = {
 };
 
 export const CreateCategory: FC<PropsCC> = ({
+  onOpenAddNewCategory,
   openCreateCategory,
-  setOpenCreateCategory,
 }) => {
   const [contentCard, setContentCard] = useState<TypeCards[]>([
     { id: "first-card" },
   ]);
-
-  const onCloseCreateCategory = () => {
-    setOpenCreateCategory(false);
-  };
 
   const onDeleteCard = (uidCard: string) => {
     setContentCard((prevCategories) =>
@@ -45,7 +41,7 @@ export const CreateCategory: FC<PropsCC> = ({
   return (
     <LayoutModal
       knowIfOpenClose={openCreateCategory}
-      onCloseCreate={onCloseCreateCategory}
+      onCloseCreate={onOpenAddNewCategory}
       titleModal="Nueva categoria"
     >
       <div className={styles.cc__content__numbers_add_categories}>

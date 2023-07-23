@@ -4,13 +4,13 @@ import { HiOutlineViewGridAdd } from "react-icons/hi";
 import { LayoutPages } from "../Layout";
 import { CreateCategory } from "./components/CreateCategory";
 
-import styles from "./categorysPage.module.css";
+// import styles from "./categorysPage.module.css";
 
 export const CategorysPage = () => {
   const [openCreateCategory, setOpenCreateCategory] = useState(false);
 
   const onOpenAddNewCategory = () => {
-    setOpenCreateCategory(true);
+    setOpenCreateCategory(!openCreateCategory);
   };
 
   return (
@@ -26,8 +26,8 @@ export const CategorysPage = () => {
       </LayoutPages>
 
       <CreateCategory
+        onOpenAddNewCategory={onOpenAddNewCategory}
         openCreateCategory={openCreateCategory}
-        setOpenCreateCategory={setOpenCreateCategory}
       />
     </>
   );

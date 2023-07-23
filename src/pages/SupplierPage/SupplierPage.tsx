@@ -7,23 +7,25 @@ export const SupplierPage = () => {
   const [openCreateSupplier, setOpenCreateSupplier] = useState(false);
 
   const onOpenCreateSupplier = () => {
-    setOpenCreateSupplier(true);
+    setOpenCreateSupplier(!openCreateSupplier);
   };
 
   return (
-    <LayoutPages
-      firstTitle="Proveedores"
-      Icon={<AiOutlineUserAdd />}
-      placeholderInput="Buscar un proveedor..."
-      secondTitle="Listado de proveedores"
-      onOpenAddNew={onOpenCreateSupplier}
-    >
-      <h1>Hola</h1>
+    <>
+      <LayoutPages
+        firstTitle="Proveedores"
+        Icon={<AiOutlineUserAdd />}
+        placeholderInput="Buscar un proveedor..."
+        secondTitle="Listado de proveedores"
+        onOpenAddNew={onOpenCreateSupplier}
+      >
+        <h1>Hola</h1>
+      </LayoutPages>
 
       <CreateSupplier
+        onOpenCreateSupplier={onOpenCreateSupplier}
         openCreateSupplier={openCreateSupplier}
-        setOpenCreateSupplier={setOpenCreateSupplier}
       />
-    </LayoutPages>
+    </>
   );
 };

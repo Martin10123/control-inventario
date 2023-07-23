@@ -9,14 +9,11 @@ import { LayoutModal } from "../../Layout";
 import styles from "./cuStyles.module.css";
 
 interface PropsCU {
+  onOpenAddNewUser: () => void;
   openCreateUsers: boolean;
-  setOpenCreateUsers: (v: boolean) => void;
 }
 
-export const CreateUser = ({
-  openCreateUsers,
-  setOpenCreateUsers,
-}: PropsCU) => {
+export const CreateUser = ({ openCreateUsers, onOpenAddNewUser }: PropsCU) => {
   const [currentTab, setCurrentTab] = useState(1);
 
   const handleTabChange = (step: number) => {
@@ -38,14 +35,10 @@ export const CreateUser = ({
     }
   };
 
-  const onCloseModal = () => {
-    setOpenCreateUsers(false);
-  };
-
   return (
     <LayoutModal
       knowIfOpenClose={openCreateUsers}
-      onCloseCreate={onCloseModal}
+      onCloseCreate={onOpenAddNewUser}
       titleModal="Crear usuario"
     >
       <div className={styles.cu__content_form}>

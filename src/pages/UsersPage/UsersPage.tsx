@@ -9,25 +9,27 @@ export const UsersPage = () => {
   const [openCreateUsers, setOpenCreateUsers] = useState(false);
 
   const onOpenAddNewUser = () => {
-    setOpenCreateUsers(true);
+    setOpenCreateUsers(!openCreateUsers);
   };
 
   return (
-    <LayoutPages
-      firstTitle="Usuarios"
-      Icon={<HiOutlineViewGridAdd />}
-      onOpenAddNew={onOpenAddNewUser}
-      placeholderInput="Buscar un usuario..."
-      secondTitle="Lista de usuarios"
-    >
-      <div className={styles.up__table_with_users}>
-        <h1>table</h1>
-      </div>
+    <>
+      <LayoutPages
+        firstTitle="Usuarios"
+        Icon={<HiOutlineViewGridAdd />}
+        onOpenAddNew={onOpenAddNewUser}
+        placeholderInput="Buscar un usuario..."
+        secondTitle="Lista de usuarios"
+      >
+        <div className={styles.up__table_with_users}>
+          <h1>table</h1>
+        </div>
+      </LayoutPages>
 
       <CreateUser
+        onOpenAddNewUser={onOpenAddNewUser}
         openCreateUsers={openCreateUsers}
-        setOpenCreateUsers={setOpenCreateUsers}
       />
-    </LayoutPages>
+    </>
   );
 };

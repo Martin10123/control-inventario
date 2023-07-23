@@ -1,3 +1,4 @@
+import { FC } from "react";
 import { LayoutModal } from "../../Layout";
 import { ButtonForm, InputForm, SelectForm } from "../../../components";
 import { BsTelephone } from "react-icons/bs";
@@ -9,22 +10,18 @@ import { LiaUserLockSolid } from "react-icons/lia";
 import styles from "./componentsStyles.module.css";
 
 interface PropsCS {
+  onOpenCreateSupplier: () => void;
   openCreateSupplier: boolean;
-  setOpenCreateSupplier: (v: boolean) => void;
 }
 
-export const CreateSupplier = ({
+export const CreateSupplier: FC<PropsCS> = ({
+  onOpenCreateSupplier,
   openCreateSupplier,
-  setOpenCreateSupplier,
-}: PropsCS) => {
-  const onCloseCreateSupplier = () => {
-    setOpenCreateSupplier(false);
-  };
-
+}) => {
   return (
     <LayoutModal
       knowIfOpenClose={openCreateSupplier}
-      onCloseCreate={onCloseCreateSupplier}
+      onCloseCreate={onOpenCreateSupplier}
       titleModal="Nuevo proveedor"
     >
       <form className={styles.cs__form}>
