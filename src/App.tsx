@@ -1,11 +1,11 @@
 import { Header } from "./Navbar/Header/Header";
-import { BalanceSheet } from "./pages";
+import { MainPage } from "./pages";
 
 const App = () => {
   return (
     <>
       <Header />
-      <BalanceSheet />
+      <MainPage />
     </>
   );
 };
