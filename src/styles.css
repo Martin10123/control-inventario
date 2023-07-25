@@ -12,3 +12,8 @@ html {
   padding: 0;
   text-decoration: none;
 }
+
+.animate__fadeIn,
+.animate__fadeInLeft {
+  visibility: visible;
+}

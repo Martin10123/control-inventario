@@ -22,17 +22,27 @@ export const MainPage = () => {
             <div className={styles.main__list_cards}>
               <CardContainer
                 Icon={<TbPresentationAnalytics />}
+                linkGoTo="/proofIncome"
                 title="Comprobantes de ingresos"
               />
+
               <CardContainer
                 Icon={<BsGraphUpArrow />}
+                linkGoTo="/salesProduct"
                 title="Registrar ventas"
               />
+
               <CardContainer
                 Icon={<TbDeviceAnalytics />}
+                linkGoTo="/returns"
                 title="Devoluciones"
               />
-              <CardContainer Icon={<PiUserCircle />} title="Clientes" />
+
+              <CardContainer
+                Icon={<PiUserCircle />}
+                linkGoTo="/clientList"
+                title="Clientes"
+              />
             </div>
           </div>
 

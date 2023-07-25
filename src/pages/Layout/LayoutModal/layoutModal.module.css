@@ -4,6 +4,8 @@
   left: 0;
   position: fixed;
   top: 0;
+  transition: 1s ease-in-out;
+  visibility: hidden;
   width: 100%;
   z-index: 999;
 }

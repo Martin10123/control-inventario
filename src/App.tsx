@@ -1,12 +1,11 @@
-import { Header } from "./Navbar/Header/Header";
-import { MainPage } from "./pages";
+import { BrowserRouter } from "react-router-dom";
+import { AppRouter } from "./routes";
 
 const App = () => {
   return (
-    <>
-      <Header />
-      <MainPage />
-    </>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   );
 };
 

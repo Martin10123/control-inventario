@@ -6,6 +6,8 @@
   overflow: auto;
   position: fixed;
   top: 0;
+  transition: 1s ease-in-out;
+  visibility: hidden;
   width: 100%;
   z-index: 10;
 }
@@ -66,6 +68,7 @@
 
 .sidebar__item {
   align-items: center;
+  color: #000;
   border-radius: 0.5rem;
   display: flex;
   padding: 1rem;
@@ -105,6 +108,7 @@
 }
 
 .sidebar__item_title {
+  color: #000;
   font-size: 1.1rem;
   font-weight: 500;
 }

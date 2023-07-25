@@ -96,6 +96,7 @@
   cursor: pointer;
   max-width: 12rem;
   padding: 0.6rem;
+  text-align: center;
   transition: 1s ease-in-out;
   width: 87%;
 }

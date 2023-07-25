@@ -1,10 +1,13 @@
 import { IoIosArrowBack } from "react-icons/io";
 import { photoUser } from "../../assets";
-import { SidebarClose } from "..";
 
 import styles from "./sideBar.module.css";
 
-export const SideInfoUser = ({ setOpenSidebar }: SidebarClose) => {
+export const SideInfoUser = ({
+  onCloseSideBar,
+}: {
+  onCloseSideBar: () => void;
+}) => {
   return (
     <div className={styles.sidebar__content_info_user}>
       <div className={styles.sidebar__info_user_and_arrow_back}>
@@ -18,7 +21,7 @@ export const SideInfoUser = ({ setOpenSidebar }: SidebarClose) => {
         </span>
       </div>
 
-      <IoIosArrowBack onClick={() => setOpenSidebar(false)} />
+      <IoIosArrowBack onClick={onCloseSideBar} />
     </div>
   );
 };

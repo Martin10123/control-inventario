@@ -1,33 +1,33 @@
+import { useNavigate } from "react-router-dom";
 import { IoIosArrowUp } from "react-icons/io";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import { PropsSideBar } from "../interfaces/interfaces";
 
 import styles from "./sideBar.module.css";
 
-export interface SubNamesProp {
-  nameSub: string;
-  IconSub: JSX.Element;
-}
-
-interface Props {
-  Icon: JSX.Element;
-  name: string;
-  subNames: SubNamesProp[];
-  openSubTitle: boolean;
-  setOpenSubTitle: (value: boolean) => void;
-}
-
-export const SideItem = ({
-  Icon,
-  name,
-  subNames,
+export const SideItem: React.FC<PropsSideBar> = ({
+  onCloseSideBar,
   openSubTitle,
   setOpenSubTitle,
-}: Props) => {
+  sideItem,
+}) => {
+  const { Icon, linkGoTo, name, subNames } = sideItem;
+
+  const navigate = useNavigate();
+
+  const onOpenScreen = (name: string) => {
+    if (name === "Informes") {
+      setOpenSubTitle(!openSubTitle);
+      return;
+    }
+
+    navigate(linkGoTo!);
+
+    onCloseSideBar();
+  };
+
   return (
-    <li
-      className={styles.sidebar__item}
-      onClick={subNames && (() => setOpenSubTitle(!openSubTitle))}
-    >
+    <li className={styles.sidebar__item} onClick={() => onOpenScreen(name)}>
       <span className={styles.sidebar__inside_item}>
         {Icon}
 

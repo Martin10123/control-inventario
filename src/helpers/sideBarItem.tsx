@@ -12,24 +12,37 @@ import { LiaChartPieSolid } from "react-icons/lia";
 import { LuTags } from "react-icons/lu";
 
 export const sideBarItem = [
-  { name: "Inicio", Icon: <IoHomeOutline /> },
-  { name: "Usuarios", Icon: <TbUsersGroup /> },
-  { name: "Proveedor", Icon: <BsCardList /> },
-  { name: "Categorias", Icon: <BiCategoryAlt /> },
-  { name: "Productos", Icon: <MdOutlineBookmarks /> },
-  { name: "Perfiles", Icon: <BsMenuDown /> },
+  { Icon: <IoHomeOutline />, linkGoTo: "/", name: "Inicio" },
+  { Icon: <TbUsersGroup />, linkGoTo: "/users", name: "Usuarios" },
+  { Icon: <BsCardList />, linkGoTo: "/supplier", name: "Proveedor" },
+  { Icon: <BiCategoryAlt />, linkGoTo: "/categories", name: "Categorias" },
+  { Icon: <MdOutlineBookmarks />, linkGoTo: "/products", name: "Productos" },
+  { Icon: <BsMenuDown />, linkGoTo: "profiles", name: "Perfiles" },
   {
-    name: "Informes",
     Icon: <CgFileDocument />,
+    name: "Informes",
     subNames: [
-      { nameSub: "Balance general", IconSub: <LiaChartPieSolid /> },
       {
-        nameSub: "Comprobantes de ingresos",
-        IconSub: <TbPresentationAnalytics />,
+        IconSub: <LiaChartPieSolid />,
+        linkGoTo: "/reports/balanceSheet",
+        nameSub: "Balance general",
       },
-      { nameSub: "Reporte de devoluciones", IconSub: <TbDeviceAnalytics /> },
-      { nameSub: "Reporte de ventas", IconSub: <BsGraphUpArrow /> },
+      {
+        IconSub: <TbPresentationAnalytics />,
+        linkGoTo: "/reports/proofIncome",
+        nameSub: "Comprobantes de ingresos",
+      },
+      {
+        IconSub: <TbDeviceAnalytics />,
+        linkGoTo: "/reports/returnsReport",
+        nameSub: "Reporte de devoluciones",
+      },
+      {
+        IconSub: <BsGraphUpArrow />,
+        linkGoTo: "/reports/salesReport",
+        nameSub: "Reporte de ventas",
+      },
     ],
   },
-  { name: "Existencias por bodega", Icon: <LuTags /> },
+  { Icon: <LuTags />, linkGoTo: "/warehouse", name: "Existencias por bodega" },
 ];

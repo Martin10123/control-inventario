@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { sideBarItem } from "../../helpers";
 import { SideItem } from "./SideItem";
 import { SideSubItem } from "./SideSubItem";
@@ -13,32 +13,40 @@ export interface SidebarClose {
 
 export const Sidebar = ({ openSidebar, setOpenSidebar }: SidebarClose) => {
   const [openSubTitle, setOpenSubTitle] = useState(false);
-  const styleAnimite = openSidebar ? "slideInUp" : "slideOutDown";
+  const styleAnimite = openSidebar ? "fadeInLeft" : "zoomOutLeft";
+
+  const onCloseSideBar = () => {
+    setOpenSidebar(false);
+  };
 
   return (
     <nav
       className={`${styles.sidebar__container} animate__animated animate__${styleAnimite}`}
     >
       <div className={styles.sidebar__content}>
-        <SideInfoUser setOpenSidebar={setOpenSidebar} />
+        <SideInfoUser onCloseSideBar={onCloseSideBar} />
 
         <h4 className={styles.sidebar__title_list}>MENU</h4>
 
-        <ul className={styles.sidebar__list_item}>
-          {sideBarItem.map(({ name, Icon, subNames }) => (
-            <div key={name}>
+        <div className={styles.sidebar__list_item}>
+          {sideBarItem.map((sideItem) => (
+            <Fragment key={sideItem.name}>
               <SideItem
-                Icon={Icon}
-                name={name}
+                onCloseSideBar={onCloseSideBar}
                 openSubTitle={openSubTitle}
                 setOpenSubTitle={setOpenSubTitle}
-                subNames={subNames!}
+                sideItem={sideItem}
               />
 
-              <SideSubItem openSubTitle={openSubTitle} subNames={subNames!} />
-            </div>
+              <SideSubItem
+                linkGoTo={sideItem.linkGoTo!}
+                onCloseSideBar={onCloseSideBar}
+                openSubTitle={openSubTitle}
+                subNames={sideItem.subNames!}
+              />
+            </Fragment>
           ))}
-        </ul>
+        </div>
       </div>
     </nav>
   );
