@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 import { Header } from "../Navbar";
 import * as screen from "../pages";
+import { ChangePassword } from "../auth";
 
 export const SecondRouter = () => {
   return (
@@ -35,6 +36,10 @@ export const SecondRouter = () => {
         <Route Component={screen.SalesProductMain} path="/salesProduct" />
         <Route Component={screen.ReturnsMain} path="/returns" />
         <Route Component={screen.ClientListMain} path="/clientList" />
+
+        {/* this is in the dropdown */}
+
+        <Route Component={ChangePassword} path="/changePassword" />
       </Routes>
     </>
   );

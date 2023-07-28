@@ -1,4 +1,6 @@
+import { Table } from "../../../components";
 import { LayoutPages } from "../../Layout";
+import { columnsProofOfIncome, proofOfIncome } from "../../helpers";
 import { SelectDateProffOfI } from "./SelectDateProffOfI";
 
 export const ProofOfIncome = () => {
@@ -9,7 +11,7 @@ export const ProofOfIncome = () => {
       secondTitle="Comprobante"
       chidrenAditional={<SelectDateProffOfI />}
     >
-      <h2>Hola</h2>
+      <Table dataColumns={columnsProofOfIncome} mockData={proofOfIncome} />
     </LayoutPages>
   );
 };

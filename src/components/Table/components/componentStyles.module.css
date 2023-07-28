@@ -6,24 +6,12 @@
 
 .table__td,
 .table__tbody_tr {
-  text-align: center;
   padding: 1rem;
-}
-
-.table__th:first-child,
-.table__td:first-child {
-  background: #fff;
-  position: sticky;
-  left: 0;
-  z-index: 1;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .table__tbody_tr:nth-child(even) {
-  background: #00c4e8;
-  color: #fff;
-}
-
-.table__tbody_tr:nth-child(even) .table__td:first-child {
   background: #00c4e8;
   color: #fff;
 }
@@ -32,7 +20,9 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  left: 0;
   padding: 1rem;
+  position: sticky;
   width: 100%;
 }
 

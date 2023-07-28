@@ -1,4 +1,6 @@
+import { Table } from "../../../components";
 import { LayoutPages } from "../../Layout";
+import { balanceSheet, columnsBalanceSheet } from "../../helpers";
 import { RangeDates } from "./RangeDates";
 
 export const BalanceSheet = () => {
@@ -9,7 +11,7 @@ export const BalanceSheet = () => {
       placeholderInput="Buscar..."
       secondTitle="Reporte general"
     >
-      <h1>BalanceSheet</h1>
+      <Table dataColumns={columnsBalanceSheet} mockData={balanceSheet} />
     </LayoutPages>
   );
 };

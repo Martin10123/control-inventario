@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { MdProductionQuantityLimits } from "react-icons/md";
-import { SearchProductBy } from "./components/SearchProductBy";
-import { CreateProduct } from "./components/CreateProduct";
 
+import { CreateProduct } from "./components/CreateProduct";
+import { columnsProducts, products } from "../helpers";
 import { LayoutPages } from "../Layout";
+import { SearchProductBy } from "./components/SearchProductBy";
+import { Table } from "../../components";
 
 export const ProductsPage = () => {
   const [openCreateProduct, setOpenCreateProduct] = useState(false);
@@ -22,7 +24,7 @@ export const ProductsPage = () => {
         placeholderInput="Buscar un producto..."
         secondTitle="Lista de productos"
       >
-        <h1>aa</h1>
+        <Table dataColumns={columnsProducts} mockData={products} />
       </LayoutPages>
 
       <CreateProduct

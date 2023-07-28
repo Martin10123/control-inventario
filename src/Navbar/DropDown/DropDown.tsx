@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { FiMoon } from "react-icons/fi";
 import { LuDoorOpen } from "react-icons/lu";
 import { RiUserSettingsLine } from "react-icons/ri";
@@ -13,6 +14,13 @@ interface PropsDrop {
 
 export const DropDown = ({ setOpenDropDown }: PropsDrop) => {
   usePreventScroll();
+
+  const navigate = useNavigate();
+
+  const onGoToChangePassword = () => {
+    setOpenDropDown(false);
+    navigate("/changePassword");
+  };
 
   return (
     <div className={styles.dd__container}>
@@ -31,7 +39,7 @@ export const DropDown = ({ setOpenDropDown }: PropsDrop) => {
           </div>
         </div>
         <ul className={styles.dd__list}>
-          <li className={styles.dd__item}>
+          <li className={styles.dd__item} onClick={onGoToChangePassword}>
             <RiUserSettingsLine />
             <p>Cambiar contraseña</p>
           </li>

@@ -5,13 +5,13 @@
 
 .table__content {
   overflow: auto;
+  padding: 2rem 0 0;
   width: 100%;
 }
 
 .table__table {
   border-collapse: collapse;
   border-spacing: 0;
-  border: 1px solid #ddd;
   position: relative;
   width: 100%;
 }

@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { CreateUser } from "./components/CreateUser";
 import { HiOutlineViewGridAdd } from "react-icons/hi";
-import { LayoutPages } from "../Layout";
 
-import styles from "./usersPage.module.css";
+import { CreateUser } from "./components/CreateUser";
+import { LayoutPages } from "../Layout";
+import { Table } from "../../components";
+import { columnsUsers, users } from "../helpers";
 
 export const UsersPage = () => {
   const [openCreateUsers, setOpenCreateUsers] = useState(false);
@@ -21,9 +22,7 @@ export const UsersPage = () => {
         placeholderInput="Buscar un usuario..."
         secondTitle="Lista de usuarios"
       >
-        <div className={styles.up__table_with_users}>
-          <h1>table</h1>
-        </div>
+        <Table dataColumns={columnsUsers} mockData={users} />
       </LayoutPages>
 
       <CreateUser

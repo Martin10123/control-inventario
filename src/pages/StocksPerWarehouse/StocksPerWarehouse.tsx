@@ -1,6 +1,8 @@
 import { LayoutPages } from "../Layout";
 
 import { SelectForm } from "../../components/SelectForm/SelectForm";
+import { Table } from "../../components";
+import { columnsStocsWarehouse, stocsWarehouse } from "../helpers";
 
 import styles from "./stocksPerWarehouse.module.css";
 
@@ -18,7 +20,7 @@ export const StocksPerWarehouse = () => {
         </div>
       }
     >
-      <h1>Stocks Per Warehouse</h1>
+      <Table dataColumns={columnsStocsWarehouse} mockData={stocsWarehouse} />
     </LayoutPages>
   );
 };

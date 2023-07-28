@@ -1,0 +1,702 @@
+[
+  {
+    "product_code": 594,
+    "category": "Compound - Pear",
+    "type": "Cookies - Englishbay Chochip",
+    "cost": 716.217,
+    "stock": 91
+  },
+  {
+    "product_code": 984,
+    "category": "Pasta - Detalini, White, Fresh",
+    "type": "Marzipan 50/50",
+    "cost": 123.06,
+    "stock": 95
+  },
+  {
+    "product_code": 681,
+    "category": "Stock - Veal, White",
+    "type": "Lemonade - Pineapple Passion",
+    "cost": 650.622,
+    "stock": 16
+  },
+  {
+    "product_code": 667,
+    "category": "Table Cloth 54x72 Colour",
+    "type": "Cookie Choc",
+    "cost": 635.114,
+    "stock": 23
+  },
+  {
+    "product_code": 746,
+    "category": "Tomatoes Tear Drop",
+    "type": "Cheese - Mozzarella, Shredded",
+    "cost": 93.931,
+    "stock": 42
+  },
+  {
+    "product_code": 760,
+    "category": "Artichokes - Jerusalem",
+    "type": "Shrimp - 100 / 200 Cold Water",
+    "cost": 211.555,
+    "stock": 9
+  },
+  {
+    "product_code": 966,
+    "category": "Nantucket - 518ml",
+    "type": "Veal - Brisket, Provimi, Bone - In",
+    "cost": 275.616,
+    "stock": 72
+  },
+  {
+    "product_code": 292,
+    "category": "Calvados - Boulard",
+    "type": "Crackers - Water",
+    "cost": 889.047,
+    "stock": 75
+  },
+  {
+    "product_code": 872,
+    "category": "Flour - Fast / Rapid",
+    "type": "Artichokes - Jerusalem",
+    "cost": 104.446,
+    "stock": 1
+  },
+  {
+    "product_code": 608,
+    "category": "Appetizer - Seafood Assortment",
+    "type": "Puree - Mocha",
+    "cost": 770.226,
+    "stock": 50
+  },
+  {
+    "product_code": 824,
+    "category": "Grapefruit - Pink",
+    "type": "Oil - Olive Bertolli",
+    "cost": 580.314,
+    "stock": 23
+  },
+  {
+    "product_code": 657,
+    "category": "Miso - Soy Bean Paste",
+    "type": "Carbonated Water - Blackcherry",
+    "cost": 388.456,
+    "stock": 42
+  },
+  {
+    "product_code": 253,
+    "category": "Milk 2% 500 Ml",
+    "type": "Wine - White, Pinot Grigio",
+    "cost": 755.618,
+    "stock": 7
+  },
+  {
+    "product_code": 493,
+    "category": "Sprite, Diet - 355ml",
+    "type": "Cocoa Feuilletine",
+    "cost": 744.701,
+    "stock": 68
+  },
+  {
+    "product_code": 730,
+    "category": "Cornflakes",
+    "type": "Muffin Hinge Container 6",
+    "cost": 848.111,
+    "stock": 57
+  },
+  {
+    "product_code": 109,
+    "category": "Bread - Italian Sesame Poly",
+    "type": "Cake Sheet Combo Party Pack",
+    "cost": 979.3,
+    "stock": 60
+  },
+  {
+    "product_code": 788,
+    "category": "Ham - Black Forest",
+    "type": "Cheese - Sheep Milk",
+    "cost": 916.926,
+    "stock": 44
+  },
+  {
+    "product_code": 868,
+    "category": "Wine - Chablis J Moreau Et Fils",
+    "type": "Stock - Chicken, White",
+    "cost": 885.584,
+    "stock": 75
+  },
+  {
+    "product_code": 767,
+    "category": "Juice - Tomato, 10 Oz",
+    "type": "Pants Custom Dry Clean",
+    "cost": 727.69,
+    "stock": 21
+  },
+  {
+    "product_code": 570,
+    "category": "Sterno - Chafing Dish Fuel",
+    "type": "Sugar - Fine",
+    "cost": 910.614,
+    "stock": 89
+  },
+  {
+    "product_code": 399,
+    "category": "Muffin Batt - Ban Dream Zero",
+    "type": "Nut - Pecan, Pieces",
+    "cost": 356.601,
+    "stock": 23
+  },
+  {
+    "product_code": 148,
+    "category": "Cloves - Ground",
+    "type": "Bouq All Italian - Primerba",
+    "cost": 581.879,
+    "stock": 67
+  },
+  {
+    "product_code": 730,
+    "category": "Peach - Halves",
+    "type": "Water - Spring 1.5lit",
+    "cost": 172.49,
+    "stock": 5
+  },
+  {
+    "product_code": 140,
+    "category": "Snapple - Iced Tea Peach",
+    "type": "Cheese - Grie Des Champ",
+    "cost": 555.747,
+    "stock": 43
+  },
+  {
+    "product_code": 540,
+    "category": "Wine - Beringer Founders Estate",
+    "type": "Basil - Fresh",
+    "cost": 357.704,
+    "stock": 32
+  },
+  {
+    "product_code": 629,
+    "category": "Garbage Bag - Clear",
+    "type": "Lettuce - Spring Mix",
+    "cost": 439.879,
+    "stock": 47
+  },
+  {
+    "product_code": 869,
+    "category": "Trout - Smoked",
+    "type": "Table Cloth 54x72 Colour",
+    "cost": 508.781,
+    "stock": 98
+  },
+  {
+    "product_code": 914,
+    "category": "Soup - Campbells, Chix Gumbo",
+    "type": "Apple - Macintosh",
+    "cost": 298.612,
+    "stock": 52
+  },
+  {
+    "product_code": 624,
+    "category": "Ecolab - Solid Fusion",
+    "type": "Schnappes - Peach, Walkers",
+    "cost": 567.155,
+    "stock": 5
+  },
+  {
+    "product_code": 97,
+    "category": "Sauce - Sesame Thai Dressing",
+    "type": "Lid - 10,12,16 Oz",
+    "cost": 50.322,
+    "stock": 21
+  },
+  {
+    "product_code": 548,
+    "category": "Glucose",
+    "type": "Aspic - Light",
+    "cost": 747.236,
+    "stock": 23
+  },
+  {
+    "product_code": 754,
+    "category": "Lettuce - Green Leaf",
+    "type": "Cheese - Stilton",
+    "cost": 385.558,
+    "stock": 68
+  },
+  {
+    "product_code": 745,
+    "category": "Phyllo Dough",
+    "type": "Juice - Apple, 500 Ml",
+    "cost": 548.681,
+    "stock": 21
+  },
+  {
+    "product_code": 405,
+    "category": "Appetizer - Mushroom Tart",
+    "type": "Pork Loin Cutlets",
+    "cost": 568.608,
+    "stock": 14
+  },
+  {
+    "product_code": 213,
+    "category": "Bread - Ciabatta Buns",
+    "type": "Vinegar - Balsamic",
+    "cost": 982.744,
+    "stock": 78
+  },
+  {
+    "product_code": 762,
+    "category": "Bread - Roll, Whole Wheat",
+    "type": "Sansho Powder",
+    "cost": 958.554,
+    "stock": 91
+  },
+  {
+    "product_code": 269,
+    "category": "Danishes - Mini Raspberry",
+    "type": "Lamb - Leg, Boneless",
+    "cost": 744.304,
+    "stock": 68
+  },
+  {
+    "product_code": 987,
+    "category": "Doilies - 8, Paper",
+    "type": "Table Cloth 54x54 Colour",
+    "cost": 513.499,
+    "stock": 58
+  },
+  {
+    "product_code": 544,
+    "category": "Petit Baguette",
+    "type": "Ostrich - Fan Fillet",
+    "cost": 670.153,
+    "stock": 40
+  },
+  {
+    "product_code": 756,
+    "category": "Durian Fruit",
+    "type": "Rice - Brown",
+    "cost": 49.38,
+    "stock": 21
+  },
+  {
+    "product_code": 647,
+    "category": "Sole - Iqf",
+    "type": "Shrimp - 21/25, Peel And Deviened",
+    "cost": 623.238,
+    "stock": 89
+  },
+  {
+    "product_code": 238,
+    "category": "Sole - Fillet",
+    "type": "Longos - Chicken Cordon Bleu",
+    "cost": 998.379,
+    "stock": 60
+  },
+  {
+    "product_code": 304,
+    "category": "Venison - Striploin",
+    "type": "Wine - Malbec Trapiche Reserve",
+    "cost": 841.311,
+    "stock": 72
+  },
+  {
+    "product_code": 956,
+    "category": "Wine - Masi Valpolocell",
+    "type": "Alize Gold Passion",
+    "cost": 932.145,
+    "stock": 98
+  },
+  {
+    "product_code": 581,
+    "category": "Yams",
+    "type": "Lettuce - Spring Mix",
+    "cost": 737.873,
+    "stock": 82
+  },
+  {
+    "product_code": 831,
+    "category": "Pastry - French Mini Assorted",
+    "type": "Tomatoes Tear Drop Yellow",
+    "cost": 714.094,
+    "stock": 85
+  },
+  {
+    "product_code": 472,
+    "category": "Molasses - Fancy",
+    "type": "Table Cloth 53x69 White",
+    "cost": 391.949,
+    "stock": 75
+  },
+  {
+    "product_code": 328,
+    "category": "Beer - Rickards Red",
+    "type": "Bols Melon Liqueur",
+    "cost": 356.711,
+    "stock": 22
+  },
+  {
+    "product_code": 197,
+    "category": "Bread - Calabrese Baguette",
+    "type": "Icecream - Dstk Super Cone",
+    "cost": 558.711,
+    "stock": 83
+  },
+  {
+    "product_code": 88,
+    "category": "Pancetta",
+    "type": "Long Island Ice Tea",
+    "cost": 476.34,
+    "stock": 21
+  },
+  {
+    "product_code": 288,
+    "category": "Ham - Procutinni",
+    "type": "Pork - Belly Fresh",
+    "cost": 380.983,
+    "stock": 49
+  },
+  {
+    "product_code": 401,
+    "category": "Bread - Raisin Walnut Pull",
+    "type": "Pasta - Gnocchi, Potato",
+    "cost": 319.53,
+    "stock": 4
+  },
+  {
+    "product_code": 799,
+    "category": "Foam Espresso Cup Plain White",
+    "type": "Coffee - Flavoured",
+    "cost": 963.314,
+    "stock": 60
+  },
+  {
+    "product_code": 998,
+    "category": "Potatoes - Mini Red",
+    "type": "Chicken - Leg / Back Attach",
+    "cost": 390.336,
+    "stock": 86
+  },
+  {
+    "product_code": 581,
+    "category": "Table Cloth 91x91 Colour",
+    "type": "Wine - Two Oceans Sauvignon",
+    "cost": 718.427,
+    "stock": 7
+  },
+  {
+    "product_code": 443,
+    "category": "Capers - Pickled",
+    "type": "Wine - Black Tower Qr",
+    "cost": 911.308,
+    "stock": 59
+  },
+  {
+    "product_code": 585,
+    "category": "Pasta - Linguini, Dry",
+    "type": "Extract - Vanilla,artificial",
+    "cost": 982.006,
+    "stock": 12
+  },
+  {
+    "product_code": 321,
+    "category": "Pork Loin Cutlets",
+    "type": "Bowl 12 Oz - Showcase 92012",
+    "cost": 544.376,
+    "stock": 27
+  },
+  {
+    "product_code": 108,
+    "category": "Liners - Baking Cups",
+    "type": "Peppercorns - Green",
+    "cost": 560.354,
+    "stock": 61
+  },
+  {
+    "product_code": 263,
+    "category": "Langers - Cranberry Cocktail",
+    "type": "Beef - Baby, Liver",
+    "cost": 676.148,
+    "stock": 40
+  },
+  {
+    "product_code": 24,
+    "category": "Tart Shells - Barquettes, Savory",
+    "type": "Bandage - Flexible Neon",
+    "cost": 978.162,
+    "stock": 67
+  },
+  {
+    "product_code": 169,
+    "category": "Cabbage - Red",
+    "type": "Chilli Paste, Ginger Garlic",
+    "cost": 444.276,
+    "stock": 75
+  },
+  {
+    "product_code": 478,
+    "category": "Lambcasing",
+    "type": "Wine - Delicato Merlot",
+    "cost": 174.386,
+    "stock": 56
+  },
+  {
+    "product_code": 26,
+    "category": "Bread - Ciabatta Buns",
+    "type": "Bread Fig And Almond",
+    "cost": 116.695,
+    "stock": 31
+  },
+  {
+    "product_code": 506,
+    "category": "Plate Foam Laminated 9in Blk",
+    "type": "Spaghetti Squash",
+    "cost": 499.155,
+    "stock": 65
+  },
+  {
+    "product_code": 242,
+    "category": "Lamb - Shoulder, Boneless",
+    "type": "Cumin - Ground",
+    "cost": 607.658,
+    "stock": 2
+  },
+  {
+    "product_code": 765,
+    "category": "Cleaner - Comet",
+    "type": "Lamb - Leg, Boneless",
+    "cost": 832.811,
+    "stock": 20
+  },
+  {
+    "product_code": 742,
+    "category": "Cheese - Ricotta",
+    "type": "Wine - Niagara Peninsula Vqa",
+    "cost": 430.866,
+    "stock": 19
+  },
+  {
+    "product_code": 478,
+    "category": "Squid - U 5",
+    "type": "Pickle - Dill",
+    "cost": 974.617,
+    "stock": 38
+  },
+  {
+    "product_code": 58,
+    "category": "Longos - Assorted Sandwich",
+    "type": "Truffle - Whole Black Peeled",
+    "cost": 435.385,
+    "stock": 52
+  },
+  {
+    "product_code": 486,
+    "category": "Gelatine Leaves - Envelopes",
+    "type": "Beef Flat Iron Steak",
+    "cost": 669.989,
+    "stock": 14
+  },
+  {
+    "product_code": 342,
+    "category": "Pepper - Julienne, Frozen",
+    "type": "Tea Leaves - Oolong",
+    "cost": 191.684,
+    "stock": 11
+  },
+  {
+    "product_code": 357,
+    "category": "Soup - French Can Pea",
+    "type": "Cheese - Romano, Grated",
+    "cost": 888.385,
+    "stock": 1
+  },
+  {
+    "product_code": 656,
+    "category": "Muffin Carrot - Individual",
+    "type": "Wine - White, Pelee Island",
+    "cost": 117.644,
+    "stock": 49
+  },
+  {
+    "product_code": 761,
+    "category": "Chocolate Bar - Coffee Crisp",
+    "type": "Basil - Thai",
+    "cost": 587.171,
+    "stock": 97
+  },
+  {
+    "product_code": 310,
+    "category": "Towel Multifold",
+    "type": "Truffle Cups - Red",
+    "cost": 17.304,
+    "stock": 22
+  },
+  {
+    "product_code": 706,
+    "category": "Water - San Pellegrino",
+    "type": "Butcher Twine 4r",
+    "cost": 650.779,
+    "stock": 61
+  },
+  {
+    "product_code": 822,
+    "category": "Shrimp - 16 - 20 Cooked, Peeled",
+    "type": "Coffee - Egg Nog Capuccino",
+    "cost": 705.141,
+    "stock": 88
+  },
+  {
+    "product_code": 472,
+    "category": "Wine - White, Chardonnay",
+    "type": "Soap - Hand Soap",
+    "cost": 431.381,
+    "stock": 25
+  },
+  {
+    "product_code": 316,
+    "category": "Onions - Spanish",
+    "type": "Swordfish Loin Portions",
+    "cost": 254.429,
+    "stock": 83
+  },
+  {
+    "product_code": 715,
+    "category": "Beef - Bones, Marrow",
+    "type": "Wine - Rioja Campo Viejo",
+    "cost": 835.709,
+    "stock": 46
+  },
+  {
+    "product_code": 276,
+    "category": "Bacardi Limon",
+    "type": "Milk - Buttermilk",
+    "cost": 621.656,
+    "stock": 97
+  },
+  {
+    "product_code": 318,
+    "category": "Pepper - Green Thai",
+    "type": "Butter Balls Salted",
+    "cost": 665.172,
+    "stock": 95
+  },
+  {
+    "product_code": 281,
+    "category": "Wheat - Soft Kernal Of Wheat",
+    "type": "External Supplier",
+    "cost": 434.81,
+    "stock": 41
+  },
+  {
+    "product_code": 333,
+    "category": "Beef - Montreal Smoked Brisket",
+    "type": "Beets - Candy Cane, Organic",
+    "cost": 952.357,
+    "stock": 24
+  },
+  {
+    "product_code": 680,
+    "category": "Pastry - Raisin Muffin - Mini",
+    "type": "Chilli Paste, Ginger Garlic",
+    "cost": 610.791,
+    "stock": 96
+  },
+  {
+    "product_code": 70,
+    "category": "Ice Cream Bar - Rolo Cone",
+    "type": "Cake - French Pear Tart",
+    "cost": 784.469,
+    "stock": 81
+  },
+  {
+    "product_code": 558,
+    "category": "Juice - Tomato, 48 Oz",
+    "type": "Filo Dough",
+    "cost": 793.041,
+    "stock": 94
+  },
+  {
+    "product_code": 557,
+    "category": "Silicone Paper 16.5x24",
+    "type": "Fish - Soup Base, Bouillon",
+    "cost": 266.367,
+    "stock": 67
+  },
+  {
+    "product_code": 954,
+    "category": "Tomatoes - Orange",
+    "type": "Scallops - 10/20",
+    "cost": 57.652,
+    "stock": 23
+  },
+  {
+    "product_code": 824,
+    "category": "Lambcasing",
+    "type": "Vinegar - Rice",
+    "cost": 817.382,
+    "stock": 21
+  },
+  {
+    "product_code": 326,
+    "category": "Eggplant Oriental",
+    "type": "Pastry - Plain Baked Croissant",
+    "cost": 791.365,
+    "stock": 13
+  },
+  {
+    "product_code": 419,
+    "category": "Flour - Corn, Fine",
+    "type": "Beef - Prime Rib Aaa",
+    "cost": 89.836,
+    "stock": 10
+  },
+  {
+    "product_code": 531,
+    "category": "Sole - Dover, Whole, Fresh",
+    "type": "Tomatoes - Grape",
+    "cost": 8.184,
+    "stock": 58
+  },
+  {
+    "product_code": 783,
+    "category": "Beets - Candy Cane, Organic",
+    "type": "Veal - Round, Eye Of",
+    "cost": 804.984,
+    "stock": 69
+  },
+  {
+    "product_code": 325,
+    "category": "Parasol Pick Stir Stick",
+    "type": "Sauce - Roasted Red Pepper",
+    "cost": 867.57,
+    "stock": 51
+  },
+  {
+    "product_code": 286,
+    "category": "Pepper - Yellow Bell",
+    "type": "Crackers - Soda / Saltins",
+    "cost": 300.232,
+    "stock": 67
+  },
+  {
+    "product_code": 545,
+    "category": "Bread - Corn Muffaleta Onion",
+    "type": "Mushroom - White Button",
+    "cost": 996.37,
+    "stock": 73
+  },
+  {
+    "product_code": 40,
+    "category": "Muffin Mix - Carrot",
+    "type": "Sansho Powder",
+    "cost": 208.731,
+    "stock": 18
+  },
+  {
+    "product_code": 263,
+    "category": "Brocolinni - Gaylan, Chinese",
+    "type": "Longos - Lasagna Veg",
+    "cost": 874.128,
+    "stock": 91
+  }
+]

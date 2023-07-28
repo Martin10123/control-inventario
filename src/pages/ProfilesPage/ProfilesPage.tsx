@@ -3,6 +3,8 @@ import { useState } from "react";
 import { LayoutPages } from "../Layout";
 import { ImProfile } from "react-icons/im";
 import { CreateProfile } from "./components/CreateProfile";
+import { Table } from "../../components";
+import { columnsProfiles, profiles } from "../helpers";
 
 export const ProfilesPage = () => {
   const [openCreateProfile, setOpenCreateProfile] = useState(false);
@@ -20,7 +22,7 @@ export const ProfilesPage = () => {
         secondTitle="Listado de perfiles"
         onOpenAddNew={onOpenAddNewProfile}
       >
-        <h1>ProfilesPage</h1>
+        <Table dataColumns={columnsProfiles} mockData={profiles} />
       </LayoutPages>
 
       <CreateProfile

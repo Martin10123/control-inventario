@@ -1,0 +1,1002 @@
+[
+  {
+    "branch_nit": "branch30",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 746,
+    "inventory_value": 3329,
+    "current_quantity": 418,
+    "current_value": 7137,
+    "quantity_sold": 578,
+    "value_sold": 26543882.399
+  },
+  {
+    "branch_nit": "branch28",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 530,
+    "inventory_value": 239,
+    "current_quantity": 160,
+    "current_value": 4991,
+    "quantity_sold": 961,
+    "value_sold": 82764885.737
+  },
+  {
+    "branch_nit": "branch99",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 527,
+    "inventory_value": 2805,
+    "current_quantity": 767,
+    "current_value": 5775,
+    "quantity_sold": 354,
+    "value_sold": 74117512.559
+  },
+  {
+    "branch_nit": "branch25",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 676,
+    "inventory_value": 7401,
+    "current_quantity": 397,
+    "current_value": 3949,
+    "quantity_sold": 993,
+    "value_sold": 33341218.945
+  },
+  {
+    "branch_nit": "branch10",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 356,
+    "inventory_value": 1363,
+    "current_quantity": 541,
+    "current_value": 2601,
+    "quantity_sold": 463,
+    "value_sold": 5705782.56
+  },
+  {
+    "branch_nit": "branch1",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 619,
+    "inventory_value": 490,
+    "current_quantity": 281,
+    "current_value": 7917,
+    "quantity_sold": 177,
+    "value_sold": 49462010.562
+  },
+  {
+    "branch_nit": "branch4",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 482,
+    "inventory_value": 1751,
+    "current_quantity": 684,
+    "current_value": 6649,
+    "quantity_sold": 812,
+    "value_sold": 77459503.04
+  },
+  {
+    "branch_nit": "branch34",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 813,
+    "inventory_value": 6561,
+    "current_quantity": 154,
+    "current_value": 1165,
+    "quantity_sold": 989,
+    "value_sold": 59588560.283
+  },
+  {
+    "branch_nit": "branch8",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 71,
+    "inventory_value": 6597,
+    "current_quantity": 832,
+    "current_value": 34,
+    "quantity_sold": 233,
+    "value_sold": 39043261.595
+  },
+  {
+    "branch_nit": "branch63",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 967,
+    "inventory_value": 775,
+    "current_quantity": 175,
+    "current_value": 5839,
+    "quantity_sold": 772,
+    "value_sold": 28580838.957
+  },
+  {
+    "branch_nit": "branch95",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 435,
+    "inventory_value": 8659,
+    "current_quantity": 348,
+    "current_value": 8833,
+    "quantity_sold": 68,
+    "value_sold": 53121426.937
+  },
+  {
+    "branch_nit": "branch30",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 106,
+    "inventory_value": 4752,
+    "current_quantity": 4,
+    "current_value": 5574,
+    "quantity_sold": 394,
+    "value_sold": 79017003.423
+  },
+  {
+    "branch_nit": "branch40",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 647,
+    "inventory_value": 7635,
+    "current_quantity": 29,
+    "current_value": 6156,
+    "quantity_sold": 301,
+    "value_sold": 97872029.895
+  },
+  {
+    "branch_nit": "branch55",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 648,
+    "inventory_value": 2021,
+    "current_quantity": 187,
+    "current_value": 6303,
+    "quantity_sold": 907,
+    "value_sold": 26243000.519
+  },
+  {
+    "branch_nit": "branch16",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 198,
+    "inventory_value": 9226,
+    "current_quantity": 32,
+    "current_value": 7641,
+    "quantity_sold": 789,
+    "value_sold": 32044690.976
+  },
+  {
+    "branch_nit": "branch98",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 342,
+    "inventory_value": 3912,
+    "current_quantity": 52,
+    "current_value": 3333,
+    "quantity_sold": 373,
+    "value_sold": 21494191.23
+  },
+  {
+    "branch_nit": "branch60",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 302,
+    "inventory_value": 5185,
+    "current_quantity": 728,
+    "current_value": 6835,
+    "quantity_sold": 618,
+    "value_sold": 99126882.752
+  },
+  {
+    "branch_nit": "branch5",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 593,
+    "inventory_value": 7834,
+    "current_quantity": 474,
+    "current_value": 8940,
+    "quantity_sold": 816,
+    "value_sold": 15144385.687
+  },
+  {
+    "branch_nit": "branch74",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 136,
+    "inventory_value": 7333,
+    "current_quantity": 706,
+    "current_value": 7510,
+    "quantity_sold": 578,
+    "value_sold": 58996787.173
+  },
+  {
+    "branch_nit": "branch36",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 487,
+    "inventory_value": 4698,
+    "current_quantity": 49,
+    "current_value": 6316,
+    "quantity_sold": 553,
+    "value_sold": 30675046.022
+  },
+  {
+    "branch_nit": "branch5",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 658,
+    "inventory_value": 4003,
+    "current_quantity": 752,
+    "current_value": 2409,
+    "quantity_sold": 640,
+    "value_sold": 56320599.401
+  },
+  {
+    "branch_nit": "branch92",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 848,
+    "inventory_value": 8333,
+    "current_quantity": 639,
+    "current_value": 6448,
+    "quantity_sold": 725,
+    "value_sold": 9243747.694
+  },
+  {
+    "branch_nit": "branch32",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 650,
+    "inventory_value": 7304,
+    "current_quantity": 59,
+    "current_value": 5111,
+    "quantity_sold": 613,
+    "value_sold": 54762993.683
+  },
+  {
+    "branch_nit": "branch67",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 552,
+    "inventory_value": 3915,
+    "current_quantity": 528,
+    "current_value": 1247,
+    "quantity_sold": 682,
+    "value_sold": 21758833.583
+  },
+  {
+    "branch_nit": "branch37",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 965,
+    "inventory_value": 4774,
+    "current_quantity": 869,
+    "current_value": 7965,
+    "quantity_sold": 457,
+    "value_sold": 11585090.23
+  },
+  {
+    "branch_nit": "branch62",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 320,
+    "inventory_value": 8290,
+    "current_quantity": 297,
+    "current_value": 9908,
+    "quantity_sold": 220,
+    "value_sold": 55118303.273
+  },
+  {
+    "branch_nit": "branch18",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 645,
+    "inventory_value": 8372,
+    "current_quantity": 159,
+    "current_value": 4081,
+    "quantity_sold": 400,
+    "value_sold": 90715769.756
+  },
+  {
+    "branch_nit": "branch71",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 686,
+    "inventory_value": 7191,
+    "current_quantity": 973,
+    "current_value": 9853,
+    "quantity_sold": 259,
+    "value_sold": 43308844.853
+  },
+  {
+    "branch_nit": "branch31",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 258,
+    "inventory_value": 7764,
+    "current_quantity": 862,
+    "current_value": 3449,
+    "quantity_sold": 286,
+    "value_sold": 63709118.781
+  },
+  {
+    "branch_nit": "branch93",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 115,
+    "inventory_value": 4501,
+    "current_quantity": 169,
+    "current_value": 1759,
+    "quantity_sold": 99,
+    "value_sold": 74525895.559
+  },
+  {
+    "branch_nit": "branch53",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 901,
+    "inventory_value": 9574,
+    "current_quantity": 785,
+    "current_value": 9526,
+    "quantity_sold": 129,
+    "value_sold": 16478357.985
+  },
+  {
+    "branch_nit": "branch77",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 339,
+    "inventory_value": 6387,
+    "current_quantity": 724,
+    "current_value": 523,
+    "quantity_sold": 544,
+    "value_sold": 77303899.719
+  },
+  {
+    "branch_nit": "branch5",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 77,
+    "inventory_value": 5387,
+    "current_quantity": 393,
+    "current_value": 4029,
+    "quantity_sold": 7,
+    "value_sold": 26685016.161
+  },
+  {
+    "branch_nit": "branch54",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 669,
+    "inventory_value": 7694,
+    "current_quantity": 586,
+    "current_value": 8774,
+    "quantity_sold": 94,
+    "value_sold": 44748911.114
+  },
+  {
+    "branch_nit": "branch64",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 474,
+    "inventory_value": 8685,
+    "current_quantity": 647,
+    "current_value": 3225,
+    "quantity_sold": 983,
+    "value_sold": 50453392.697
+  },
+  {
+    "branch_nit": "branch79",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 827,
+    "inventory_value": 3994,
+    "current_quantity": 186,
+    "current_value": 6608,
+    "quantity_sold": 729,
+    "value_sold": 78827686.126
+  },
+  {
+    "branch_nit": "branch10",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 505,
+    "inventory_value": 4913,
+    "current_quantity": 769,
+    "current_value": 8533,
+    "quantity_sold": 321,
+    "value_sold": 14093346.933
+  },
+  {
+    "branch_nit": "branch54",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 426,
+    "inventory_value": 3425,
+    "current_quantity": 872,
+    "current_value": 8445,
+    "quantity_sold": 926,
+    "value_sold": 68594957.774
+  },
+  {
+    "branch_nit": "branch58",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 500,
+    "inventory_value": 8950,
+    "current_quantity": 494,
+    "current_value": 202,
+    "quantity_sold": 790,
+    "value_sold": 98760002.182
+  },
+  {
+    "branch_nit": "branch85",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 316,
+    "inventory_value": 344,
+    "current_quantity": 968,
+    "current_value": 1988,
+    "quantity_sold": 823,
+    "value_sold": 87198031.642
+  },
+  {
+    "branch_nit": "branch87",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 934,
+    "inventory_value": 1424,
+    "current_quantity": 690,
+    "current_value": 7025,
+    "quantity_sold": 144,
+    "value_sold": 51676070.558
+  },
+  {
+    "branch_nit": "branch89",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 335,
+    "inventory_value": 6492,
+    "current_quantity": 81,
+    "current_value": 3637,
+    "quantity_sold": 793,
+    "value_sold": 14962537.921
+  },
+  {
+    "branch_nit": "branch86",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 709,
+    "inventory_value": 16,
+    "current_quantity": 423,
+    "current_value": 5044,
+    "quantity_sold": 830,
+    "value_sold": 86682660.486
+  },
+  {
+    "branch_nit": "branch69",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 631,
+    "inventory_value": 7986,
+    "current_quantity": 590,
+    "current_value": 3028,
+    "quantity_sold": 488,
+    "value_sold": 15712982.898
+  },
+  {
+    "branch_nit": "branch68",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 952,
+    "inventory_value": 8370,
+    "current_quantity": 80,
+    "current_value": 853,
+    "quantity_sold": 217,
+    "value_sold": 88811952.79
+  },
+  {
+    "branch_nit": "branch93",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 380,
+    "inventory_value": 5281,
+    "current_quantity": 472,
+    "current_value": 2591,
+    "quantity_sold": 636,
+    "value_sold": 32681009.825
+  },
+  {
+    "branch_nit": "branch60",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 214,
+    "inventory_value": 1592,
+    "current_quantity": 54,
+    "current_value": 6849,
+    "quantity_sold": 976,
+    "value_sold": 66754926.921
+  },
+  {
+    "branch_nit": "branch52",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 359,
+    "inventory_value": 709,
+    "current_quantity": 393,
+    "current_value": 5450,
+    "quantity_sold": 445,
+    "value_sold": 21740210.165
+  },
+  {
+    "branch_nit": "branch92",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 155,
+    "inventory_value": 7669,
+    "current_quantity": 126,
+    "current_value": 828,
+    "quantity_sold": 563,
+    "value_sold": 79317948.297
+  },
+  {
+    "branch_nit": "branch2",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 369,
+    "inventory_value": 159,
+    "current_quantity": 194,
+    "current_value": 6521,
+    "quantity_sold": 577,
+    "value_sold": 93250308.799
+  },
+  {
+    "branch_nit": "branch38",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 679,
+    "inventory_value": 7484,
+    "current_quantity": 115,
+    "current_value": 3575,
+    "quantity_sold": 206,
+    "value_sold": 31988765.356
+  },
+  {
+    "branch_nit": "branch14",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 572,
+    "inventory_value": 7523,
+    "current_quantity": 3,
+    "current_value": 7128,
+    "quantity_sold": 671,
+    "value_sold": 95527234.884
+  },
+  {
+    "branch_nit": "branch30",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 875,
+    "inventory_value": 6629,
+    "current_quantity": 551,
+    "current_value": 5441,
+    "quantity_sold": 515,
+    "value_sold": 67044145.884
+  },
+  {
+    "branch_nit": "branch65",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 475,
+    "inventory_value": 9304,
+    "current_quantity": 565,
+    "current_value": 2922,
+    "quantity_sold": 575,
+    "value_sold": 63189614.249
+  },
+  {
+    "branch_nit": "branch53",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 356,
+    "inventory_value": 1972,
+    "current_quantity": 764,
+    "current_value": 8029,
+    "quantity_sold": 808,
+    "value_sold": 98279467.221
+  },
+  {
+    "branch_nit": "branch93",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 37,
+    "inventory_value": 636,
+    "current_quantity": 75,
+    "current_value": 7725,
+    "quantity_sold": 546,
+    "value_sold": 14540446.65
+  },
+  {
+    "branch_nit": "branch60",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 173,
+    "inventory_value": 2012,
+    "current_quantity": 687,
+    "current_value": 8774,
+    "quantity_sold": 328,
+    "value_sold": 70326810.221
+  },
+  {
+    "branch_nit": "branch41",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 54,
+    "inventory_value": 3872,
+    "current_quantity": 190,
+    "current_value": 8742,
+    "quantity_sold": 11,
+    "value_sold": 58775912.871
+  },
+  {
+    "branch_nit": "branch20",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 203,
+    "inventory_value": 8078,
+    "current_quantity": 313,
+    "current_value": 9296,
+    "quantity_sold": 994,
+    "value_sold": 83116697.528
+  },
+  {
+    "branch_nit": "branch12",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 136,
+    "inventory_value": 3307,
+    "current_quantity": 571,
+    "current_value": 8565,
+    "quantity_sold": 755,
+    "value_sold": 84898252.031
+  },
+  {
+    "branch_nit": "branch91",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 154,
+    "inventory_value": 3423,
+    "current_quantity": 506,
+    "current_value": 8706,
+    "quantity_sold": 180,
+    "value_sold": 67655989.799
+  },
+  {
+    "branch_nit": "branch11",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 754,
+    "inventory_value": 9204,
+    "current_quantity": 235,
+    "current_value": 9907,
+    "quantity_sold": 733,
+    "value_sold": 86018249.149
+  },
+  {
+    "branch_nit": "branch71",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 181,
+    "inventory_value": 680,
+    "current_quantity": 834,
+    "current_value": 4888,
+    "quantity_sold": 906,
+    "value_sold": 60447997.712
+  },
+  {
+    "branch_nit": "branch22",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 564,
+    "inventory_value": 3566,
+    "current_quantity": 814,
+    "current_value": 6519,
+    "quantity_sold": 441,
+    "value_sold": 11433793.513
+  },
+  {
+    "branch_nit": "branch37",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 181,
+    "inventory_value": 7321,
+    "current_quantity": 277,
+    "current_value": 7423,
+    "quantity_sold": 955,
+    "value_sold": 13209287.84
+  },
+  {
+    "branch_nit": "branch17",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 398,
+    "inventory_value": 5433,
+    "current_quantity": 674,
+    "current_value": 1501,
+    "quantity_sold": 965,
+    "value_sold": 75902015.739
+  },
+  {
+    "branch_nit": "branch48",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 735,
+    "inventory_value": 5013,
+    "current_quantity": 613,
+    "current_value": 7364,
+    "quantity_sold": 30,
+    "value_sold": 65601190.811
+  },
+  {
+    "branch_nit": "branch41",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 799,
+    "inventory_value": 5383,
+    "current_quantity": 755,
+    "current_value": 5865,
+    "quantity_sold": 501,
+    "value_sold": 73922634.352
+  },
+  {
+    "branch_nit": "branch59",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 183,
+    "inventory_value": 214,
+    "current_quantity": 458,
+    "current_value": 1439,
+    "quantity_sold": 562,
+    "value_sold": 7148277.358
+  },
+  {
+    "branch_nit": "branch83",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 976,
+    "inventory_value": 6589,
+    "current_quantity": 893,
+    "current_value": 2556,
+    "quantity_sold": 751,
+    "value_sold": 55418789.598
+  },
+  {
+    "branch_nit": "branch78",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 257,
+    "inventory_value": 5014,
+    "current_quantity": 522,
+    "current_value": 114,
+    "quantity_sold": 692,
+    "value_sold": 90863632.769
+  },
+  {
+    "branch_nit": "branch10",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 234,
+    "inventory_value": 2292,
+    "current_quantity": 31,
+    "current_value": 8942,
+    "quantity_sold": 234,
+    "value_sold": 69890023.78
+  },
+  {
+    "branch_nit": "branch30",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 136,
+    "inventory_value": 7477,
+    "current_quantity": 628,
+    "current_value": 1358,
+    "quantity_sold": 185,
+    "value_sold": 38043126.967
+  },
+  {
+    "branch_nit": "branch90",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 979,
+    "inventory_value": 8565,
+    "current_quantity": 72,
+    "current_value": 4991,
+    "quantity_sold": 4,
+    "value_sold": 28841634.803
+  },
+  {
+    "branch_nit": "branch42",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 971,
+    "inventory_value": 7455,
+    "current_quantity": 214,
+    "current_value": 9011,
+    "quantity_sold": 273,
+    "value_sold": 91367467.206
+  },
+  {
+    "branch_nit": "branch16",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 821,
+    "inventory_value": 4753,
+    "current_quantity": 95,
+    "current_value": 8700,
+    "quantity_sold": 173,
+    "value_sold": 16391892.302
+  },
+  {
+    "branch_nit": "branch87",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 144,
+    "inventory_value": 785,
+    "current_quantity": 312,
+    "current_value": 8474,
+    "quantity_sold": 768,
+    "value_sold": 55147857.269
+  },
+  {
+    "branch_nit": "branch62",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 781,
+    "inventory_value": 8313,
+    "current_quantity": 521,
+    "current_value": 3254,
+    "quantity_sold": 8,
+    "value_sold": 31885980.281
+  },
+  {
+    "branch_nit": "branch33",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 2,
+    "inventory_value": 7526,
+    "current_quantity": 933,
+    "current_value": 7213,
+    "quantity_sold": 624,
+    "value_sold": 5078698.28
+  },
+  {
+    "branch_nit": "branch62",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 829,
+    "inventory_value": 8549,
+    "current_quantity": 682,
+    "current_value": 6731,
+    "quantity_sold": 729,
+    "value_sold": 41429731.901
+  },
+  {
+    "branch_nit": "branch91",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 345,
+    "inventory_value": 716,
+    "current_quantity": 238,
+    "current_value": 9889,
+    "quantity_sold": 140,
+    "value_sold": 72397613.706
+  },
+  {
+    "branch_nit": "branch18",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 301,
+    "inventory_value": 2304,
+    "current_quantity": 256,
+    "current_value": 8840,
+    "quantity_sold": 726,
+    "value_sold": 9092010.047
+  },
+  {
+    "branch_nit": "branch29",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 756,
+    "inventory_value": 5114,
+    "current_quantity": 945,
+    "current_value": 7862,
+    "quantity_sold": 794,
+    "value_sold": 10569859.991
+  },
+  {
+    "branch_nit": "branch9",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 408,
+    "inventory_value": 2417,
+    "current_quantity": 303,
+    "current_value": 5338,
+    "quantity_sold": 369,
+    "value_sold": 13225408.357
+  },
+  {
+    "branch_nit": "branch22",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 575,
+    "inventory_value": 6532,
+    "current_quantity": 289,
+    "current_value": 8220,
+    "quantity_sold": 730,
+    "value_sold": 80745300.584
+  },
+  {
+    "branch_nit": "branch46",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 32,
+    "inventory_value": 443,
+    "current_quantity": 463,
+    "current_value": 3695,
+    "quantity_sold": 831,
+    "value_sold": 88457492.129
+  },
+  {
+    "branch_nit": "branch46",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 505,
+    "inventory_value": 4523,
+    "current_quantity": 442,
+    "current_value": 1187,
+    "quantity_sold": 251,
+    "value_sold": 52858524.875
+  },
+  {
+    "branch_nit": "branch28",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 678,
+    "inventory_value": 8205,
+    "current_quantity": 514,
+    "current_value": 9670,
+    "quantity_sold": 618,
+    "value_sold": 77585678.457
+  },
+  {
+    "branch_nit": "branch29",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 668,
+    "inventory_value": 3660,
+    "current_quantity": 992,
+    "current_value": 7638,
+    "quantity_sold": 748,
+    "value_sold": 81743360.564
+  },
+  {
+    "branch_nit": "branch63",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 242,
+    "inventory_value": 6585,
+    "current_quantity": 740,
+    "current_value": 7126,
+    "quantity_sold": 15,
+    "value_sold": 44528236.053
+  },
+  {
+    "branch_nit": "branch91",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 302,
+    "inventory_value": 8183,
+    "current_quantity": 686,
+    "current_value": 1711,
+    "quantity_sold": 932,
+    "value_sold": 42755035.044
+  },
+  {
+    "branch_nit": "branch21",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 273,
+    "inventory_value": 6586,
+    "current_quantity": 17,
+    "current_value": 8306,
+    "quantity_sold": 168,
+    "value_sold": 86557767.557
+  },
+  {
+    "branch_nit": "branch65",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 277,
+    "inventory_value": 2272,
+    "current_quantity": 883,
+    "current_value": 8609,
+    "quantity_sold": 855,
+    "value_sold": 86045831.813
+  },
+  {
+    "branch_nit": "branch55",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 3,
+    "inventory_value": 3318,
+    "current_quantity": 77,
+    "current_value": 6909,
+    "quantity_sold": 771,
+    "value_sold": 96412417.828
+  },
+  {
+    "branch_nit": "branch81",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 380,
+    "inventory_value": 1333,
+    "current_quantity": 209,
+    "current_value": 5550,
+    "quantity_sold": 889,
+    "value_sold": 68407623.648
+  },
+  {
+    "branch_nit": "branch33",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 750,
+    "inventory_value": 987,
+    "current_quantity": 278,
+    "current_value": 4863,
+    "quantity_sold": 682,
+    "value_sold": 16456596.863
+  },
+  {
+    "branch_nit": "branch60",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 330,
+    "inventory_value": 2504,
+    "current_quantity": 928,
+    "current_value": 7624,
+    "quantity_sold": 569,
+    "value_sold": 58465125.186
+  },
+  {
+    "branch_nit": "branch63",
+    "branch_description": "Comprobantes",
+    "initial_inventory": 841,
+    "inventory_value": 6782,
+    "current_quantity": 751,
+    "current_value": 2293,
+    "quantity_sold": 108,
+    "value_sold": 25005991.728
+  },
+  {
+    "branch_nit": "branch38",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 7,
+    "inventory_value": 4088,
+    "current_quantity": 546,
+    "current_value": 8413,
+    "quantity_sold": 550,
+    "value_sold": 45633929.304
+  },
+  {
+    "branch_nit": "branch24",
+    "branch_description": "Bodega el toril",
+    "initial_inventory": 165,
+    "inventory_value": 631,
+    "current_quantity": 146,
+    "current_value": 4097,
+    "quantity_sold": 388,
+    "value_sold": 33670887.122
+  }
+]

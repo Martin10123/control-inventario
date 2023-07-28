@@ -1,0 +1,470 @@
+[
+  {
+    "code": 1,
+    "subject": "Financial Advisor",
+    "description": "Insert gastric tube NEC"
+  },
+  {
+    "code": 2,
+    "subject": "Software Engineer III",
+    "description": "Omt for gen'l mobilizat"
+  },
+  {
+    "code": 3,
+    "subject": "GIS Technical Architect",
+    "description": "Total dacryoadenectomy"
+  },
+  {
+    "code": 4,
+    "subject": "Payment Adjustment Coordinator",
+    "description": "Venous cutdown"
+  },
+  {
+    "code": 5,
+    "subject": "VP Product Management",
+    "description": "Micro exam-lymph sys NEC"
+  },
+  {
+    "code": 6,
+    "subject": "Graphic Designer",
+    "description": "Opn pulmon valvuloplasty"
+  },
+  {
+    "code": 7,
+    "subject": "Research Assistant III",
+    "description": "Otoscopy"
+  },
+  {
+    "code": 8,
+    "subject": "Graphic Designer",
+    "description": "Toxicology-female genit"
+  },
+  {
+    "code": 9,
+    "subject": "Sales Associate",
+    "description": "Other arthrotomy NEC"
+  },
+  {
+    "code": 10,
+    "subject": "Tax Accountant",
+    "description": "Cardiac stress test NEC"
+  },
+  {
+    "code": 11,
+    "subject": "Software Engineer IV",
+    "description": "Other destruc bronc les"
+  },
+  {
+    "code": 12,
+    "subject": "Research Assistant II",
+    "description": "Closed ureteral biopsy"
+  },
+  {
+    "code": 13,
+    "subject": "Help Desk Operator",
+    "description": "Lid reconstruction NOS"
+  },
+  { "code": 14, "subject": "Recruiter", "description": "Puncture of spleen" },
+  {
+    "code": 15,
+    "subject": "Marketing Assistant",
+    "description": "P32 & eye tracer NEC"
+  },
+  {
+    "code": 16,
+    "subject": "Physical Therapy Assistant",
+    "description": "Opn bi dr/in ing hrn NEC"
+  },
+  {
+    "code": 17,
+    "subject": "Senior Cost Accountant",
+    "description": "Exc chest cage bone les"
+  },
+  {
+    "code": 18,
+    "subject": "Administrative Assistant III",
+    "description": "Reduce renal pedicl tors"
+  },
+  {
+    "code": 19,
+    "subject": "Chief Design Engineer",
+    "description": "Other chordotomy"
+  },
+  {
+    "code": 20,
+    "subject": "Dental Hygienist",
+    "description": "Endosc destr pancrea les"
+  },
+  { "code": 21, "subject": "Actuary", "description": "Other thymus ops NOS" },
+  {
+    "code": 22,
+    "subject": "Director of Sales",
+    "description": "Prolapsed iris excision"
+  },
+  {
+    "code": 23,
+    "subject": "VP Sales",
+    "description": "Foot joint struct divis"
+  },
+  {
+    "code": 24,
+    "subject": "Systems Administrator I",
+    "description": "Part ostectomy-femur"
+  },
+  {
+    "code": 25,
+    "subject": "Social Worker",
+    "description": "Treadmill stress test"
+  },
+  {
+    "code": 26,
+    "subject": "General Manager",
+    "description": "Prostatic dx proced NEC"
+  },
+  {
+    "code": 27,
+    "subject": "Quality Engineer",
+    "description": "Incise/remov conjunct FB"
+  },
+  {
+    "code": 28,
+    "subject": "Systems Administrator III",
+    "description": "Chemical shock therapy"
+  },
+  {
+    "code": 29,
+    "subject": "Senior Cost Accountant",
+    "description": "Hand mus/ten/fas/ops NEC"
+  },
+  {
+    "code": 30,
+    "subject": "Recruiting Manager",
+    "description": "Bronch/trach lavage NEC"
+  },
+  {
+    "code": 31,
+    "subject": "General Manager",
+    "description": "Rev crtd sinus stm leads"
+  },
+  {
+    "code": 32,
+    "subject": "GIS Technical Architect",
+    "description": "Partial ostectomy NEC"
+  },
+  {
+    "code": 33,
+    "subject": "Assistant Professor",
+    "description": "Myringotomy NEC"
+  },
+  {
+    "code": 34,
+    "subject": "Electrical Engineer",
+    "description": "Hrt/pericar dx proc NEC"
+  },
+  {
+    "code": 35,
+    "subject": "Associate Professor",
+    "description": "Bilat endosc crush tube"
+  },
+  {
+    "code": 36,
+    "subject": "Biostatistician III",
+    "description": "Reopen craniotomy site"
+  },
+  {
+    "code": 37,
+    "subject": "Operator",
+    "description": "Proximal pancreatectomy"
+  },
+  {
+    "code": 38,
+    "subject": "Database Administrator IV",
+    "description": "Partial cystectomy"
+  },
+  {
+    "code": 39,
+    "subject": "Senior Financial Analyst",
+    "description": "Foot joint struct divis"
+  },
+  {
+    "code": 40,
+    "subject": "Environmental Tech",
+    "description": "Local destruc trach les"
+  },
+  { "code": 41, "subject": "Engineer I", "description": "Iridoplasty NEC" },
+  {
+    "code": 42,
+    "subject": "Junior Executive",
+    "description": "Percutan bartholin aspir"
+  },
+  {
+    "code": 43,
+    "subject": "Editor",
+    "description": "Other incision of thymus"
+  },
+  {
+    "code": 44,
+    "subject": "Systems Administrator II",
+    "description": "Incision of vessel NOS"
+  },
+  {
+    "code": 45,
+    "subject": "Assistant Professor",
+    "description": "Abdominal artery excis"
+  },
+  {
+    "code": 46,
+    "subject": "Media Manager III",
+    "description": "Scleral fistula repair"
+  },
+  {
+    "code": 47,
+    "subject": "VP Sales",
+    "description": "Ins/repl facet replc dev"
+  },
+  {
+    "code": 48,
+    "subject": "Nurse Practicioner",
+    "description": "Distal pancreatectomy"
+  },
+  {
+    "code": 49,
+    "subject": "Accounting Assistant II",
+    "description": "Coronar arteriogr-1 cath"
+  },
+  {
+    "code": 50,
+    "subject": "Senior Quality Engineer",
+    "description": "Oth cerv fusion ant/ant"
+  },
+  {
+    "code": 51,
+    "subject": "Research Associate",
+    "description": "Sex transformat op NEC"
+  },
+  {
+    "code": 52,
+    "subject": "Analog Circuit Design manager",
+    "description": "Type 5 tympanoplasty"
+  },
+  {
+    "code": 53,
+    "subject": "Structural Analysis Engineer",
+    "description": "Open periph nerve biopsy"
+  },
+  {
+    "code": 54,
+    "subject": "Editor",
+    "description": "Insert ves-to-ves cannul"
+  },
+  {
+    "code": 55,
+    "subject": "Engineer IV",
+    "description": "Ligate thoracic duct"
+  },
+  {
+    "code": 56,
+    "subject": "Junior Executive",
+    "description": "Patellar division NEC"
+  },
+  { "code": 57, "subject": "VP Sales", "description": "Labial frenotomy" },
+  {
+    "code": 58,
+    "subject": "Web Designer III",
+    "description": "Int/comb version no extr"
+  },
+  { "code": 59, "subject": "Paralegal", "description": "Rubella vaccination" },
+  {
+    "code": 60,
+    "subject": "Compensation Analyst",
+    "description": "Tot osteoplasty maxilla"
+  },
+  {
+    "code": 61,
+    "subject": "Occupational Therapist",
+    "description": "Bact smear-lower resp"
+  },
+  {
+    "code": 62,
+    "subject": "Executive Secretary",
+    "description": "Lid recons-part thic NEC"
+  },
+  {
+    "code": 63,
+    "subject": "Senior Developer",
+    "description": "Open testicular biopsy"
+  },
+  {
+    "code": 64,
+    "subject": "Human Resources Manager",
+    "description": "Bone scan"
+  },
+  {
+    "code": 65,
+    "subject": "Cost Accountant",
+    "description": "Auto bone mt w purging"
+  },
+  { "code": 66, "subject": "Professor", "description": "Hand synovectomy" },
+  {
+    "code": 67,
+    "subject": "Staff Scientist",
+    "description": "Suture anal laceration"
+  },
+  {
+    "code": 68,
+    "subject": "Project Manager",
+    "description": "Rev knee replacemt-total"
+  },
+  {
+    "code": 69,
+    "subject": "Structural Engineer",
+    "description": "Intraspin nerve root div"
+  },
+  {
+    "code": 70,
+    "subject": "Systems Administrator IV",
+    "description": "Toe injury operation NOS"
+  },
+  {
+    "code": 71,
+    "subject": "Dental Hygienist",
+    "description": "Plethysmogram"
+  },
+  {
+    "code": 72,
+    "subject": "Recruiter",
+    "description": "Psychol eval & test NEC"
+  },
+  { "code": 73, "subject": "Nurse", "description": "Applic ext fix dev NEC" },
+  {
+    "code": 74,
+    "subject": "Operator",
+    "description": "Particulate radiosurgery"
+  },
+  {
+    "code": 75,
+    "subject": "Environmental Tech",
+    "description": "Tendon sheath suture"
+  },
+  {
+    "code": 76,
+    "subject": "Staff Scientist",
+    "description": "Scleral buckling NEC"
+  },
+  {
+    "code": 77,
+    "subject": "Accountant I",
+    "description": "Tot face ostect w recons"
+  },
+  {
+    "code": 78,
+    "subject": "Data Coordinator",
+    "description": "Removal vas ligature"
+  },
+  {
+    "code": 79,
+    "subject": "Chief Design Engineer",
+    "description": "Head/neck ves resec-repl"
+  },
+  {
+    "code": 80,
+    "subject": "Research Nurse",
+    "description": "Repair of ureter NEC"
+  },
+  {
+    "code": 81,
+    "subject": "Statistician IV",
+    "description": "Parasitology-op wound"
+  },
+  {
+    "code": 82,
+    "subject": "VP Quality Control",
+    "description": "Unilat ing hern rep NOS"
+  },
+  {
+    "code": 83,
+    "subject": "Systems Administrator III",
+    "description": "Lung laceration closure"
+  },
+  {
+    "code": 84,
+    "subject": "Research Associate",
+    "description": "Clos bx saliv gland/duct"
+  },
+  {
+    "code": 85,
+    "subject": "Financial Advisor",
+    "description": "Metatarsophalangeal fus"
+  },
+  {
+    "code": 86,
+    "subject": "Senior Cost Accountant",
+    "description": "Full-thick grft to mouth"
+  },
+  {
+    "code": 87,
+    "subject": "Computer Systems Analyst II",
+    "description": "C & s-lymph system"
+  },
+  {
+    "code": 88,
+    "subject": "Analyst Programmer",
+    "description": "Radical laryngectomy"
+  },
+  {
+    "code": 89,
+    "subject": "Payment Adjustment Coordinator",
+    "description": "Contrast arteriogram-leg"
+  },
+  {
+    "code": 90,
+    "subject": "Payment Adjustment Coordinator",
+    "description": "Laparoscopic liver bx"
+  },
+  {
+    "code": 91,
+    "subject": "Quality Control Specialist",
+    "description": "Trnsapcl rep aortc valve"
+  },
+  {
+    "code": 92,
+    "subject": "Statistician I",
+    "description": "Revise disc prosth NOS"
+  },
+  {
+    "code": 93,
+    "subject": "Developer III",
+    "description": "CV cath plcmt w guidance"
+  },
+  {
+    "code": 94,
+    "subject": "Payment Adjustment Coordinator",
+    "description": "Oth remove rem ova/tube"
+  },
+  {
+    "code": 95,
+    "subject": "Financial Advisor",
+    "description": "Micro exam-low urin NEC"
+  },
+  {
+    "code": 96,
+    "subject": "General Manager",
+    "description": "Lap vertical gastrectomy"
+  },
+  {
+    "code": 97,
+    "subject": "Staff Scientist",
+    "description": "Amputation NOS"
+  },
+  {
+    "code": 98,
+    "subject": "Social Worker",
+    "description": "Lap simple suture ovary"
+  },
+  {
+    "code": 99,
+    "subject": "Environmental Tech",
+    "description": "Aspiration skin & subq"
+  },
+  { "code": 100, "subject": "Editor", "description": "Corneal transplant NEC" }
+]

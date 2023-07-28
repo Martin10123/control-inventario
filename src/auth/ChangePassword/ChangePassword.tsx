@@ -1,5 +1,3 @@
-import { BiLeftArrow } from "react-icons/bi";
-
 import { FiLock, FiUnlock } from "react-icons/fi";
 import { GoShieldLock } from "react-icons/go";
 import { InputForm } from "../../components";
@@ -10,11 +8,6 @@ export const ChangePassword = () => {
   return (
     <section className={styles.cp__container}>
       <div className={styles.cp__content}>
-        <nav className={styles.cp__nav}>
-          <BiLeftArrow />
-          <p>Cambiar contraseña</p>
-        </nav>
-
         <div className={styles.cp__contain_info_form}>
           <div className={styles.cp__content_warning_title}>
             <h2>Cambiar contraseña</h2>

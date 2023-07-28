@@ -1,0 +1,702 @@
+[
+  {
+    "code": 647,
+    "description": "consequat ut nulla sed accumsan felis ut at dolor quis",
+    "cost": 902.31,
+    "suggested": 877.24,
+    "stock": 170
+  },
+  {
+    "code": 101,
+    "description": "vulputate elementum nullam varius nulla facilisi cras non velit nec nisi",
+    "cost": 388.77,
+    "suggested": 39.04,
+    "stock": 352
+  },
+  {
+    "code": 639,
+    "description": "ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy",
+    "cost": 616.32,
+    "suggested": 369.03,
+    "stock": 266
+  },
+  {
+    "code": 575,
+    "description": "duis aliquam convallis nunc proin at turpis a pede posuere nonummy",
+    "cost": 94.13,
+    "suggested": 102.66,
+    "stock": 78
+  },
+  {
+    "code": 880,
+    "description": "ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+    "cost": 343.43,
+    "suggested": 489.31,
+    "stock": 983
+  },
+  {
+    "code": 875,
+    "description": "aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam",
+    "cost": 975.77,
+    "suggested": 79.91,
+    "stock": 271
+  },
+  {
+    "code": 300,
+    "description": "vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing",
+    "cost": 678.27,
+    "suggested": 276.77,
+    "stock": 151
+  },
+  {
+    "code": 945,
+    "description": "pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est",
+    "cost": 51.74,
+    "suggested": 943.73,
+    "stock": 768
+  },
+  {
+    "code": 332,
+    "description": "aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed",
+    "cost": 428.08,
+    "suggested": 965.76,
+    "stock": 105
+  },
+  {
+    "code": 271,
+    "description": "ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam",
+    "cost": 0.88,
+    "suggested": 759.63,
+    "stock": 682
+  },
+  {
+    "code": 374,
+    "description": "viverra pede ac diam cras pellentesque volutpat dui maecenas tristique",
+    "cost": 284.33,
+    "suggested": 612.44,
+    "stock": 908
+  },
+  {
+    "code": 601,
+    "description": "eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus",
+    "cost": 525.97,
+    "suggested": 299.22,
+    "stock": 517
+  },
+  {
+    "code": 393,
+    "description": "id nulla ultrices aliquet maecenas leo odio condimentum id luctus",
+    "cost": 82.07,
+    "suggested": 94.15,
+    "stock": 406
+  },
+  {
+    "code": 154,
+    "description": "eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget",
+    "cost": 978.79,
+    "suggested": 503.64,
+    "stock": 389
+  },
+  {
+    "code": 535,
+    "description": "sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra",
+    "cost": 993.91,
+    "suggested": 701.7,
+    "stock": 801
+  },
+  {
+    "code": 234,
+    "description": "pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
+    "cost": 81.25,
+    "suggested": 463.41,
+    "stock": 873
+  },
+  {
+    "code": 903,
+    "description": "odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut",
+    "cost": 386.0,
+    "suggested": 104.1,
+    "stock": 505
+  },
+  {
+    "code": 586,
+    "description": "elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla",
+    "cost": 354.77,
+    "suggested": 434.97,
+    "stock": 503
+  },
+  {
+    "code": 828,
+    "description": "duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse",
+    "cost": 920.68,
+    "suggested": 887.11,
+    "stock": 698
+  },
+  {
+    "code": 374,
+    "description": "nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper",
+    "cost": 526.8,
+    "suggested": 390.67,
+    "stock": 358
+  },
+  {
+    "code": 912,
+    "description": "cras in purus eu magna vulputate luctus cum sociis natoque penatibus et",
+    "cost": 687.92,
+    "suggested": 166.63,
+    "stock": 32
+  },
+  {
+    "code": 33,
+    "description": "nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in",
+    "cost": 596.99,
+    "suggested": 150.17,
+    "stock": 266
+  },
+  {
+    "code": 453,
+    "description": "vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in",
+    "cost": 209.49,
+    "suggested": 616.77,
+    "stock": 25
+  },
+  {
+    "code": 656,
+    "description": "in felis eu sapien cursus vestibulum proin eu mi nulla ac enim",
+    "cost": 463.73,
+    "suggested": 495.21,
+    "stock": 893
+  },
+  {
+    "code": 85,
+    "description": "faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna",
+    "cost": 385.61,
+    "suggested": 253.82,
+    "stock": 167
+  },
+  {
+    "code": 569,
+    "description": "rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus",
+    "cost": 87.41,
+    "suggested": 560.3,
+    "stock": 265
+  },
+  {
+    "code": 164,
+    "description": "nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis",
+    "cost": 942.18,
+    "suggested": 474.59,
+    "stock": 299
+  },
+  {
+    "code": 410,
+    "description": "magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi",
+    "cost": 511.28,
+    "suggested": 248.98,
+    "stock": 885
+  },
+  {
+    "code": 950,
+    "description": "integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu",
+    "cost": 641.73,
+    "suggested": 159.9,
+    "stock": 811
+  },
+  {
+    "code": 367,
+    "description": "laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper",
+    "cost": 306.25,
+    "suggested": 393.22,
+    "stock": 459
+  },
+  {
+    "code": 540,
+    "description": "cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla",
+    "cost": 710.28,
+    "suggested": 188.72,
+    "stock": 195
+  },
+  {
+    "code": 975,
+    "description": "etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat",
+    "cost": 924.7,
+    "suggested": 683.37,
+    "stock": 711
+  },
+  {
+    "code": 105,
+    "description": "at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque",
+    "cost": 777.41,
+    "suggested": 55.43,
+    "stock": 324
+  },
+  {
+    "code": 864,
+    "description": "facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
+    "cost": 926.6,
+    "suggested": 193.71,
+    "stock": 554
+  },
+  {
+    "code": 494,
+    "description": "vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac",
+    "cost": 340.96,
+    "suggested": 38.65,
+    "stock": 814
+  },
+  {
+    "code": 497,
+    "description": "mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis",
+    "cost": 884.28,
+    "suggested": 199.81,
+    "stock": 776
+  },
+  {
+    "code": 334,
+    "description": "hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante",
+    "cost": 522.86,
+    "suggested": 38.89,
+    "stock": 294
+  },
+  {
+    "code": 500,
+    "description": "luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est",
+    "cost": 99.87,
+    "suggested": 649.19,
+    "stock": 670
+  },
+  {
+    "code": 692,
+    "description": "dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae",
+    "cost": 779.77,
+    "suggested": 741.48,
+    "stock": 433
+  },
+  {
+    "code": 991,
+    "description": "magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien",
+    "cost": 20.75,
+    "suggested": 459.12,
+    "stock": 46
+  },
+  {
+    "code": 630,
+    "description": "lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget",
+    "cost": 252.4,
+    "suggested": 520.62,
+    "stock": 722
+  },
+  {
+    "code": 978,
+    "description": "habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla",
+    "cost": 654.71,
+    "suggested": 267.72,
+    "stock": 900
+  },
+  {
+    "code": 916,
+    "description": "id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et",
+    "cost": 603.62,
+    "suggested": 121.92,
+    "stock": 822
+  },
+  {
+    "code": 243,
+    "description": "nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat",
+    "cost": 449.64,
+    "suggested": 378.95,
+    "stock": 144
+  },
+  {
+    "code": 467,
+    "description": "vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at",
+    "cost": 735.55,
+    "suggested": 751.82,
+    "stock": 792
+  },
+  {
+    "code": 74,
+    "description": "turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus",
+    "cost": 793.1,
+    "suggested": 739.3,
+    "stock": 33
+  },
+  {
+    "code": 127,
+    "description": "commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget",
+    "cost": 673.6,
+    "suggested": 694.07,
+    "stock": 463
+  },
+  {
+    "code": 872,
+    "description": "felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed",
+    "cost": 684.66,
+    "suggested": 826.15,
+    "stock": 363
+  },
+  {
+    "code": 977,
+    "description": "sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean",
+    "cost": 688.08,
+    "suggested": 726.17,
+    "stock": 855
+  },
+  {
+    "code": 232,
+    "description": "ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat",
+    "cost": 876.42,
+    "suggested": 556.99,
+    "stock": 51
+  },
+  {
+    "code": 801,
+    "description": "lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id",
+    "cost": 897.46,
+    "suggested": 899.62,
+    "stock": 199
+  },
+  {
+    "code": 745,
+    "description": "in tempus sit amet sem fusce consequat nulla nisl nunc",
+    "cost": 896.91,
+    "suggested": 549.52,
+    "stock": 445
+  },
+  {
+    "code": 413,
+    "description": "vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet",
+    "cost": 743.35,
+    "suggested": 151.16,
+    "stock": 274
+  },
+  {
+    "code": 248,
+    "description": "rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede",
+    "cost": 362.46,
+    "suggested": 694.78,
+    "stock": 684
+  },
+  {
+    "code": 155,
+    "description": "faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel",
+    "cost": 147.15,
+    "suggested": 494.38,
+    "stock": 167
+  },
+  {
+    "code": 682,
+    "description": "lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu",
+    "cost": 743.89,
+    "suggested": 685.38,
+    "stock": 767
+  },
+  {
+    "code": 60,
+    "description": "porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam",
+    "cost": 310.8,
+    "suggested": 840.5,
+    "stock": 172
+  },
+  {
+    "code": 73,
+    "description": "molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus",
+    "cost": 808.9,
+    "suggested": 533.56,
+    "stock": 592
+  },
+  {
+    "code": 554,
+    "description": "ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque",
+    "cost": 570.78,
+    "suggested": 977.54,
+    "stock": 51
+  },
+  {
+    "code": 474,
+    "description": "ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat",
+    "cost": 474.57,
+    "suggested": 112.07,
+    "stock": 865
+  },
+  {
+    "code": 281,
+    "description": "quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut",
+    "cost": 405.16,
+    "suggested": 428.15,
+    "stock": 748
+  },
+  {
+    "code": 555,
+    "description": "felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui",
+    "cost": 290.31,
+    "suggested": 15.6,
+    "stock": 754
+  },
+  {
+    "code": 667,
+    "description": "sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor",
+    "cost": 559.03,
+    "suggested": 279.69,
+    "stock": 217
+  },
+  {
+    "code": 749,
+    "description": "dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in",
+    "cost": 715.87,
+    "suggested": 89.7,
+    "stock": 940
+  },
+  {
+    "code": 414,
+    "description": "turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis",
+    "cost": 595.28,
+    "suggested": 662.03,
+    "stock": 257
+  },
+  {
+    "code": 698,
+    "description": "tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum",
+    "cost": 922.25,
+    "suggested": 162.59,
+    "stock": 267
+  },
+  {
+    "code": 455,
+    "description": "curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus",
+    "cost": 534.09,
+    "suggested": 953.69,
+    "stock": 40
+  },
+  {
+    "code": 222,
+    "description": "consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus",
+    "cost": 346.92,
+    "suggested": 57.16,
+    "stock": 787
+  },
+  {
+    "code": 154,
+    "description": "nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus",
+    "cost": 531.94,
+    "suggested": 326.15,
+    "stock": 400
+  },
+  {
+    "code": 332,
+    "description": "erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec",
+    "cost": 262.62,
+    "suggested": 564.19,
+    "stock": 101
+  },
+  {
+    "code": 136,
+    "description": "consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed",
+    "cost": 771.53,
+    "suggested": 670.55,
+    "stock": 727
+  },
+  {
+    "code": 69,
+    "description": "et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris",
+    "cost": 547.92,
+    "suggested": 215.06,
+    "stock": 684
+  },
+  {
+    "code": 959,
+    "description": "lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a",
+    "cost": 147.98,
+    "suggested": 642.02,
+    "stock": 32
+  },
+  {
+    "code": 61,
+    "description": "non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed",
+    "cost": 322.19,
+    "suggested": 649.97,
+    "stock": 916
+  },
+  {
+    "code": 478,
+    "description": "vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat",
+    "cost": 593.45,
+    "suggested": 542.4,
+    "stock": 0
+  },
+  {
+    "code": 664,
+    "description": "maecenas tristique est et tempus semper est quam pharetra magna ac",
+    "cost": 30.71,
+    "suggested": 175.78,
+    "stock": 446
+  },
+  {
+    "code": 301,
+    "description": "nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede",
+    "cost": 255.61,
+    "suggested": 556.82,
+    "stock": 33
+  },
+  {
+    "code": 787,
+    "description": "at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam",
+    "cost": 818.39,
+    "suggested": 755.45,
+    "stock": 336
+  },
+  {
+    "code": 529,
+    "description": "hac habitasse platea dictumst maecenas ut massa quis augue luctus",
+    "cost": 254.79,
+    "suggested": 30.67,
+    "stock": 866
+  },
+  {
+    "code": 990,
+    "description": "tortor duis mattis egestas metus aenean fermentum donec ut mauris eget",
+    "cost": 69.76,
+    "suggested": 454.68,
+    "stock": 153
+  },
+  {
+    "code": 876,
+    "description": "mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem",
+    "cost": 737.25,
+    "suggested": 944.48,
+    "stock": 347
+  },
+  {
+    "code": 628,
+    "description": "mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate",
+    "cost": 156.44,
+    "suggested": 97.9,
+    "stock": 919
+  },
+  {
+    "code": 637,
+    "description": "morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus",
+    "cost": 295.61,
+    "suggested": 981.55,
+    "stock": 968
+  },
+  {
+    "code": 175,
+    "description": "ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue",
+    "cost": 512.11,
+    "suggested": 576.84,
+    "stock": 184
+  },
+  {
+    "code": 526,
+    "description": "mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea",
+    "cost": 862.49,
+    "suggested": 95.24,
+    "stock": 330
+  },
+  {
+    "code": 495,
+    "description": "elit proin risus praesent lectus vestibulum quam sapien varius ut",
+    "cost": 74.35,
+    "suggested": 708.8,
+    "stock": 897
+  },
+  {
+    "code": 402,
+    "description": "justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis",
+    "cost": 319.79,
+    "suggested": 905.88,
+    "stock": 154
+  },
+  {
+    "code": 24,
+    "description": "aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus",
+    "cost": 526.54,
+    "suggested": 787.92,
+    "stock": 450
+  },
+  {
+    "code": 703,
+    "description": "suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris",
+    "cost": 971.74,
+    "suggested": 468.33,
+    "stock": 553
+  },
+  {
+    "code": 395,
+    "description": "diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat",
+    "cost": 806.45,
+    "suggested": 967.99,
+    "stock": 706
+  },
+  {
+    "code": 650,
+    "description": "vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id",
+    "cost": 961.27,
+    "suggested": 724.64,
+    "stock": 201
+  },
+  {
+    "code": 377,
+    "description": "habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam",
+    "cost": 953.39,
+    "suggested": 342.73,
+    "stock": 248
+  },
+  {
+    "code": 177,
+    "description": "vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque",
+    "cost": 726.84,
+    "suggested": 515.14,
+    "stock": 174
+  },
+  {
+    "code": 819,
+    "description": "duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis",
+    "cost": 293.69,
+    "suggested": 78.5,
+    "stock": 216
+  },
+  {
+    "code": 198,
+    "description": "a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id",
+    "cost": 186.25,
+    "suggested": 208.83,
+    "stock": 279
+  },
+  {
+    "code": 347,
+    "description": "viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus",
+    "cost": 288.7,
+    "suggested": 254.66,
+    "stock": 325
+  },
+  {
+    "code": 829,
+    "description": "quisque porta volutpat erat quisque erat eros viverra eget congue eget",
+    "cost": 390.88,
+    "suggested": 281.65,
+    "stock": 994
+  },
+  {
+    "code": 867,
+    "description": "rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede",
+    "cost": 922.89,
+    "suggested": 70.1,
+    "stock": 464
+  },
+  {
+    "code": 642,
+    "description": "ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec",
+    "cost": 292.41,
+    "suggested": 424.04,
+    "stock": 804
+  },
+  {
+    "code": 665,
+    "description": "ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et",
+    "cost": 720.7,
+    "suggested": 577.64,
+    "stock": 1000
+  }
+]

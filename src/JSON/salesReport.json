@@ -1,0 +1,802 @@
+[
+  {
+    "order_number": 86,
+    "point_of_sale": "Store B",
+    "salesman": "Amandy",
+    "quantity": 75,
+    "total_value": 335346.324,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 97,
+    "point_of_sale": "Store A",
+    "salesman": "Park",
+    "quantity": 34,
+    "total_value": 215484.592,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 5,
+    "point_of_sale": "Store A",
+    "salesman": "Corby",
+    "quantity": 49,
+    "total_value": 858408.884,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 44,
+    "point_of_sale": "Store C",
+    "salesman": "Tomlin",
+    "quantity": 14,
+    "total_value": 382869.048,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 84,
+    "point_of_sale": "Store C",
+    "salesman": "Rey",
+    "quantity": 72,
+    "total_value": 733795.164,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 2,
+    "point_of_sale": "Store C",
+    "salesman": "Sydelle",
+    "quantity": 84,
+    "total_value": 788669.415,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 25,
+    "point_of_sale": "Store A",
+    "salesman": "Rusty",
+    "quantity": 65,
+    "total_value": 614204.604,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 47,
+    "point_of_sale": "Store C",
+    "salesman": "Ronni",
+    "quantity": 7,
+    "total_value": 746768.897,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 53,
+    "point_of_sale": "Store C",
+    "salesman": "Angelle",
+    "quantity": 79,
+    "total_value": 469419.328,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 28,
+    "point_of_sale": "Store A",
+    "salesman": "Adamo",
+    "quantity": 97,
+    "total_value": 514442.427,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 26,
+    "point_of_sale": "Store A",
+    "salesman": "Farleigh",
+    "quantity": 10,
+    "total_value": 859254.754,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 56,
+    "point_of_sale": "Store A",
+    "salesman": "Dulcie",
+    "quantity": 19,
+    "total_value": 305932.434,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 15,
+    "point_of_sale": "Store A",
+    "salesman": "Trumann",
+    "quantity": 95,
+    "total_value": 468250.225,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 8,
+    "point_of_sale": "Store B",
+    "salesman": "Deirdre",
+    "quantity": 18,
+    "total_value": 259723.71,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 41,
+    "point_of_sale": "Store C",
+    "salesman": "Stan",
+    "quantity": 44,
+    "total_value": 539703.487,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 55,
+    "point_of_sale": "Store B",
+    "salesman": "Gilberto",
+    "quantity": 85,
+    "total_value": 252802.45,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 43,
+    "point_of_sale": "Store B",
+    "salesman": "Laurie",
+    "quantity": 18,
+    "total_value": 252680.397,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 33,
+    "point_of_sale": "Store B",
+    "salesman": "Maribeth",
+    "quantity": 23,
+    "total_value": 489495.128,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 98,
+    "point_of_sale": "Store A",
+    "salesman": "Felipa",
+    "quantity": 43,
+    "total_value": 812531.194,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 70,
+    "point_of_sale": "Store A",
+    "salesman": "Ossie",
+    "quantity": 49,
+    "total_value": 853210.607,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 93,
+    "point_of_sale": "Store C",
+    "salesman": "Rowland",
+    "quantity": 59,
+    "total_value": 727669.643,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 97,
+    "point_of_sale": "Store A",
+    "salesman": "Mychal",
+    "quantity": 50,
+    "total_value": 454135.73,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 97,
+    "point_of_sale": "Store A",
+    "salesman": "Joy",
+    "quantity": 91,
+    "total_value": 227949.943,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 31,
+    "point_of_sale": "Store C",
+    "salesman": "Andriana",
+    "quantity": 22,
+    "total_value": 758459.996,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 24,
+    "point_of_sale": "Store A",
+    "salesman": "Lucila",
+    "quantity": 43,
+    "total_value": 258029.768,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 49,
+    "point_of_sale": "Store A",
+    "salesman": "Sheree",
+    "quantity": 36,
+    "total_value": 612397.399,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 80,
+    "point_of_sale": "Store A",
+    "salesman": "Terrell",
+    "quantity": 5,
+    "total_value": 464122.535,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 77,
+    "point_of_sale": "Store B",
+    "salesman": "Bealle",
+    "quantity": 50,
+    "total_value": 635759.83,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 64,
+    "point_of_sale": "Store B",
+    "salesman": "Richart",
+    "quantity": 41,
+    "total_value": 579366.181,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 41,
+    "point_of_sale": "Store A",
+    "salesman": "Herminia",
+    "quantity": 5,
+    "total_value": 439882.23,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 23,
+    "point_of_sale": "Store A",
+    "salesman": "Engelbert",
+    "quantity": 93,
+    "total_value": 412793.497,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 90,
+    "point_of_sale": "Store C",
+    "salesman": "Raymond",
+    "quantity": 8,
+    "total_value": 231230.132,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 67,
+    "point_of_sale": "Store A",
+    "salesman": "Eamon",
+    "quantity": 79,
+    "total_value": 388601.229,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 73,
+    "point_of_sale": "Store C",
+    "salesman": "Alissa",
+    "quantity": 16,
+    "total_value": 384126.382,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 23,
+    "point_of_sale": "Store B",
+    "salesman": "Evonne",
+    "quantity": 42,
+    "total_value": 302056.833,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 47,
+    "point_of_sale": "Store A",
+    "salesman": "Dalila",
+    "quantity": 92,
+    "total_value": 316477.666,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 39,
+    "point_of_sale": "Store B",
+    "salesman": "Ario",
+    "quantity": 81,
+    "total_value": 271810.18,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 46,
+    "point_of_sale": "Store C",
+    "salesman": "Shea",
+    "quantity": 35,
+    "total_value": 618119.927,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 47,
+    "point_of_sale": "Store C",
+    "salesman": "Inge",
+    "quantity": 50,
+    "total_value": 533552.175,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 36,
+    "point_of_sale": "Store C",
+    "salesman": "Ian",
+    "quantity": 39,
+    "total_value": 694959.147,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 26,
+    "point_of_sale": "Store B",
+    "salesman": "Daisi",
+    "quantity": 57,
+    "total_value": 252830.022,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 44,
+    "point_of_sale": "Store C",
+    "salesman": "Haley",
+    "quantity": 46,
+    "total_value": 516778.425,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 28,
+    "point_of_sale": "Store C",
+    "salesman": "Ripley",
+    "quantity": 35,
+    "total_value": 244876.745,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 2,
+    "point_of_sale": "Store C",
+    "salesman": "Becka",
+    "quantity": 69,
+    "total_value": 783858.976,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 66,
+    "point_of_sale": "Store B",
+    "salesman": "Rachel",
+    "quantity": 19,
+    "total_value": 564017.622,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 38,
+    "point_of_sale": "Store B",
+    "salesman": "Trumaine",
+    "quantity": 95,
+    "total_value": 563437.876,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 15,
+    "point_of_sale": "Store A",
+    "salesman": "Kristofor",
+    "quantity": 85,
+    "total_value": 690842.696,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 73,
+    "point_of_sale": "Store A",
+    "salesman": "Mollie",
+    "quantity": 19,
+    "total_value": 565130.606,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 31,
+    "point_of_sale": "Store A",
+    "salesman": "Kynthia",
+    "quantity": 73,
+    "total_value": 488581.921,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 34,
+    "point_of_sale": "Store B",
+    "salesman": "Kip",
+    "quantity": 60,
+    "total_value": 335315.299,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 3,
+    "point_of_sale": "Store A",
+    "salesman": "Bartholomeus",
+    "quantity": 71,
+    "total_value": 418934.36,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 10,
+    "point_of_sale": "Store C",
+    "salesman": "Brier",
+    "quantity": 6,
+    "total_value": 566222.071,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 47,
+    "point_of_sale": "Store A",
+    "salesman": "Carmelita",
+    "quantity": 93,
+    "total_value": 475478.566,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 21,
+    "point_of_sale": "Store B",
+    "salesman": "Kirstin",
+    "quantity": 96,
+    "total_value": 343256.088,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 17,
+    "point_of_sale": "Store B",
+    "salesman": "Georgena",
+    "quantity": 5,
+    "total_value": 458902.217,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 44,
+    "point_of_sale": "Store C",
+    "salesman": "Broderick",
+    "quantity": 37,
+    "total_value": 251563.873,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 51,
+    "point_of_sale": "Store A",
+    "salesman": "Consalve",
+    "quantity": 19,
+    "total_value": 841114.494,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 91,
+    "point_of_sale": "Store B",
+    "salesman": "Winifred",
+    "quantity": 71,
+    "total_value": 485604.959,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 25,
+    "point_of_sale": "Store B",
+    "salesman": "Sharity",
+    "quantity": 75,
+    "total_value": 227214.844,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 92,
+    "point_of_sale": "Store B",
+    "salesman": "Madella",
+    "quantity": 32,
+    "total_value": 375100.888,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 25,
+    "point_of_sale": "Store A",
+    "salesman": "Giffard",
+    "quantity": 77,
+    "total_value": 490886.434,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 65,
+    "point_of_sale": "Store C",
+    "salesman": "Sarene",
+    "quantity": 20,
+    "total_value": 545723.846,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 8,
+    "point_of_sale": "Store B",
+    "salesman": "Leela",
+    "quantity": 8,
+    "total_value": 267487.615,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 83,
+    "point_of_sale": "Store A",
+    "salesman": "Maighdiln",
+    "quantity": 59,
+    "total_value": 478332.597,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 61,
+    "point_of_sale": "Store C",
+    "salesman": "Chlo",
+    "quantity": 13,
+    "total_value": 752858.642,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 16,
+    "point_of_sale": "Store C",
+    "salesman": "Thorndike",
+    "quantity": 22,
+    "total_value": 896106.961,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 33,
+    "point_of_sale": "Store A",
+    "salesman": "Ferguson",
+    "quantity": 6,
+    "total_value": 432040.408,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 6,
+    "point_of_sale": "Store A",
+    "salesman": "Jeanine",
+    "quantity": 10,
+    "total_value": 202712.074,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 84,
+    "point_of_sale": "Store A",
+    "salesman": "Pail",
+    "quantity": 51,
+    "total_value": 490081.424,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 53,
+    "point_of_sale": "Store B",
+    "salesman": "Ilyssa",
+    "quantity": 14,
+    "total_value": 668822.456,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 35,
+    "point_of_sale": "Store C",
+    "salesman": "Christen",
+    "quantity": 96,
+    "total_value": 653071.997,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 84,
+    "point_of_sale": "Store A",
+    "salesman": "Jaquelin",
+    "quantity": 79,
+    "total_value": 252758.417,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 67,
+    "point_of_sale": "Store B",
+    "salesman": "Roselia",
+    "quantity": 2,
+    "total_value": 329564.216,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 20,
+    "point_of_sale": "Store C",
+    "salesman": "Rudolph",
+    "quantity": 72,
+    "total_value": 495792.274,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 20,
+    "point_of_sale": "Store C",
+    "salesman": "Kendrick",
+    "quantity": 36,
+    "total_value": 638502.712,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 61,
+    "point_of_sale": "Store A",
+    "salesman": "Georgianne",
+    "quantity": 59,
+    "total_value": 204977.62,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 98,
+    "point_of_sale": "Store C",
+    "salesman": "Jerrine",
+    "quantity": 55,
+    "total_value": 276877.933,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 77,
+    "point_of_sale": "Store C",
+    "salesman": "Fabio",
+    "quantity": 90,
+    "total_value": 662372.751,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 92,
+    "point_of_sale": "Store B",
+    "salesman": "Raynell",
+    "quantity": 25,
+    "total_value": 550036.611,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 85,
+    "point_of_sale": "Store C",
+    "salesman": "Stanislaus",
+    "quantity": 78,
+    "total_value": 585363.584,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 68,
+    "point_of_sale": "Store B",
+    "salesman": "Norry",
+    "quantity": 50,
+    "total_value": 805127.073,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 67,
+    "point_of_sale": "Store C",
+    "salesman": "Perceval",
+    "quantity": 34,
+    "total_value": 421933.652,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 86,
+    "point_of_sale": "Store C",
+    "salesman": "Dana",
+    "quantity": 46,
+    "total_value": 210080.199,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 22,
+    "point_of_sale": "Store A",
+    "salesman": "Sasha",
+    "quantity": 72,
+    "total_value": 645156.27,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 86,
+    "point_of_sale": "Store B",
+    "salesman": "Justina",
+    "quantity": 26,
+    "total_value": 289389.036,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 83,
+    "point_of_sale": "Store B",
+    "salesman": "Colline",
+    "quantity": 57,
+    "total_value": 828061.533,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 56,
+    "point_of_sale": "Store C",
+    "salesman": "Stacee",
+    "quantity": 22,
+    "total_value": 339929.879,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 78,
+    "point_of_sale": "Store A",
+    "salesman": "Abram",
+    "quantity": 25,
+    "total_value": 531996.311,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 15,
+    "point_of_sale": "Store A",
+    "salesman": "Perla",
+    "quantity": 71,
+    "total_value": 208715.647,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 25,
+    "point_of_sale": "Store B",
+    "salesman": "Elana",
+    "quantity": 19,
+    "total_value": 876291.339,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 40,
+    "point_of_sale": "Store C",
+    "salesman": "Lorne",
+    "quantity": 33,
+    "total_value": 493486.277,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 16,
+    "point_of_sale": "Store A",
+    "salesman": "Datha",
+    "quantity": 62,
+    "total_value": 241392.333,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 7,
+    "point_of_sale": "Store C",
+    "salesman": "Fred",
+    "quantity": 66,
+    "total_value": 327982.486,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 59,
+    "point_of_sale": "Store B",
+    "salesman": "Rowena",
+    "quantity": 46,
+    "total_value": 681726.15,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 68,
+    "point_of_sale": "Store C",
+    "salesman": "Rochelle",
+    "quantity": 56,
+    "total_value": 595111.948,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 50,
+    "point_of_sale": "Store A",
+    "salesman": "Gaby",
+    "quantity": 89,
+    "total_value": 830841.437,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 96,
+    "point_of_sale": "Store A",
+    "salesman": "Chane",
+    "quantity": 62,
+    "total_value": 772597.731,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 50,
+    "point_of_sale": "Store C",
+    "salesman": "Angus",
+    "quantity": 16,
+    "total_value": 784217.616,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 96,
+    "point_of_sale": "Store A",
+    "salesman": "Nannie",
+    "quantity": 89,
+    "total_value": 652697.876,
+    "date": "2023-07-29"
+  },
+  {
+    "order_number": 87,
+    "point_of_sale": "Store A",
+    "salesman": "Ingamar",
+    "quantity": 77,
+    "total_value": 406540.855,
+    "date": "2023-07-29"
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "order_number": 91658,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 932.333,
+    "total_value": "Zloty",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 55562,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 575.752,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 7531,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 552.193,
+    "total_value": "Ruble",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 5449,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 195.055,
+    "total_value": "Peso",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 89538,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 495.35,
+    "total_value": "Rupiah",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 23829,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 315.539,
+    "total_value": "Lempira",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 41179,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 902.287,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 38657,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 372.078,
+    "total_value": "Hryvnia",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 90509,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 295.57,
+    "total_value": "Krona",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 58669,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 501.054,
+    "total_value": "Naira",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 56907,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 885.881,
+    "total_value": "Euro",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 50329,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 484.688,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 5073,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 739.835,
+    "total_value": "Peso",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 34382,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 493.646,
+    "total_value": "Sol",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 73363,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 42.311,
+    "total_value": "Sol",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 59593,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 262.164,
+    "total_value": "Euro",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 36965,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 579.7,
+    "total_value": "Dollar",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 93719,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 770.347,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 26642,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 623.023,
+    "total_value": "Dollar",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 20313,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 254.102,
+    "total_value": "Real",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 4992,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 479.69,
+    "total_value": "Ruble",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 13322,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 492.631,
+    "total_value": "Dinar",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 52054,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 525.246,
+    "total_value": "Rupiah",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 87302,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 713.941,
+    "total_value": "Peso",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 25528,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 951.48,
+    "total_value": "Euro",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 60605,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 785.445,
+    "total_value": "Rand",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 21225,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 409.721,
+    "total_value": "Koruna",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 90039,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 893.251,
+    "total_value": "Dram",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 72585,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 78.754,
+    "total_value": "Real",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 60432,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 355.694,
+    "total_value": "Franc",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 91731,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 345.206,
+    "total_value": "Marka",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 10394,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 972.714,
+    "total_value": "Ariary",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 27793,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 753.54,
+    "total_value": "Ruble",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 24027,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 954.594,
+    "total_value": "Rupiah",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 34765,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 152.431,
+    "total_value": "Dinar",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 98835,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 275.307,
+    "total_value": "Krona",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 76120,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 75.06,
+    "total_value": "Birr",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 37141,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 62.605,
+    "total_value": "Euro",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 37886,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 892.837,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 32285,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 243.989,
+    "total_value": "Euro",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 95575,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 90.924,
+    "total_value": "Pound",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 44770,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 539.737,
+    "total_value": "Naira",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 84881,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 924.105,
+    "total_value": "Zloty",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 68980,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 22.412,
+    "total_value": "Ruble",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 6313,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 472.574,
+    "total_value": "Hryvnia",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 24431,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 988.949,
+    "total_value": "Dollar",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 40895,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 836.198,
+    "total_value": "Baht",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 24885,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 894.622,
+    "total_value": "Tenge",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 83432,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 321.45,
+    "total_value": "Rupiah",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 79511,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 766.644,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 11997,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 680.804,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 54414,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 766.2,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 67514,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 108.495,
+    "total_value": "Euro",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 65897,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 628.507,
+    "total_value": "Yen",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 84089,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 65.417,
+    "total_value": "Dollar",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 54077,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 104.259,
+    "total_value": "Dollar",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 53070,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 252.964,
+    "total_value": "Peso",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 6514,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 608.473,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 46865,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 548.094,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 47895,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 720.282,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 84111,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 348.081,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 57548,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 81.047,
+    "total_value": "Zloty",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 1212,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 340.496,
+    "total_value": "Peso",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 49928,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 290.519,
+    "total_value": "Ruble",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 91484,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 730.832,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 23099,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 781.849,
+    "total_value": "Rupee",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 49003,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 705.112,
+    "total_value": "Euro",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 89969,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 822.405,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 33470,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 486.991,
+    "total_value": "Rupiah",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 21302,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 833.899,
+    "total_value": "Lek",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 91990,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 976.579,
+    "total_value": "Peso",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 77064,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 955.942,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 70963,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 622.914,
+    "total_value": "Peso",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 87621,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 298.884,
+    "total_value": "Yen",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 18836,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 144.743,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 70290,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 462.129,
+    "total_value": "Tala",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 64537,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 578.016,
+    "total_value": "Euro",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 18850,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 900.696,
+    "total_value": "Baht",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 73377,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 386.452,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 75431,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 402.663,
+    "total_value": "Sol",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 45788,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 376.265,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 87908,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 555.365,
+    "total_value": "Dinar",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 57965,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 95.445,
+    "total_value": "Rupee",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 75548,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 283.918,
+    "total_value": "Euro",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 78030,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 453.909,
+    "total_value": "Franc",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 2697,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 592.218,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 60743,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 251.789,
+    "total_value": "Krona",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 35700,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 664.87,
+    "total_value": "Dollar",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 38825,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 142.642,
+    "total_value": "Hryvnia",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 99424,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 994.076,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 18743,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 432.117,
+    "total_value": "Won",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 73298,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 788.261,
+    "total_value": "Peso",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 655,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 802.746,
+    "total_value": "Ruble",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 88952,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 474.784,
+    "total_value": "Yuan Renminbi",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 21855,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 409.792,
+    "total_value": "Ruble",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 37089,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Comprobantes",
+    "quantity": 636.477,
+    "total_value": "Franc",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 93240,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Comprobantes",
+    "quantity": 3.862,
+    "total_value": "Birr",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 80878,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 566.621,
+    "total_value": "Peso",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 68829,
+    "branch_description": "Bodega el toril",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 392.276,
+    "total_value": "Peso",
+    "date": "7/27/2023"
+  },
+  {
+    "order_number": 99708,
+    "branch_description": "Comprobantes",
+    "point_of_sale": "Bodega el toril",
+    "quantity": 94.912,
+    "total_value": "Cordoba",
+    "date": "7/27/2023"
+  }
+]

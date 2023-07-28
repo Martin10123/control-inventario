@@ -3,8 +3,8 @@ import { HiOutlineViewGridAdd } from "react-icons/hi";
 
 import { LayoutPages } from "../Layout";
 import { CreateCategory } from "./components/CreateCategory";
-
-// import styles from "./categorysPage.module.css";
+import { categories, columnsCategories } from "../helpers";
+import { Table } from "../../components";
 
 export const CategorysPage = () => {
   const [openCreateCategory, setOpenCreateCategory] = useState(false);
@@ -22,7 +22,7 @@ export const CategorysPage = () => {
         secondTitle="Listado de categorias"
         onOpenAddNew={onOpenAddNewCategory}
       >
-        <h1>Hola</h1>
+        <Table dataColumns={columnsCategories} mockData={categories} />
       </LayoutPages>
 
       <CreateCategory

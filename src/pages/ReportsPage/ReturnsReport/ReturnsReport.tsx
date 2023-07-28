@@ -1,4 +1,6 @@
+import { Table } from "../../../components";
 import { LayoutPages } from "../../Layout";
+import { columnsReturnsReport, returnsReport } from "../../helpers";
 import { ReportSelectDates } from "./ReportSelectDates";
 
 export const ReturnsReport = () => {
@@ -9,7 +11,7 @@ export const ReturnsReport = () => {
       placeholderInput="Buscar..."
       secondTitle="Reporte de salida"
     >
-      <h1>ReturnsReport</h1>
+      <Table dataColumns={columnsReturnsReport} mockData={returnsReport} />
     </LayoutPages>
   );
 };

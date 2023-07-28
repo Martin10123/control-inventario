@@ -1,0 +1,802 @@
+[
+  {
+    "order_number": 508099701,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 408,
+    "total_value": 6570055,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 959631625,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 176,
+    "total_value": 7049244,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 182340825,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 495,
+    "total_value": 815866,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 122965883,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 614,
+    "total_value": 1096862,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 695339346,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 243,
+    "total_value": 4013961,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 651658675,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 912,
+    "total_value": 6748881,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 789605582,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 790,
+    "total_value": 7252496,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 102143217,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 477,
+    "total_value": 960313,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 7380030,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 733,
+    "total_value": 612067,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 553335647,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 410,
+    "total_value": 1203886,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 128178244,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 519,
+    "total_value": 1295625,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 643026834,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 29,
+    "total_value": 6258396,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 403823889,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 190,
+    "total_value": 5802051,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 472652005,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 70,
+    "total_value": 9627031,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 149925560,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 523,
+    "total_value": 1529660,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 131071988,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 186,
+    "total_value": 617383,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 206842188,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 138,
+    "total_value": 9532770,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 134011347,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 793,
+    "total_value": 5751424,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 979438308,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 669,
+    "total_value": 716607,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 359256341,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 764,
+    "total_value": 5454766,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 828454464,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 87,
+    "total_value": 7003296,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 865073707,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 775,
+    "total_value": 5078248,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 873258572,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 681,
+    "total_value": 3663922,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 433737163,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 163,
+    "total_value": 966224,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 239662505,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 661,
+    "total_value": 4186593,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 280907364,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 777,
+    "total_value": 6177702,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 991504442,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 224,
+    "total_value": 1665007,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 659309712,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 936,
+    "total_value": 7275943,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 808957243,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 326,
+    "total_value": 2799241,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 582787624,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 435,
+    "total_value": 4890725,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 830148646,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 233,
+    "total_value": 1530975,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 698487397,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 142,
+    "total_value": 7888884,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 316990253,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 318,
+    "total_value": 1435527,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 152167873,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 823,
+    "total_value": 7745711,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 522203060,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 420,
+    "total_value": 6575093,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 23472104,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 24,
+    "total_value": 7351911,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 651400104,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 741,
+    "total_value": 2003978,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 504567111,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 871,
+    "total_value": 7637274,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 800758477,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 429,
+    "total_value": 3449026,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 283823003,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 112,
+    "total_value": 7430211,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 755146574,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 662,
+    "total_value": 598322,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 160467583,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 814,
+    "total_value": 4988165,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 433021366,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 441,
+    "total_value": 8213722,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 386200444,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 702,
+    "total_value": 2479793,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 690295160,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 396,
+    "total_value": 6234055,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 957983310,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 465,
+    "total_value": 9900940,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 551383437,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 967,
+    "total_value": 4490992,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 466343917,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 6,
+    "total_value": 5319515,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 399516833,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 922,
+    "total_value": 6766698,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 197794692,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 214,
+    "total_value": 8401571,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 329228790,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 890,
+    "total_value": 7398673,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 603600880,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 708,
+    "total_value": 792248,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 67657760,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 979,
+    "total_value": 1992443,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 559285699,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 175,
+    "total_value": 5268520,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 296510514,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 422,
+    "total_value": 4980379,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 381849172,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 408,
+    "total_value": 6770299,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 825802725,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 31,
+    "total_value": 9813490,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 358148683,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 586,
+    "total_value": 524085,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 771665850,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 940,
+    "total_value": 4207190,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 454070125,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 179,
+    "total_value": 8907496,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 172477353,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 774,
+    "total_value": 1665769,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 913209357,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 217,
+    "total_value": 7642352,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 856464466,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 180,
+    "total_value": 1059128,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 575585979,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 888,
+    "total_value": 5127131,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 927498443,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 47,
+    "total_value": 1845789,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 582935038,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 442,
+    "total_value": 7641763,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 87243891,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 220,
+    "total_value": 9251080,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 310513518,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 212,
+    "total_value": 9718202,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 167674333,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 91,
+    "total_value": 1806739,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 35972496,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 714,
+    "total_value": 4211465,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 507572070,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 521,
+    "total_value": 5223986,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 15013939,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 67,
+    "total_value": 2847636,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 237140235,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 142,
+    "total_value": 4387518,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 989725773,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 704,
+    "total_value": 8359497,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 542849789,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 179,
+    "total_value": 6301155,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 514207367,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 104,
+    "total_value": 1857176,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 53680850,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 389,
+    "total_value": 5719046,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 94798284,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 622,
+    "total_value": 7227709,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 739170504,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 829,
+    "total_value": 5525276,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 356282134,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 155,
+    "total_value": 5862864,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 66080784,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 535,
+    "total_value": 5647252,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 449530998,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 866,
+    "total_value": 1928299,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 460389385,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 210,
+    "total_value": 2678270,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 407608338,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 981,
+    "total_value": 6370457,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 68643744,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 484,
+    "total_value": 4677552,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 34147053,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 815,
+    "total_value": 7346640,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 45727885,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 528,
+    "total_value": 3545753,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 356346272,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 420,
+    "total_value": 2632759,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 159715815,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 879,
+    "total_value": 7293267,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 287626135,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 555,
+    "total_value": 6055646,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 127107660,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 992,
+    "total_value": 9623589,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 855038033,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 405,
+    "total_value": 6271864,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 463098088,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 150,
+    "total_value": 5841613,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 284852785,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 926,
+    "total_value": 512151,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 226833171,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 102,
+    "total_value": 4791656,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 430586716,
+    "source_point_of_sale": "Bodega el toril",
+    "destination_point_of_sale": "Bodega el toril",
+    "quantity": 847,
+    "total_value": 6213372,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 932182039,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 615,
+    "total_value": 594607,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 175006571,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 191,
+    "total_value": 184551,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 809426092,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 605,
+    "total_value": 5284048,
+    "date": "2023-07-27"
+  },
+  {
+    "order_number": 197573038,
+    "source_point_of_sale": "Comprobantes",
+    "destination_point_of_sale": "Comprobantes",
+    "quantity": 29,
+    "total_value": 4384571,
+    "date": "2023-07-27"
+  }
+]
