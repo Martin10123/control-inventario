@@ -13,7 +13,26 @@ html {
   text-decoration: none;
 }
 
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #00c0e8;
+}
+
 .animate__fadeIn,
 .animate__fadeInLeft {
   visibility: visible;
+}
+
+@media screen and (min-width: 800px) {
+  @keyframes zoomOutLeft {
+    100% {
+    }
+  }
 }

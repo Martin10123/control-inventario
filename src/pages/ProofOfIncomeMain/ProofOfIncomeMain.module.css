@@ -4,3 +4,69 @@
   flex-direction: column;
   gap: 1rem;
 }
+
+.poi__contain_table {
+  overflow: auto;
+  padding: 2rem 0 0;
+  width: 100%;
+}
+
+.poi__table {
+  border-collapse: collapse;
+  border: 2px solid #00c1e8b4;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.poi__table_head {
+}
+
+.poi__head_tr {
+}
+
+.poi__head_th,
+.poi__body_td {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 1rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.poi__table_body {
+}
+
+.poi__body_tr {
+}
+
+.poi__body_td {
+  padding: 0 1rem 1rem;
+}
+
+.poi__input_with_delete {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  height: 100%;
+  width: 100%;
+}
+
+.poi__btn_delete {
+  align-items: center;
+  background: red;
+  border-radius: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.5rem;
+  height: 4rem;
+  justify-content: center;
+  width: 4rem;
+}
+
+@media screen and (min-width: 800px) {
+  .poi__form_filter_by {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

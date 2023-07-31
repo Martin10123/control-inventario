@@ -38,27 +38,19 @@
   width: 100%;
 }
 
-.lyp__search_user {
-  align-items: center;
-  border-radius: 0.5rem;
-  border: 1px solid #00c0e8;
-  display: grid;
-  gap: 0.5rem;
-  grid-template-columns: 0fr 1fr;
-  height: 4rem;
-  padding: 0 0.5rem;
-  width: 100%;
-}
+@media screen and (min-width: 800px) {
+  .lyp__container {
+    margin: 0 0 0 19rem;
+    width: calc(100% - 19rem);
+  }
 
-.lyp__search_user > svg {
-  color: #00c0e8;
-  font-size: 1.8rem;
-}
+  .lyp__content_table {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 
-.lyp__search_user > input {
-  border: none;
-  font-size: 1.16rem;
-  height: 100%;
-  outline: none;
-  width: 100%;
+  .lyp__input_searc_table {
+    width: 50%;
+  }
 }

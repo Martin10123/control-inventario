@@ -23,6 +23,9 @@ export const CreateUser = ({ openCreateUsers, onOpenAddNewUser }: PropsCU) => {
   const isFirstTab = currentTab === 1;
   const isLastTab = currentTab === 3;
 
+  const disabledBBtn = isFirstTab ? styles.cu__disabled_btn : "";
+  const disabledGBtn = isLastTab ? styles.cu__disabled_btn : "";
+
   const handleBack = () => {
     if (!isFirstTab) {
       handleTabChange(-1);
@@ -50,19 +53,17 @@ export const CreateUser = ({ openCreateUsers, onOpenAddNewUser }: PropsCU) => {
 
         <div className={styles.cu__content_btn__arrow_back_go}>
           <button
-            className={styles.cu__btn_back_go}
+            className={`${styles.cu__btn_back_go} ${disabledBBtn}`}
             disabled={isFirstTab}
             onClick={handleBack}
-            style={{ background: isFirstTab ? "gray" : "" }}
           >
             <MdArrowBackIosNew />
           </button>
 
           <button
-            className={styles.cu__btn_back_go}
+            className={`${styles.cu__btn_back_go} ${disabledGBtn}`}
             disabled={isLastTab}
             onClick={handleNext}
-            style={{ background: isLastTab ? "gray" : "" }}
           >
             <MdArrowForwardIos />
           </button>

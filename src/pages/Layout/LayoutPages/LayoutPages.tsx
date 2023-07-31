@@ -39,15 +39,17 @@ export const LayoutPages = ({
           {chidrenAditional}
 
           <div className={styles.lyp__content_table}>
-            <InputForm
-              icon={<BiSearchAlt />}
-              name="searchUser"
-              placeholder={placeholderInput}
-              type="text"
-              stylesCInputF={{
-                boxShadow: "0px 2px 7px #00c0e838",
-              }}
-            />
+            <div className={styles.lyp__input_searc_table}>
+              <InputForm
+                icon={<BiSearchAlt />}
+                name="searchUser"
+                placeholder={placeholderInput}
+                type="text"
+                stylesCInputF={{
+                  boxShadow: "0px 2px 7px #00c0e838",
+                }}
+              />
+            </div>
 
             {children}
           </div>

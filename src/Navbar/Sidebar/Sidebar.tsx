@@ -1,5 +1,5 @@
 import { Fragment, useState } from "react";
-import { sideBarItem } from "../../helpers";
+import { sideBarItem } from "../helper";
 import { SideItem } from "./SideItem";
 import { SideSubItem } from "./SideSubItem";
 import { SideInfoUser } from "./SideInfoUser";
@@ -20,7 +20,7 @@ export const Sidebar = ({ openSidebar, setOpenSidebar }: SidebarClose) => {
   };
 
   return (
-    <nav
+    <aside
       className={`${styles.sidebar__container} animate__animated animate__${styleAnimite}`}
     >
       <div className={styles.sidebar__content}>
@@ -48,6 +48,6 @@ export const Sidebar = ({ openSidebar, setOpenSidebar }: SidebarClose) => {
           ))}
         </div>
       </div>
-    </nav>
+    </aside>
   );
 };

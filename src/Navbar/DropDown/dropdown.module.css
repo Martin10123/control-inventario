@@ -6,6 +6,8 @@
   left: 0;
   position: fixed;
   top: 0;
+  transition: 1s ease-in-out;
+  visibility: hidden;
   width: 100%;
   z-index: 9999;
 }
@@ -67,6 +69,7 @@
   align-items: center;
   border-radius: 0.5rem;
   box-shadow: 1px 1px 6px #80808061;
+  cursor: pointer;
   display: flex;
   gap: 1rem;
   padding: 1.5rem 1rem;
@@ -85,4 +88,28 @@
 .dd__item:last-child,
 .dd__item:last-child > svg {
   color: #ff0000;
+}
+
+@media screen and (min-width: 800px) {
+  .dd__container {
+    display: block;
+    height: fit-content;
+    left: auto;
+    right: 1rem;
+    top: 5rem;
+    width: fit-content;
+  }
+
+  .dd__content_background {
+    display: none;
+  }
+
+  .dd__content_info {
+    border-radius: 1rem;
+    box-shadow: 1px 1px 6px #4444449b;
+  }
+
+  .dd__item {
+    box-shadow: 1px 1px 6px #80808021;
+  }
 }

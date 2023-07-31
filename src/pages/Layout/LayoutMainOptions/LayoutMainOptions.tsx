@@ -25,24 +25,7 @@ export const LayoutMainOptions: React.FC<PropsLayout> = ({
           <p>Fecha: {dateToday}</p>
         </header>
 
-        <div className={styles.lmo__content_filter_by}>
-          {children}
-
-          <div className={styles.lmo__content_table}>
-            <div className={styles.lmo__table}>
-              <h2>Tabla</h2>
-            </div>
-
-            <ButtonForm
-              titleButton="Generar columna"
-              stylesInput={{
-                height: "3rem",
-                padding: "0 1rem",
-                width: "fit-content",
-              }}
-            />
-          </div>
-        </div>
+        <div className={styles.lmo__content_filter_by}>{children}</div>
 
         <div className={styles.lmo__content_description_and_accumulator}>
           <textarea
@@ -59,7 +42,9 @@ export const LayoutMainOptions: React.FC<PropsLayout> = ({
           </div>
         </div>
 
-        <ButtonForm titleButton="Guardar" />
+        <div className={styles.lmo__content_btn}>
+          <ButtonForm titleButton="Guardar" />
+        </div>
       </div>
     </section>
   );

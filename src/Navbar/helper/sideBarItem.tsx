@@ -9,13 +9,12 @@ import {
   TbUsersGroup,
 } from "react-icons/tb";
 import { LiaChartPieSolid } from "react-icons/lia";
-import { LuTags } from "react-icons/lu";
+import { LuSettings, LuTags } from "react-icons/lu";
 
 export const sideBarItem = [
   { Icon: <IoHomeOutline />, linkGoTo: "/", name: "Inicio" },
   { Icon: <TbUsersGroup />, linkGoTo: "/users", name: "Usuarios" },
-  { Icon: <BsCardList />, linkGoTo: "/supplier", name: "Proveedor" },
-  { Icon: <BiCategoryAlt />, linkGoTo: "/categories", name: "Categorias" },
+  { Icon: <BsCardList />, linkGoTo: "/supplier", name: "Tienda" },
   { Icon: <MdOutlineBookmarks />, linkGoTo: "/products", name: "Productos" },
   { Icon: <BsMenuDown />, linkGoTo: "profiles", name: "Perfiles" },
   {

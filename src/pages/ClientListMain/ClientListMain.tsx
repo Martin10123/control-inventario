@@ -1,4 +1,6 @@
+import { Table } from "../../components";
 import { LayoutPages } from "../Layout";
+import { clientsList, columnsClientsList } from "../helpers";
 
 export const ClientListMain = () => {
   return (
@@ -7,7 +9,7 @@ export const ClientListMain = () => {
       placeholderInput="Buscar un cliente"
       secondTitle="Listado de clientes"
     >
-      <h1>ClientListMain</h1>
+      <Table dataColumns={columnsClientsList} mockData={clientsList} />
     </LayoutPages>
   );
 };

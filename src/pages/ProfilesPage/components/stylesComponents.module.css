@@ -19,5 +19,6 @@
   height: 12rem;
   max-height: 18rem;
   padding: 1rem;
+  resize: none;
   width: 100%;
 }

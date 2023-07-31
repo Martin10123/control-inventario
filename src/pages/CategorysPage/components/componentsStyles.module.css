@@ -36,6 +36,7 @@
   border: none;
   box-shadow: 1px 1px 6px #8080807a;
   color: #fff;
+  cursor: pointer;
   display: flex;
   font-size: 1.5rem;
   height: 3rem;

@@ -1,6 +1,7 @@
 export {
   balanceSheet,
   categories,
+  clientsList,
   products,
   profiles,
   proofOfIncome,
@@ -61,6 +62,27 @@ export const columnsCategories = [
   {
     accessorKey: "description",
     header: "Descripción",
+  },
+];
+
+// clientsList
+
+export const columnsClientsList = [
+  {
+    accessorKey: "identification",
+    header: "Identificación",
+  },
+  {
+    accessorKey: "name",
+    header: "Nombre",
+  },
+  {
+    accessorKey: "address",
+    header: "Dirección",
+  },
+  {
+    accessorKey: "cellphone",
+    header: "Telefono",
   },
 ];
 

@@ -24,7 +24,6 @@ export const ChartInfo = () => {
       </div>
 
       <div className={styles.main__content_grafic}>
-        <p>grafico</p>
         <BarChart data={data} labels={labels} title={title} />
       </div>
     </div>

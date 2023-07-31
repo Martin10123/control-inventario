@@ -4,7 +4,7 @@
   padding: 1rem 0;
 }
 
-.sdpoi__content_select {
+.rg__content_select {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -17,11 +17,6 @@
   font-size: 1.2rem;
   font-weight: 500;
   padding: 1rem;
-}
-
-input[type="date"]::-webkit-calendar-picker-indicator,
-input[type="time"]::-webkit-calendar-picker-indicator {
-  display: none;
 }
 
 .rg__content_buttons {
@@ -40,9 +35,52 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   border: none;
   box-shadow: 1px 1px 6px #8080807a;
   color: #fff;
+  cursor: pointer;
   display: flex;
   font-size: 1.5rem;
   height: 3rem;
   justify-content: center;
   width: 3rem;
+}
+
+@media screen and (min-width: 800px) {
+  .rg__content_dates {
+    width: 100%;
+  }
+
+  .rg__content_select {
+    flex-direction: row;
+  }
+
+  .rg__inputs_dates {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0 0;
+  }
+
+  .rg__input_form_date {
+    width: 100%;
+  }
+
+  .rg__input_form_date > label {
+    padding: 1rem 0;
+  }
+
+  .rg__content_buttons {
+    gap: 1rem;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .rg__content_children_selects {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem 0 0;
+  }
+
+  .rg__content_select {
+    flex-direction: column;
+  }
 }

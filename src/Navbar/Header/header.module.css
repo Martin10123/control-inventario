@@ -32,3 +32,17 @@
   object-fit: cover;
   width: 2.5rem;
 }
+
+@media screen and (min-width: 800px) {
+  .main__header {
+    box-shadow: 1px 1px 6px #2c2c2c6b;
+    margin: 0 1rem 0 20rem;
+  }
+
+  .main__header > svg {
+    opacity: 0;
+    position: relative;
+    visibility: hidden;
+    z-index: -1;
+  }
+}

@@ -39,3 +39,33 @@
   color: #00c0e8;
   font-size: 1.2rem;
 }
+
+@media screen and (min-width: 800px) {
+  .lym__container {
+    align-items: center;
+    background: #000000b0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .lym__content {
+    background: #fff;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 1px 1px 6px gray;
+    height: 32rem;
+    max-width: 40rem;
+    width: 32rem;
+  }
+
+  .lym__content::-webkit-scrollbar {
+    width: 0.6rem;
+  }
+
+  .lym__content::-webkit-scrollbar-track {
+    background: #fff;
+  }
+
+  .lym__content::-webkit-scrollbar-thumb {
+    background-color: #00c0e8;
+  }
+}

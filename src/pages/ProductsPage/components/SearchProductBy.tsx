@@ -8,20 +8,24 @@ export const SearchProductBy = () => {
     <div className={styles.sp__container_selects}>
       <p>Filtar por: </p>
 
-      <SelectForm>
-        <option value="">Punto de ventas</option>
-      </SelectForm>
-      <SelectForm>
-        <option value="">Categorias</option>
-      </SelectForm>
+      <div className={styles.sp__contain_info_outside_title}>
+        <div className={styles.sp__content_selects_search}>
+          <SelectForm>
+            <option value="">Punto de ventas</option>
+          </SelectForm>
+          <SelectForm>
+            <option value="">Categorias</option>
+          </SelectForm>
+        </div>
 
-      <div className={styles.sp__content_buttons}>
-        <button className={styles.sp__btn}>
-          <BiSearchAlt />
-        </button>
-        <button className={styles.sp__btn}>
-          <BiDownload />
-        </button>
+        <div className={styles.sp__content_buttons}>
+          <button className={styles.sp__btn}>
+            <BiSearchAlt />
+          </button>
+          <button className={styles.sp__btn}>
+            <BiDownload />
+          </button>
+        </div>
       </div>
     </div>
   );

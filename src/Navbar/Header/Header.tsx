@@ -10,21 +10,18 @@ export const Header = () => {
   const [openDropDown, setOpenDropDown] = useState(false);
 
   return (
-    <>
-      <header className={styles.main__header}>
-        <HiOutlineViewGridAdd onClick={() => setOpenSidebar(true)} />
+    <header className={styles.main__header}>
+      <HiOutlineViewGridAdd onClick={() => setOpenSidebar(true)} />
 
-        <figure
-          className={styles.main__photo_profile}
-          onClick={() => setOpenDropDown(true)}
-        >
-          <img src={photoUser} alt="Foto de perfil" width="100%" />
-        </figure>
+      <figure
+        className={styles.main__photo_profile}
+        onClick={() => setOpenDropDown(!openDropDown)}
+      >
+        <img src={photoUser} alt="Foto de perfil" width="100%" />
+      </figure>
 
-        {openDropDown && <DropDown setOpenDropDown={setOpenDropDown} />}
-      </header>
-
+      <DropDown openDropDown={openDropDown} setOpenDropDown={setOpenDropDown} />
       <Sidebar openSidebar={openSidebar} setOpenSidebar={setOpenSidebar} />
-    </>
+    </header>
   );
 };

@@ -3,9 +3,9 @@ import { PropsHeaderTable } from "../interfaces/interfaces";
 
 import styles from "./componentStyles.module.css";
 
-export const HeaderTable: React.FC<PropsHeaderTable> = ({
+export const HeaderTable = <T extends object>({
   getHeaderGroups,
-}) => {
+}: PropsHeaderTable<T>) => {
   return (
     <thead className={styles.table__thead}>
       {getHeaderGroups().map((headerGroup) => (

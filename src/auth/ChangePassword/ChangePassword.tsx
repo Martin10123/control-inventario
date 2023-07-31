@@ -1,6 +1,6 @@
 import { FiLock, FiUnlock } from "react-icons/fi";
 import { GoShieldLock } from "react-icons/go";
-import { InputForm } from "../../components";
+import { ButtonForm, InputForm } from "../../components";
 
 import styles from "./changePassword.module.css";
 
@@ -40,7 +40,7 @@ export const ChangePassword = () => {
             />
 
             <div className={styles.cp__content_button}>
-              <button className={styles.cp__btn_change}>Actualizar</button>
+              <ButtonForm titleButton="Actualizar" />
             </div>
           </form>
         </div>

@@ -3,7 +3,9 @@ import { PropsBodyTable } from "../interfaces/interfaces";
 
 import styles from "./componentStyles.module.css";
 
-export const BodyTable = ({ getRowModel }: PropsBodyTable) => {
+export const BodyTable = <T extends object>({
+  getRowModel,
+}: PropsBodyTable<T>) => {
   return (
     <tbody className={styles.table__tbody}>
       {getRowModel().rows.map((row) => (

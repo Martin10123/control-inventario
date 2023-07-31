@@ -4,18 +4,17 @@ import { LuDoorOpen } from "react-icons/lu";
 import { RiUserSettingsLine } from "react-icons/ri";
 
 import { photoUser } from "../../assets";
-import { usePreventScroll } from "../../hooks";
 
 import styles from "./dropdown.module.css";
 
 interface PropsDrop {
+  openDropDown: boolean;
   setOpenDropDown: (v: boolean) => void;
 }
 
-export const DropDown = ({ setOpenDropDown }: PropsDrop) => {
-  usePreventScroll();
-
+export const DropDown = ({ openDropDown, setOpenDropDown }: PropsDrop) => {
   const navigate = useNavigate();
+  const styleAnimite = openDropDown ? "fadeIn" : "fadeOutRight";
 
   const onGoToChangePassword = () => {
     setOpenDropDown(false);
@@ -23,7 +22,9 @@ export const DropDown = ({ setOpenDropDown }: PropsDrop) => {
   };
 
   return (
-    <div className={styles.dd__container}>
+    <div
+      className={`${styles.dd__container} animate__animated animate__${styleAnimite}`}
+    >
       <div
         className={styles.dd__content_background}
         onClick={() => setOpenDropDown(false)}

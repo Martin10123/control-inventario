@@ -17,7 +17,7 @@ export const BarChart = ({ data, labels, title }: BarChartProps) => {
           alignItems: "flex-end",
           justifyContent: "space-around",
           padding: "0.5rem",
-          boxShadow: "1px 1px 6px gray",
+          boxShadow: "1px 1px 6px #8080805e",
           borderRadius: "0.5rem",
           margin: "1rem 0 0",
         }}
