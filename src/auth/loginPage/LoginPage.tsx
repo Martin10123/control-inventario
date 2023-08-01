@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { LiaLockSolid } from "react-icons/lia";
 import { MdAlternateEmail } from "react-icons/md";
-import { PiEyeLight } from "react-icons/pi";
+import { PiEyeLight, PiEyeSlashLight } from "react-icons/pi";
 
-import { logoApp, montainsDesk } from "../../assets";
+import { montainsDesk } from "../../assets";
 import { ShowError } from "../../components";
 
 import styles from "./loginPage.module.css";
@@ -14,11 +14,6 @@ export const LoginPage = () => {
   return (
     <div className={styles.login__container}>
       <div className={styles.login__image_back}></div>
-      <div className={styles.login__contain_image_logo}>
-        <figure className={styles.login__image_logo}>
-          <img src={logoApp} alt="Logo de la app" />
-        </figure>
-      </div>
 
       <div className={styles.login__content}>
         <figure className={styles.login__image_desk}>
@@ -59,7 +54,11 @@ export const LoginPage = () => {
                 />
 
                 <span className={styles.login__icon_input_show}>
-                  <PiEyeLight onClick={() => setShowPassword(!showPassword)} />
+                  {showPassword ? (
+                    <PiEyeLight onClick={() => setShowPassword(false)} />
+                  ) : (
+                    <PiEyeSlashLight onClick={() => setShowPassword(true)} />
+                  )}
                 </span>
               </div>
             </div>

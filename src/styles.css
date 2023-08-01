@@ -36,3 +36,45 @@ body::-webkit-scrollbar-thumb {
     }
   }
 }
+
+/* Open submenu sidebar */
+
+.sidebar__in {
+  -webkit-animation: text-focus-in 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    both;
+  animation: text-focus-in 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.sidebar__close {
+  -webkit-animation: text-focus-out 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    both;
+  animation: text-focus-out 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  visibility: hidden;
+}
+
+@keyframes text-focus-out {
+  0% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-filter: blur(12px);
+    display: none;
+    filter: blur(12px);
+    opacity: 0;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}

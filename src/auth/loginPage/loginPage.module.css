@@ -35,20 +35,6 @@
   width: 100%;
 }
 
-.login__contain_image_logo {
-  top: 0;
-  height: fit-content;
-  position: absolute;
-  left: 0;
-  width: 12rem;
-}
-
-.login__image_logo > img {
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
-}
-
 .login__info_about_login {
   width: 100%;
 }
@@ -174,6 +160,10 @@
 
 @media (min-width: 1000px) {
   .login__container {
+    background: transparent;
+  }
+
+  .login__container::before {
     background: transparent;
   }
 

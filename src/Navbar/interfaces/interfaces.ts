@@ -1,22 +1,14 @@
-// SideBar
+// SideItem
 
-export interface SubNamesProp {
-    IconSub: JSX.Element;
+
+export type ListData = {
+    Icon: JSX.Element,
+    isSubMenu: boolean,
     linkGoTo: string,
-    nameSub: string;
+    subMenus?: ListData[],
+    titleItem: string,
 }
-
-export interface PropItem {
-    Icon: JSX.Element;
-    linkGoTo?: string;
-    name: string;
-    subNames?: SubNamesProp[];
-}
-
 
 export interface PropsSideBar {
-    onCloseSideBar: () => void;
-    openSubTitle: boolean;
-    setOpenSubTitle: (v: boolean) => void;
-    sideItem: PropItem;
+    listData: ListData
 }
