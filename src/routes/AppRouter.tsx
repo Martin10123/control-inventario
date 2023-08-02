@@ -3,7 +3,7 @@ import { LoginPage } from "../auth";
 import { SecondRouter } from ".";
 
 export const AppRouter = () => {
-  const showComponente = false;
+  const showComponente = true;
 
   return (
     <Routes>

@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
-import { PropsSideBar } from "../../interfaces/interfaces";
+import { PropsSideItem } from "../../interfaces/interfaces";
 
 import styles from "./stylesComp.module.css";
 
-export const SideItem = ({ listData }: PropsSideBar) => {
+export const SideItem = ({ listData }: PropsSideItem) => {
   const [showSubMenus, setShowSubMenus] = useState(false);
   const { Icon, isSubMenu, linkGoTo, titleItem, subMenus } = listData;
   const showSubMenuVari = showSubMenus ? "sidebar__in" : "sidebar__close";

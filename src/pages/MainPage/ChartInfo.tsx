@@ -1,11 +1,30 @@
+import { useState } from "react";
 import { BarChart } from "../../components";
+import { dataChart, labelsChart } from "../helpers";
 
 import styles from "./mainPage.module.css";
 
 export const ChartInfo = () => {
-  const data = [30, 50, 70, 40, 90];
-  const labels = ["Barra 1", "Barra 2", "Barra 3", "Barra 4", "Barra 5"];
-  const title = "Gráfico de barras";
+  const [dataBarChart] = useState({
+    labels: labelsChart,
+    datasets: [
+      {
+        label: "Semanal",
+        data: dataChart,
+        backgroundColor: [
+          "#5b54b1",
+          "#ffc9ec",
+          "#e2cdf8",
+          "#64bae5",
+          "#cacedf",
+          "#ebdcf6",
+          "#6c99c9",
+        ],
+        borderColor: "black",
+        borderWidth: 2,
+      },
+    ],
+  });
 
   return (
     <div className={styles.main__container_self_weeks}>
@@ -24,7 +43,7 @@ export const ChartInfo = () => {
       </div>
 
       <div className={styles.main__content_grafic}>
-        <BarChart data={data} labels={labels} title={title} />
+        <BarChart data={dataBarChart} />
       </div>
     </div>
   );

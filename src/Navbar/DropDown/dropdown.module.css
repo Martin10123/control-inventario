@@ -23,7 +23,7 @@
 }
 
 .dd__content_info {
-  background: #fff;
+  background: #e2cdf8;
   border-radius: 1rem 1rem 0 0;
   box-shadow: 1px 1px 6px #444444;
   display: flex;
@@ -56,13 +56,13 @@
 }
 
 .dd__displayname > p {
-  color: #00c0e8;
+  color: #fff;
   font-size: 1.4rem;
   font-weight: 500;
 }
 
 .dd__displayname > span {
-  color: #808080cc;
+  color: gray;
 }
 
 .dd__item {
@@ -73,21 +73,40 @@
   display: flex;
   gap: 1rem;
   padding: 1.5rem 1rem;
+  transition: 0.6s ease-in-out;
+}
+
+.dd__item:hover,
+.dd__item:last-child:hover {
+  background: #af89d677;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+  transition: 0.6s ease-in-out;
+}
+
+.dd__item:last-child:hover {
+  background: #ff00006b;
 }
 
 .dd__item > svg {
-  color: #00c0e8;
+  color: #5b54b1;
   font-size: 1.8rem;
 }
 
 .dd__item > p {
+  color: #5b54b1;
   font-size: 1.2rem;
   font-weight: 500;
 }
 
-.dd__item:last-child,
+.dd__item:last-child > p,
 .dd__item:last-child > svg {
   color: #ff0000;
+}
+
+.dd__item:last-child:hover > p,
+.dd__item:last-child:hover > svg {
+  color: #fff;
 }
 
 @media screen and (min-width: 800px) {

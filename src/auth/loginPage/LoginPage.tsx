@@ -3,89 +3,66 @@ import { LiaLockSolid } from "react-icons/lia";
 import { MdAlternateEmail } from "react-icons/md";
 import { PiEyeLight, PiEyeSlashLight } from "react-icons/pi";
 
-import { montainsDesk } from "../../assets";
-import { ShowError } from "../../components";
+import { InputForm, ButtonForm, ShowError } from "../../components";
+import { loginImage } from "../../assets";
 
 import styles from "./loginPage.module.css";
 
 export const LoginPage = () => {
   const [showPassword, setShowPassword] = useState(false);
 
+  const onShowPassword = () => {
+    setShowPassword(!showPassword);
+  };
+
   return (
     <div className={styles.login__container}>
-      <div className={styles.login__image_back}></div>
+      <div className={styles.login__contain_all_info}>
+        <div className={styles.login__content_form_image}>
+          <div className={styles.login__content}>
+            <h2>Login</h2>
 
-      <div className={styles.login__content}>
-        <figure className={styles.login__image_desk}>
-          <img src={montainsDesk} alt="Login de la app" />
-        </figure>
-
-        <div className={styles.login__info_about_login}>
-          <h2>Login</h2>
-
-          <form className={styles.login__form}>
-            <div className={styles.login__form_input}>
-              <span className={styles.login__icon_input}>
-                <MdAlternateEmail />
-              </span>
-              <input
-                className={styles.login__input}
-                placeholder="Ingresar su usuario..."
-                type="text"
+            <form className={styles.login__form}>
+              <InputForm
+                icon={<MdAlternateEmail />}
+                placeholder="Ingrese su email..."
               />
-            </div>
 
-            {false && (
-              <ShowError
-                titleError="Debe ingresar un usuario"
-                styles={{ margin: 0, height: "2.5rem" }}
-              />
-            )}
-
-            <div className={styles.login__form_input}>
-              <span className={styles.login__icon_input}>
-                <LiaLockSolid />
-              </span>
-              <div className={styles.login__content_input_password}>
-                <input
-                  className={styles.login__input_password}
-                  placeholder="Ingresar su contraseña..."
+              <div className={styles.login__form_input}>
+                <InputForm
+                  icon={<LiaLockSolid />}
+                  placeholder="Ingrese su contraseña..."
+                  stylesCInputF={{ boxShadow: "none" }}
                   type={showPassword ? "text" : "password"}
                 />
 
-                <span className={styles.login__icon_input_show}>
-                  {showPassword ? (
-                    <PiEyeLight onClick={() => setShowPassword(false)} />
-                  ) : (
-                    <PiEyeSlashLight onClick={() => setShowPassword(true)} />
-                  )}
-                </span>
+                {showPassword ? (
+                  <PiEyeSlashLight onClick={onShowPassword} />
+                ) : (
+                  <PiEyeLight onClick={onShowPassword} />
+                )}
               </div>
-            </div>
 
-            {false && (
-              <ShowError
-                titleError="Debe ingresar una contraseña"
-                styles={{ margin: 0, height: "2.5rem" }}
-              />
-            )}
+              <div className={styles.login__content_btn}>
+                <ButtonForm titleButton="Ingresar" />
+              </div>
+            </form>
 
-            <div className={styles.login__content_btn}>
-              <button className={styles.login__btn_sent}>Ingresar</button>
-            </div>
-          </form>
-
-          {false && <ShowError titleError="Error" />}
+            {false && <ShowError titleError="Error" />}
+          </div>
+          <div className={styles.login__footer}>
+            <p className={styles.login__title_footer}>
+              © Copyright 2023 Create by:{" "}
+              <a href="http://www.wdgcartagena.com/" target="_blank">
+                Web Developers Group
+              </a>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div className={styles.login__footer}>
-        <p className={styles.login__title_footer}>
-          © Copyright 2023 Create by:{" "}
-          <a href="http://www.wdgcartagena.com/" target="_blank">
-            Web Developers Group
-          </a>
-        </p>
+        <figure className={styles.login__content_image}>
+          <img src={loginImage} alt="Imagen relacionada al login" />
+        </figure>
       </div>
     </div>
   );

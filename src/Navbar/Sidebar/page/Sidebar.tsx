@@ -1,17 +1,22 @@
 import { sideBarItem } from "../../helper";
+import { PropsSideBar } from "../../interfaces/interfaces";
 import { SideInfoUser, SideItem } from "../components";
 
 import styles from "./sideBar.module.css";
 
-export const Sidebar = ({ openSidebar, setOpenSidebar }) => {
+export const Sidebar = ({ openSidebar, setOpenSidebar }: PropsSideBar) => {
   const styleAnimite = openSidebar ? "fadeInLeft" : "zoomOutLeft";
+
+  const onCloseSideBar = () => {
+    setOpenSidebar(false);
+  };
 
   return (
     <aside
       className={`${styles.sb__container} animate__animated animate__${styleAnimite}`}
     >
       <div className={styles.sb__content}>
-        <SideInfoUser />
+        <SideInfoUser onCloseSideBar={onCloseSideBar} />
 
         <div className={styles.sb__content_sidebar}>
           <h2>MENU</h2>

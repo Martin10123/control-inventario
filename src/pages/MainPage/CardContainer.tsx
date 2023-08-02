@@ -1,22 +1,50 @@
-import { Link } from "react-router-dom";
+import { MdArrowForwardIos } from "react-icons/md";
+import { PropsCard } from "../interfaces/interfaces";
 
 import styles from "./mainPage.module.css";
 
-interface PropsCard {
-  Icon: JSX.Element;
-  linkGoTo: string;
-  title: string;
-}
+export const CardContainer = ({ dataCard }: PropsCard) => {
+  const {
+    backgroundBtn,
+    backgroundCard,
+    colorDescription,
+    colorTitle,
+    descripcionCard,
+    imageCard,
+    linkGoToCard,
+    nameCard,
+  } = dataCard;
 
-export const CardContainer = ({ Icon, title, linkGoTo }: PropsCard) => {
   return (
-    <div className={styles.main__container_card}>
-      <span className={styles.main__content_icon}>{Icon}</span>
-      <div className={styles.main__content_info}>
-        <p>{title}</p>
-        <Link className={styles.main__btn_getinto} to={linkGoTo}>
-          Ingresar
-        </Link>
+    <div
+      className={styles.main__container_card}
+      style={{ background: backgroundCard }}
+    >
+      <div className={styles.main__content_card}>
+        <figure className={styles.main__card_image_option}>
+          <img alt={nameCard} src={imageCard} loading="lazy" />
+        </figure>
+
+        <div className={styles.main__card_content_info}>
+          <h2 className={styles.main__card_title} style={{ color: colorTitle }}>
+            {nameCard}
+          </h2>
+          <p
+            className={styles.main__card_description}
+            style={{ color: colorDescription }}
+          >
+            {descripcionCard}
+          </p>
+        </div>
+
+        <div className={styles.main__card_content_btn}>
+          <button
+            className={styles.main__card_btn}
+            style={{ background: backgroundBtn }}
+          >
+            <MdArrowForwardIos />
+          </button>
+        </div>
       </div>
     </div>
   );

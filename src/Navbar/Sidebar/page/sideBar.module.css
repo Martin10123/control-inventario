@@ -1,6 +1,6 @@
 /* background: #f1f2f6; */
 .sb__container {
-  background: #fff;
+  background: #5b54b1;
   height: 100vh;
   left: 0;
   overflow: auto;
@@ -25,7 +25,7 @@
 }
 
 .sb__content_sidebar > h2 {
-  color: #808080bd;
+  color: #fff;
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -46,9 +46,8 @@
   }
 
   .sb__container::-webkit-scrollbar-thumb {
-    background-color: #00c0e8;
-    border-radius: 1.1rem;
-    border: 3px solid #00c0e8;
+    background-color: #484492;
+    border: 3px solid #484492;
   }
 
   .sb__content_sidebar > h2 {

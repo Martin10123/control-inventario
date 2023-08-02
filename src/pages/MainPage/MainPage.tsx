@@ -1,10 +1,6 @@
-import { BsGraphUpArrow } from "react-icons/bs";
-
-import { PiUserCircle } from "react-icons/pi";
-import { TbDeviceAnalytics, TbPresentationAnalytics } from "react-icons/tb";
-
 import { CardContainer } from "./CardContainer";
 import { ChartInfo } from "./ChartInfo";
+import { mainDataCard } from "../helpers";
 
 import styles from "./mainPage.module.css";
 
@@ -18,32 +14,10 @@ export const MainPage = () => {
         </div>
 
         <div className={styles.main__info_about_page}>
-          <div className={styles.main__content_list_cards}>
-            <div className={styles.main__list_cards}>
-              <CardContainer
-                Icon={<TbPresentationAnalytics />}
-                linkGoTo="/proofIncome"
-                title="Comprobantes de ingresos"
-              />
-
-              <CardContainer
-                Icon={<BsGraphUpArrow />}
-                linkGoTo="/salesProduct"
-                title="Registrar ventas"
-              />
-
-              <CardContainer
-                Icon={<TbDeviceAnalytics />}
-                linkGoTo="/returns"
-                title="Devoluciones"
-              />
-
-              <CardContainer
-                Icon={<PiUserCircle />}
-                linkGoTo="/clientList"
-                title="Clientes"
-              />
-            </div>
+          <div className={styles.main__list_cards}>
+            {mainDataCard.map((dataCard) => (
+              <CardContainer key={dataCard.nameCard} dataCard={dataCard} />
+            ))}
           </div>
 
           <ChartInfo />

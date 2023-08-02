@@ -1,8 +1,15 @@
-import logoApp from "./logoInventario.png"
-import montains from "./montain.png"
-import montainsDesk from "./montainDesk.png"
+import clients from "./clients.svg"
+import loginImage from "./login.png"
 import photoUser from "./photoUser.png"
+import proof from "./proof.svg"
+import returns from "./returns.svg"
+import sales from "./sales.svg"
 
 export {
-    logoApp, montains, montainsDesk, photoUser
+    clients,
+    loginImage,
+    photoUser,
+    proof,
+    returns,
+    sales,
 }

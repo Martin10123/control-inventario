@@ -9,6 +9,12 @@ export type ListData = {
     titleItem: string,
 }
 
-export interface PropsSideBar {
+export interface PropsSideItem {
     listData: ListData
+}
+
+// SideBar 
+
+export interface PropsSideBar {
+    openSidebar: boolean, setOpenSidebar: (v: boolean) => void
 }
