@@ -1,7 +1,7 @@
 import { BiDownload, BiSearchAlt } from "react-icons/bi";
+import { SelectForm } from "../../../components";
 
 import styles from "./stylesComponents.module.css";
-import { SelectForm } from "../../../components";
 
 export const SearchProductBy = () => {
   return (
@@ -10,10 +10,10 @@ export const SearchProductBy = () => {
 
       <div className={styles.sp__contain_info_outside_title}>
         <div className={styles.sp__content_selects_search}>
-          <SelectForm>
+          <SelectForm className={styles.sp__select_filter}>
             <option value="">Punto de ventas</option>
           </SelectForm>
-          <SelectForm>
+          <SelectForm className={styles.sp__select_filter}>
             <option value="">Categorias</option>
           </SelectForm>
         </div>

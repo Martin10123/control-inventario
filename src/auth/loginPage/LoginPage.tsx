@@ -26,13 +26,13 @@ export const LoginPage = () => {
               <InputForm
                 icon={<MdAlternateEmail />}
                 placeholder="Ingrese su email..."
+                classNameDiv={styles.login__input}
               />
 
               <div className={styles.login__form_input}>
                 <InputForm
                   icon={<LiaLockSolid />}
                   placeholder="Ingrese su contraseña..."
-                  stylesCInputF={{ boxShadow: "none" }}
                   type={showPassword ? "text" : "password"}
                 />
 

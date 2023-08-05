@@ -21,7 +21,6 @@ export const ProductsPage = () => {
         firstTitle="Productos"
         Icon={<MdProductionQuantityLimits />}
         onOpenAddNew={onOpenAddNewProduct}
-        placeholderInput="Buscar un producto..."
         secondTitle="Lista de productos"
       >
         <Table dataColumns={columnsProducts} mockData={products} />

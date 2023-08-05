@@ -1,49 +1,45 @@
-import { FC, CSSProperties, InputHTMLAttributes } from "react";
+import { FC, InputHTMLAttributes } from "react";
 
 import styles from "./inputForm.module.css";
 
 interface PropsInput extends InputHTMLAttributes<HTMLInputElement> {
+  classNameDiv?: string;
   errorMessage?: string;
   icon: JSX.Element;
   showError?: boolean;
-  stylesCError?: CSSProperties;
-  stylesCInputF?: CSSProperties;
-  stylesInput?: CSSProperties;
-  stylesTitleError?: CSSProperties;
+  titleLabel?: string;
 }
 
 export const InputForm: FC<PropsInput> = ({
+  classNameDiv,
   errorMessage,
   icon: Icon,
   showError,
-  stylesCError,
-  stylesCInputF,
-  stylesInput,
-  stylesTitleError,
+  titleLabel,
   ...rest
 }) => {
+  const stylesRequired = classNameDiv
+    ? `${classNameDiv} ${styles.if__content_input_form}`
+    : styles.if__content_input_form;
+
   return (
     <>
-      <div
-        className={styles.if__content_input_form}
-        style={{ ...stylesCInputF }}
-      >
-        {Icon}
-        <input
-          {...rest}
-          className={styles.if__input_form}
-          style={{ ...stylesInput }}
-        />
+      <div className={styles.if__content_label_input}>
+        {titleLabel && (
+          <label className={styles.if__label} htmlFor={titleLabel}>
+            {titleLabel}
+          </label>
+        )}
+
+        <div className={stylesRequired}>
+          {Icon}
+          <input {...rest} className={styles.if__input_form} id={titleLabel} />
+        </div>
       </div>
 
       {showError && (
-        <div
-          className={styles.if__content_show_error}
-          style={{ ...stylesCError }}
-        >
-          <p className={styles.if__title_error} style={{ ...stylesTitleError }}>
-            {errorMessage}
-          </p>
+        <div className={styles.if__content_show_error}>
+          <p className={styles.if__title_error}>{errorMessage}</p>
         </div>
       )}
     </>

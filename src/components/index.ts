@@ -1,5 +1,6 @@
 export * from "./BarChart/BarChart"
 export * from "./ButtonForm/ButtonForm"
+export * from "./FiltersByWarehouse/FiltersByWarehouse"
 export * from "./InputForm/InputForm"
 export * from "./SelectDateInput/SelectDateInput"
 export * from "./SelectForm/SelectForm"

@@ -4,7 +4,9 @@
 }
 
 .lyp__title_page > h2 {
-  color: #00c0e8;
+  background: var(--gradiente);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 2.5rem;
   font-weight: 500;
 }
@@ -22,11 +24,12 @@
 }
 
 .lyp__title_info_and_create_user > p {
+  color: #5155a6;
   font-size: 1.2rem;
 }
 
 .lyp__title_info_and_create_user > span svg {
-  color: #00c0e8;
+  color: #5b54b1;
   cursor: pointer;
   font-size: 2rem;
 }
@@ -48,9 +51,5 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-  }
-
-  .lyp__input_searc_table {
-    width: 50%;
   }
 }

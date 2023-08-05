@@ -11,7 +11,6 @@ export const CardContainer = ({ dataCard }: PropsCard) => {
     colorTitle,
     descripcionCard,
     imageCard,
-    linkGoToCard,
     nameCard,
   } = dataCard;
 

@@ -4,13 +4,14 @@
 export type ListData = {
     Icon: JSX.Element,
     isSubMenu: boolean,
-    linkGoTo: string,
+    linkGoTo?: string,
     subMenus?: ListData[],
     titleItem: string,
 }
 
 export interface PropsSideItem {
-    listData: ListData
+    listData: ListData,
+    onCloseSideBar: () => void
 }
 
 // SideBar 

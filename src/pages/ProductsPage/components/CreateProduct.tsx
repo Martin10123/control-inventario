@@ -1,13 +1,16 @@
-import { FC } from "react";
+import { FC, useState } from "react";
+
+import { BsCamera } from "react-icons/bs";
+import {
+  SelectForm,
+  ButtonForm,
+  FiltersByWarehouse,
+} from "../../../components";
+
 import { LayoutModal } from "../../Layout";
+import { photoUser } from "../../../assets";
 
 import styles from "./stylesComponents.module.css";
-import { photoUser } from "../../../assets";
-import { BsCamera, BsCurrencyDollar } from "react-icons/bs";
-import { SelectForm } from "../../../components/SelectForm/SelectForm";
-import { InputForm } from "../../../components/InputForm/InputForm";
-import { ButtonForm } from "../../../components/ButtonForm/ButtonForm";
-import { AiOutlineFieldNumber } from "react-icons/ai";
 
 interface PropsProduct {
   onOpenAddNewProduct: (b: boolean) => void;
@@ -18,16 +21,18 @@ export const CreateProduct: FC<PropsProduct> = ({
   onOpenAddNewProduct,
   openCreateProduct,
 }) => {
+  const [openSelectWarehouse, setOpenSelectWarehouse] = useState(false);
+
   return (
     <LayoutModal
       knowIfOpenClose={openCreateProduct}
       onCloseCreate={onOpenAddNewProduct}
       titleModal="Crear un producto"
     >
-      <form action="" className={styles.cp__form}>
-        <div className={styles.cp__content_photo_user}>
+      <form className={styles.cp__form}>
+        <div className={styles.cp__contain_photo}>
           <figure className={styles.cp__photo_user}>
-            <img src={photoUser} alt="Foto de perfil del usuario" />
+            <img src={photoUser} alt="Foto de perfil del producto" />
 
             <figcaption>
               <BsCamera />
@@ -35,37 +40,54 @@ export const CreateProduct: FC<PropsProduct> = ({
           </figure>
         </div>
 
-        <SelectForm>
-          <option value="">Categorias</option>
-        </SelectForm>
+        <div className={styles.cp__contain_inputs}>
+          <div className={styles.cp__content_separate}>
+            <SelectForm className={styles.cp__select} titleLabel="Categoria">
+              <option value="">Escoger</option>
+            </SelectForm>
 
-        <SelectForm>
-          <option value="">Tipo</option>
-        </SelectForm>
+            <SelectForm className={styles.cp__select} titleLabel="Tipo">
+              <option value="">Escoger</option>
+            </SelectForm>
 
-        <textarea
-          className={styles.cp__description_textarea}
-          placeholder="Descripción..."
-        />
+            <div className={styles.cp__content_select_warehouse}>
+              <p>Bodega</p>
 
-        <SelectForm>
-          <option value="">Punto de venta</option>
-        </SelectForm>
+              <div
+                className={styles.cp__select_warehouse}
+                onClick={() => setOpenSelectWarehouse(true)}
+              >
+                <p>Escoger</p>
+              </div>
+            </div>
 
-        <InputForm icon={<BsCurrencyDollar />} placeholder="Costo..." />
+            <SelectForm className={styles.cp__select} titleLabel="Proveedor">
+              <option value="">Escoger</option>
+            </SelectForm>
+          </div>
 
-        <InputForm icon={<BsCurrencyDollar />} placeholder="Precio VTA..." />
+          <FiltersByWarehouse
+            openSelectWarehouse={openSelectWarehouse}
+            setOpenSelectWarehouse={setOpenSelectWarehouse}
+          />
 
-        <SelectForm>
-          <option value="">Proveedor</option>
-        </SelectForm>
+          <div className={styles.cp__content_separate}>
+            <SelectForm
+              className={styles.cp__select}
+              titleLabel="Es simple o compuesto?"
+            >
+              <option value="">Simple</option>
+              <option value="">Compuesto</option>
+            </SelectForm>
 
-        <InputForm
-          icon={<AiOutlineFieldNumber />}
-          placeholder="Existencias..."
-        />
+            <textarea
+              className={styles.cp__description_textarea}
+              placeholder="Descripción..."
+            />
 
-        <ButtonForm titleButton="Guardar" />
+            <ButtonForm titleButton="Guardar" />
+          </div>
+        </div>
       </form>
     </LayoutModal>
   );

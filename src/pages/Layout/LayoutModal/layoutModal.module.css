@@ -19,7 +19,7 @@
 .lym__nav_back {
   align-items: center;
   background: #fff;
-  border-bottom: 1.2px solid #80808042;
+  border-bottom: 1.2px solid #5b54b1;
   display: flex;
   gap: 1rem;
   left: 0;
@@ -30,31 +30,20 @@
 }
 
 .lym__nav_back > svg {
-  color: #00c0e8;
+  color: #5b54b1;
   cursor: pointer;
   font-size: 1.8rem;
 }
 
 .lym__nav_back > p {
-  color: #00c0e8;
+  color: #5b54b1;
   font-size: 1.2rem;
 }
 
 @media screen and (min-width: 800px) {
   .lym__container {
-    align-items: center;
-    background: #000000b0;
-    display: flex;
-    justify-content: center;
-  }
-
-  .lym__content {
-    background: #fff;
-    border-radius: 1rem 0 0 1rem;
-    box-shadow: 1px 1px 6px gray;
-    height: 32rem;
-    max-width: 40rem;
-    width: 32rem;
+    margin: 0 0 0 19rem;
+    width: calc(100% - 19rem);
   }
 
   .lym__content::-webkit-scrollbar {
@@ -62,10 +51,22 @@
   }
 
   .lym__content::-webkit-scrollbar-track {
-    background: #fff;
+    background: #fceef7;
   }
 
   .lym__content::-webkit-scrollbar-thumb {
-    background-color: #00c0e8;
+    background-color: #e2cdf8;
+  }
+
+  .lym__nav_back {
+    gap: 0.5rem;
+  }
+
+  .lym__nav_back > svg {
+    font-size: 1.2rem;
+  }
+
+  .lym__nav_back > p {
+    font-size: 1rem;
   }
 }

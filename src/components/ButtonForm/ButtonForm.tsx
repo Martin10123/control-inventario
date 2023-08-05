@@ -1,19 +1,18 @@
-import { ButtonHTMLAttributes, CSSProperties, FC } from "react";
+import { ButtonHTMLAttributes } from "react";
 
 import styles from "./buttonForm.module.css";
 
 interface PropsButton extends ButtonHTMLAttributes<HTMLButtonElement> {
   titleButton: string;
-  stylesButton?: CSSProperties;
 }
 
-export const ButtonForm: FC<PropsButton> = ({
-  stylesButton,
-  titleButton,
-  ...rest
-}) => {
+export const ButtonForm = ({ titleButton, ...rest }: PropsButton) => {
+  const stylesRequired = rest.className
+    ? `${styles.btn__btn_save} ${rest.className} `
+    : styles.btn__btn_save;
+
   return (
-    <button {...rest} className={styles.btn__btn_save} style={stylesButton}>
+    <button {...rest} className={stylesRequired}>
       {titleButton}
     </button>
   );

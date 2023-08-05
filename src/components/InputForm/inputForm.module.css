@@ -1,7 +1,20 @@
+.if__content_label_input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.if__label {
+  color: #5b54b1;
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: fit-content;
+}
+
 .if__content_input_form {
   align-items: center;
   border-radius: 0.5rem;
-  box-shadow: 1px 1px 6px #80808047;
   display: grid;
   gap: 0.5rem;
   grid-template-columns: 0fr 1fr;
@@ -48,6 +61,10 @@
 
   .if__input_form,
   .if__title_error {
+    font-size: 1rem;
+  }
+
+  .if__label {
     font-size: 1rem;
   }
 

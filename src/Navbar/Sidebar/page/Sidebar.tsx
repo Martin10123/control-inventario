@@ -23,7 +23,11 @@ export const Sidebar = ({ openSidebar, setOpenSidebar }: PropsSideBar) => {
 
           <ul className={styles.sb__list_items}>
             {sideBarItem.map((item) => (
-              <SideItem key={item.titleItem} listData={item} />
+              <SideItem
+                key={item.titleItem}
+                listData={item}
+                onCloseSideBar={onCloseSideBar}
+              />
             ))}
           </ul>
         </div>

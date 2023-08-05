@@ -1,6 +1,3 @@
-import { BiSearchAlt } from "react-icons/bi";
-import { InputForm } from "../../../components";
-
 import styles from "./layout.module.css";
 
 interface ProsLayout {
@@ -9,7 +6,6 @@ interface ProsLayout {
   firstTitle: string;
   Icon?: JSX.Element;
   onOpenAddNew?: () => void;
-  placeholderInput: string;
   secondTitle: string;
 }
 
@@ -19,7 +15,6 @@ export const LayoutPages = ({
   firstTitle,
   Icon,
   onOpenAddNew,
-  placeholderInput,
   secondTitle,
 }: ProsLayout) => {
   return (
@@ -38,21 +33,7 @@ export const LayoutPages = ({
 
           {chidrenAditional}
 
-          <div className={styles.lyp__content_table}>
-            <div className={styles.lyp__input_searc_table}>
-              <InputForm
-                icon={<BiSearchAlt />}
-                name="searchUser"
-                placeholder={placeholderInput}
-                type="text"
-                stylesCInputF={{
-                  boxShadow: "0px 2px 7px #00c0e838",
-                }}
-              />
-            </div>
-
-            {children}
-          </div>
+          <div className={styles.lyp__content_table}>{children}</div>
         </div>
       </div>
     </section>

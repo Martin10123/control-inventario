@@ -46,11 +46,7 @@ export const CreateCategory: FC<PropsCC> = ({
     >
       <div className={styles.cc__content__numbers_add_categories}>
         <p>Cantidad de categorias: ({Number(10) - contentCard.length})</p>
-        <ButtonForm
-          titleButton="Generar"
-          onClick={onAddNewCard}
-          stylesDivContent={{ padding: 0, width: "50%" }}
-        />
+        <ButtonForm titleButton="Generar" onClick={onAddNewCard} />
       </div>
 
       <div className={styles.container_quatity_cards}>

@@ -5,8 +5,7 @@ import { BsCalendar2Date } from "react-icons/bs";
 
 import { MdOutlineRemoveShoppingCart } from "react-icons/md";
 import { InputForm, SelectForm } from "../../components";
-import { LayoutMainOptions } from "../Layout";
-import { TableMain } from "../Layout";
+import { LayoutMainOptions, TableMain } from "../Layout";
 
 import styles from "./ProofOfIncomeMain.module.css";
 

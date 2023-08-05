@@ -1,11 +1,13 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
 import { PropsSideItem } from "../../interfaces/interfaces";
 
 import styles from "./stylesComp.module.css";
 
-export const SideItem = ({ listData }: PropsSideItem) => {
+export const SideItem = ({ listData, onCloseSideBar }: PropsSideItem) => {
   const [showSubMenus, setShowSubMenus] = useState(false);
+  const navigate = useNavigate();
   const { Icon, isSubMenu, linkGoTo, titleItem, subMenus } = listData;
   const showSubMenuVari = showSubMenus ? "sidebar__in" : "sidebar__close";
 
@@ -13,9 +15,18 @@ export const SideItem = ({ listData }: PropsSideItem) => {
     setShowSubMenus((prevShowSubMenus) => !prevShowSubMenus);
   };
 
+  const onGoToLink = () => {
+    if (linkGoTo) {
+      navigate(linkGoTo);
+      onCloseSideBar();
+    } else {
+      onSubMenuClick();
+    }
+  };
+
   return (
     <>
-      <li className={styles.sb__item} onClick={onSubMenuClick}>
+      <li className={styles.sb__item} onClick={onGoToLink}>
         <span className={styles.sb__item_info}>
           {Icon}
           <p>{titleItem}</p>
@@ -32,7 +43,11 @@ export const SideItem = ({ listData }: PropsSideItem) => {
         <div className={`${styles.sb__component_recursive} ${showSubMenuVari}`}>
           <ul className={styles.sb__sub_menu}>
             {subMenus.map((subMenu) => (
-              <SideItem key={subMenu.titleItem} listData={subMenu} />
+              <SideItem
+                key={subMenu.titleItem}
+                listData={subMenu}
+                onCloseSideBar={onCloseSideBar}
+              />
             ))}
           </ul>
         </div>

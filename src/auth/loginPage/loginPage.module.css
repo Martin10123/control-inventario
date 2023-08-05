@@ -42,6 +42,10 @@
   gap: 1rem;
 }
 
+.login__input {
+  box-shadow: 1px 1px 6px #80808047;
+}
+
 .login__form_input {
   align-items: center;
   border-radius: 0.5rem;
@@ -71,6 +75,10 @@
 .login__title_footer > a {
   color: #6c99c9;
   font-size: 1.2rem;
+}
+
+.login__title_footer > a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 800px) {

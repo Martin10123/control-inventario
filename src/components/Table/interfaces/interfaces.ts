@@ -41,3 +41,20 @@ export interface PropsTable<T extends object> {
     mockData: T[];
     dataColumns: ItemColomns[];
 }
+
+export interface InitialStatePagination {
+    pageSize: number,
+    pageIndex: number
+}
+
+export interface PropsChangeInput {
+    target: EventTarget & HTMLInputElement | HTMLSelectElement
+}
+
+export interface PropsShowRegisters {
+    getPageOptions: () => number[],
+    onCreateOtherRow: ({ target }: PropsChangeInput) => void,
+    onGoToPageInput: ({ target }: PropsChangeInput) => void,
+    pageIndex: number,
+    pageSize: number,
+}

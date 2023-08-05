@@ -11,8 +11,24 @@ export const HeaderTable = <T extends object>({
       {getHeaderGroups().map((headerGroup) => (
         <tr key={headerGroup.id} className={styles.table__thead_tr}>
           {headerGroup.headers.map((header) => (
-            <th key={header.id} className={styles.table__th}>
-              {flexRender(header.column.columnDef.header, header.getContext())}
+            <th
+              className={styles.table__th}
+              key={header.id}
+              onClick={header.column.getToggleSortingHandler()}
+            >
+              {header.isPlaceholder ? null : (
+                <div className={styles.table__is_sorting}>
+                  {flexRender(
+                    header.column.columnDef.header,
+                    header.getContext()
+                  )}
+
+                  {{
+                    asc: " 🔼",
+                    desc: " 🔽",
+                  }[header.column.getIsSorted() as string] ?? null}
+                </div>
+              )}
             </th>
           ))}
         </tr>

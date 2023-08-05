@@ -1,6 +1,7 @@
 import { IoChevronBackSharp } from "react-icons/io5";
 
 import styles from "./layoutModal.module.css";
+import { usePreventScroll } from "../../../hooks";
 
 interface PropsLaMo {
   children: JSX.Element | JSX.Element[];
@@ -16,6 +17,7 @@ export const LayoutModal = ({
   titleModal,
 }: PropsLaMo) => {
   const styleAnimite = knowIfOpenClose ? "fadeIn" : "fadeOutRight";
+  usePreventScroll(knowIfOpenClose);
 
   return (
     <section
