@@ -6,7 +6,7 @@ import { usePreventScroll } from "../../../hooks";
 interface PropsLaMo {
   children: JSX.Element | JSX.Element[];
   knowIfOpenClose: boolean;
-  onCloseCreate: (v: boolean) => void;
+  onCloseCreate: () => void;
   titleModal: string;
 }
 
@@ -27,6 +27,9 @@ export const LayoutModal = ({
         <nav className={styles.lym__nav_back}>
           <IoChevronBackSharp onClick={onCloseCreate} />
           <p>{titleModal}</p>
+          <button className={styles.lym__btn_close} onClick={onCloseCreate}>
+            X
+          </button>
         </nav>
 
         {children}

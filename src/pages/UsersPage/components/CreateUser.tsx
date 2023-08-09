@@ -1,41 +1,20 @@
-import { useState } from "react";
-import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
-
-import { InfoUserOne } from "./InfoUserOne";
-import { InfoUserTwo } from "./InfoUserTwo";
-import { InfoUserThree } from "./InfoUserThree";
+import { Fragment, useState } from "react";
+import { ShowInputs } from "./ShowInputs";
 import { LayoutModal } from "../../Layout";
+import { ButtonForm } from "../../../components";
+import { PropsCU, USERSSTATE } from "../interfaces";
+import { listCreateUser } from "../helpers";
+import { CheckOption } from "./CheckOption";
+import { PhotoTypePerson } from "./PhotoTypePerson";
 
 import styles from "./cuStyles.module.css";
 
-interface PropsCU {
-  onOpenAddNewUser: () => void;
-  openCreateUsers: boolean;
-}
-
 export const CreateUser = ({ openCreateUsers, onOpenAddNewUser }: PropsCU) => {
-  const [currentTab, setCurrentTab] = useState(1);
+  const [typePersonAre, setTypePersonAre] = useState("Juridica");
+  const { OPTIONLEGAL } = USERSSTATE;
 
-  const handleTabChange = (step: number) => {
-    setCurrentTab((prevTab) => prevTab + step);
-  };
-
-  const isFirstTab = currentTab === 1;
-  const isLastTab = currentTab === 3;
-
-  const disabledBBtn = isFirstTab ? styles.cu__disabled_btn : "";
-  const disabledGBtn = isLastTab ? styles.cu__disabled_btn : "";
-
-  const handleBack = () => {
-    if (!isFirstTab) {
-      handleTabChange(-1);
-    }
-  };
-
-  const handleNext = () => {
-    if (!isLastTab) {
-      handleTabChange(1);
-    }
+  const onChangeSelect = ({ target }: { target: HTMLSelectElement }) => {
+    setTypePersonAre(target.value);
   };
 
   return (
@@ -46,27 +25,35 @@ export const CreateUser = ({ openCreateUsers, onOpenAddNewUser }: PropsCU) => {
     >
       <div className={styles.cu__content_form}>
         <form className={styles.cu__form}>
-          {currentTab === 1 && <InfoUserOne />}
-          {currentTab === 2 && <InfoUserTwo />}
-          {currentTab === 3 && <InfoUserThree />}
+          <PhotoTypePerson
+            onChangeSelect={onChangeSelect}
+            typePersonAre={typePersonAre}
+          />
+          <div className={styles.cu__contain_all_inputs}>
+            {listCreateUser.map((dataUser) => {
+              const isBusinessName = dataUser.name === "businessName";
+              const shouldRenderShowInputs =
+                dataUser.name !== "businessName" ||
+                (typePersonAre === OPTIONLEGAL && isBusinessName);
+
+              return shouldRenderShowInputs ? (
+                <Fragment key={dataUser.name}>
+                  <ShowInputs
+                    dataUser={dataUser}
+                    key={dataUser.name}
+                    typePersonAre={typePersonAre}
+                  />
+                </Fragment>
+              ) : null;
+            })}
+            <div className={styles.cu__content_checkbox}>
+              <CheckOption title="Inicia sesión" />
+              <CheckOption title="¿Cambiar existencia?" />
+            </div>
+          </div>
         </form>
-
-        <div className={styles.cu__content_btn__arrow_back_go}>
-          <button
-            className={`${styles.cu__btn_back_go} ${disabledBBtn}`}
-            disabled={isFirstTab}
-            onClick={handleBack}
-          >
-            <MdArrowBackIosNew />
-          </button>
-
-          <button
-            className={`${styles.cu__btn_back_go} ${disabledGBtn}`}
-            disabled={isLastTab}
-            onClick={handleNext}
-          >
-            <MdArrowForwardIos />
-          </button>
+        <div className={styles.cu__content_btn_save}>
+          <ButtonForm className={styles.cu__btn_save} titleButton="Guardar" />
         </div>
       </div>
     </LayoutModal>

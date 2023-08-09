@@ -175,33 +175,7 @@
 
   /* CreateProduct */
 
-  .cp__form {
-  }
-
-  .cp__contain_photo {
-  }
-
-  .cp__photo_user {
-  }
-
   .cp__contain_inputs {
     flex-direction: row;
-  }
-
-  .cp__content_separate {
-  }
-
-  .cp__select,
-  .cp__select_warehouse,
-  .cp__description_textarea {
-  }
-
-  .cp__content_select_warehouse {
-  }
-
-  .cp__content_separate {
-  }
-
-  .cp__description_textarea {
   }
 }

@@ -3,12 +3,19 @@
   width: 100%;
 }
 
-.cu__form {
+.cu__form,
+.contain_photo_select_person,
+.cu__contain_all_inputs {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
   padding: 1rem 0;
   width: 100%;
+}
+
+.contain_photo_select_person,
+.cu__contain_all_inputs {
+  padding: 0;
 }
 
 .cu__content_photo_user {
@@ -58,7 +65,7 @@
 
 .cu__check_option > p {
   color: #808080cc;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .cu__content_input_check {
@@ -79,31 +86,43 @@
   width: 1.4rem;
 }
 
-.cu__content_btn__arrow_back_go {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 0 0;
-  width: 100%;
+.cu__input_text,
+.cu__select_text {
+  background: #fff;
+  box-shadow: 1px 1px 6px #80808057;
+  height: 4rem;
 }
 
-.cu__btn_back_go {
-  align-items: center;
-  background: #00c4e8;
-  border-radius: 100%;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  display: flex;
-  font-size: 1.4rem;
-  height: 3rem;
-  justify-content: center;
-  width: 3rem;
+@media screen and (min-width: 800px) {
+  .cu__form {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .contain_photo_select_person {
+    width: 30rem;
+  }
+
+  .cu__contain_all_inputs {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  }
+
+  .cu__content_btn_save {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .cu__btn_save {
+    width: 50%;
+  }
 }
 
-.cu__disabled_btn {
-  cursor: auto;
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
+@media screen and (min-width: 1200px) {
+  .cu__contain_all_inputs {
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
 }

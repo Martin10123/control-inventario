@@ -19,7 +19,6 @@ export const UsersPage = () => {
         firstTitle="Usuarios"
         Icon={<HiOutlineViewGridAdd />}
         onOpenAddNew={onOpenAddNewUser}
-        placeholderInput="Buscar un usuario..."
         secondTitle="Lista de usuarios"
       >
         <Table dataColumns={columnsUsers} mockData={users} />

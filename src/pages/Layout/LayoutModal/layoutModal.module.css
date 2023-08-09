@@ -40,10 +40,24 @@
   font-size: 1.2rem;
 }
 
+.lym__btn_close {
+  display: none;
+}
+
 @media screen and (min-width: 800px) {
   .lym__container {
-    margin: 0 0 0 19rem;
-    width: calc(100% - 19rem);
+    align-items: center;
+    background: #5c54b19c;
+    display: flex;
+    justify-content: center;
+  }
+
+  .lym__content {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 6px gray;
+    height: 90%;
+    width: 80%;
   }
 
   .lym__content::-webkit-scrollbar {
@@ -60,13 +74,31 @@
 
   .lym__nav_back {
     gap: 0.5rem;
+    justify-content: space-between;
   }
 
   .lym__nav_back > svg {
-    font-size: 1.2rem;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
   }
 
   .lym__nav_back > p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .lym__btn_close {
+    align-items: center;
+    background: #fff;
+    box-shadow: 1px 1px 6px #8080809d;
+    border-radius: 100%;
+    border: none;
+    color: #5b54b1;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.2rem;
+    height: 2rem;
+    justify-content: center;
+    width: 2rem;
   }
 }
