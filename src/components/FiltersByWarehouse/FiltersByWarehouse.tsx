@@ -1,11 +1,10 @@
 import { Fragment } from "react";
-import { AiOutlineFieldNumber } from "react-icons/ai";
-import { BsCurrencyDollar } from "react-icons/bs";
-import { ButtonForm, InputForm } from "..";
-import { RiChatPrivateLine } from "react-icons/ri";
+import { ButtonForm } from "..";
+
 import { PropsFilterBy, listWarehouse, useFilterBy } from "./useFilterBy";
 
 import styles from "./filtersByWarehouse.module.css";
+import { InputsPrices } from "./InputsPrices";
 
 export const FiltersByWarehouse = ({
   openSelectWarehouse,
@@ -70,7 +69,7 @@ export const FiltersByWarehouse = ({
                 <label htmlFor={idWareLabel}>{nameWare}</label>
               </li>
 
-              {selectedWarehouses.includes(idWareLabel) && <InputPrices />}
+              {selectedWarehouses.includes(idWareLabel) && <InputsPrices />}
             </Fragment>
           ))}
 
@@ -79,7 +78,7 @@ export const FiltersByWarehouse = ({
               <h2 className={styles.fbw__title_same_price}>
                 Mismos valores para todos
               </h2>
-              <InputPrices />
+              <InputsPrices />
             </>
           )}
         </ul>
@@ -94,44 +93,6 @@ export const FiltersByWarehouse = ({
             titleButton="Cancelar"
           />
         </div>
-      </div>
-    </div>
-  );
-};
-
-const InputPrices = () => {
-  return (
-    <div className={styles.fbw__content_separates_inputs}>
-      <div className={styles.fbw__separate_inputs}>
-        <InputForm
-          classNameDiv={styles.fbw__input}
-          icon={<BsCurrencyDollar />}
-          placeholder="$100.000.00"
-          titleLabel="Costo"
-        />
-
-        <InputForm
-          classNameDiv={styles.fbw__input}
-          icon={<RiChatPrivateLine />}
-          placeholder="25"
-          titleLabel="Iva (%)"
-        />
-      </div>
-
-      <div className={styles.fbw__separate_inputs}>
-        <InputForm
-          classNameDiv={styles.fbw__input}
-          icon={<BsCurrencyDollar />}
-          placeholder="90.000.00"
-          titleLabel="Precio VTA"
-        />
-
-        <InputForm
-          classNameDiv={styles.fbw__input}
-          icon={<AiOutlineFieldNumber />}
-          placeholder="500"
-          titleLabel="Existencias"
-        />
       </div>
     </div>
   );

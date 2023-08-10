@@ -23,7 +23,7 @@
 }
 
 .dd__content_info {
-  background: #e2cdf8;
+  background: #fff;
   border-radius: 1rem 1rem 0 0;
   box-shadow: 1px 1px 6px #444444;
   display: flex;
@@ -56,7 +56,7 @@
 }
 
 .dd__displayname > p {
-  color: #fff;
+  color: #5b54b1;
   font-size: 1.4rem;
   font-weight: 500;
 }

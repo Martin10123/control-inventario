@@ -32,6 +32,12 @@ export const sideBarItem: ListData[] = [
     titleItem: "Usuarios",
   },
   {
+    Icon: <BsMenuDown />,
+    isSubMenu: false,
+    linkGoTo: "/profiles",
+    titleItem: "Perfiles",
+  },
+  {
     Icon: <BsCardList />,
     isSubMenu: true,
     titleItem: "Tienda",
@@ -120,11 +126,5 @@ export const sideBarItem: ListData[] = [
         ],
       },
     ],
-  },
-  {
-    Icon: <BsMenuDown />,
-    isSubMenu: false,
-    linkGoTo: "/profiles",
-    titleItem: "Perfiles",
   },
 ];

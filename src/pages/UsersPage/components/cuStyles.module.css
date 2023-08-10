@@ -64,7 +64,7 @@
 }
 
 .cu__check_option > p {
-  color: #808080cc;
+  color: #5b54b1;
   font-size: 1.2rem;
 }
 
@@ -90,7 +90,15 @@
 .cu__select_text {
   background: #fff;
   box-shadow: 1px 1px 6px #80808057;
-  height: 4rem;
+}
+
+.cu__btn_save {
+  transition: 0.6s ease-in-out;
+}
+
+.cu__btn_save:hover {
+  transform: scale(1.04);
+  transition: 0.6s ease-in-out;
 }
 
 @media screen and (min-width: 800px) {
@@ -109,15 +117,24 @@
     grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
   }
 
+  .cu__input_text,
+  .cu__select_text {
+    height: 3.5rem;
+  }
+
   .cu__content_btn_save {
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
   }
 
   .cu__btn_save {
-    width: 50%;
+    width: 12rem;
+  }
+
+  .cu__btn_save:hover {
+    transform: scale(1.07);
   }
 }
 

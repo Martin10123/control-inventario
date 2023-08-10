@@ -1,18 +1,26 @@
 .cc__content__numbers_add_categories {
-  align-items: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #5c54b141;
   display: flex;
-  flex-direction: column;
   gap: 1rem;
+  justify-content: space-between;
+  margin: 0 0 1rem 0;
   padding: 1rem;
   width: 100%;
 }
 
 .cc__content__numbers_add_categories > p {
-  color: #00c4e8;
+  color: #5b54b1;
   font-size: 1.2rem;
 }
 
-.container_quatity_cards {
+.cc__btn_generate {
+  font-size: 1.6rem;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.cc__container_quatity_cards {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -23,9 +31,67 @@
 
 .cc__content_quatity_categories {
   align-items: flex-end;
+  border-radius: 0.8rem;
+  box-shadow: 1px 1px 6px #80808057;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding: 0.8rem;
+  width: 100%;
+}
+
+.cc__select_image {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.cc__fi_image {
+  position: relative;
+}
+
+.cc__fi_image > img {
+  border-radius: 100%;
+  box-shadow: 1px 1px 6px #8080809e;
+  height: 10rem;
+  width: 10rem;
+}
+
+.cc__icon_camera {
+  align-items: center;
+  border-radius: 0.8rem;
+  border: 1px solid #5b54b1;
+  color: #5b54b1;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.1rem;
+  gap: 0.5rem;
+  padding: 0.6rem;
+  transition: 0.6s ease-in-out;
+}
+
+.cc__icon_camera:hover {
+  background: #5b54b1;
+  color: #fff;
+  transition: 0.6s ease-in-out;
+  padding: 0.8rem;
+}
+
+.cc__input_name {
+  border: 1px solid #5b54b1;
+}
+
+.cc__description_textarea {
+  border-radius: 1rem;
+  border: none;
+  border: 1px solid #5b54b1;
+  font-size: 1.1rem;
+  height: 20rem;
+  padding: 1rem;
+  resize: none;
   width: 100%;
 }
 
@@ -34,7 +100,7 @@
   background: #ff0000;
   border-radius: 100%;
   border: none;
-  box-shadow: 1px 1px 6px #8080807a;
+  box-shadow: 1px 1px 6px #80808057;
   color: #fff;
   cursor: pointer;
   display: flex;
@@ -45,6 +111,25 @@
 }
 
 .cc__form {
-  padding: 0 1rem;
+  padding: 1rem;
   width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .cc__container_quatity_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .cc__content_quatity_categories {
+    width: 100%;
+  }
+
+  .cc__icon_camera {
+    width: 100%;
+  }
+
+  .cc__description_textarea {
+    height: 12rem;
+  }
 }

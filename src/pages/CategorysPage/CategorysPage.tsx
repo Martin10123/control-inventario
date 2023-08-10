@@ -18,7 +18,6 @@ export const CategorysPage = () => {
       <LayoutPages
         firstTitle="Categorias"
         Icon={<HiOutlineViewGridAdd />}
-        placeholderInput="Buscar una categoria..."
         secondTitle="Listado de categorias"
         onOpenAddNew={onOpenAddNewCategory}
       >

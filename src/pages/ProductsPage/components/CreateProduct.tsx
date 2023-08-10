@@ -13,7 +13,7 @@ import { photoUser } from "../../../assets";
 import styles from "./stylesComponents.module.css";
 
 interface PropsProduct {
-  onOpenAddNewProduct: (b: boolean) => void;
+  onOpenAddNewProduct: () => void;
   openCreateProduct: boolean;
 }
 
@@ -51,11 +51,12 @@ export const CreateProduct: FC<PropsProduct> = ({
             </SelectForm>
 
             <div className={styles.cp__content_select_warehouse}>
-              <p>Bodega</p>
+              <label htmlFor="selectWarehouse">Bodega</label>
 
               <div
                 className={styles.cp__select_warehouse}
                 onClick={() => setOpenSelectWarehouse(true)}
+                id="selectWarehouse"
               >
                 <p>Escoger</p>
               </div>
