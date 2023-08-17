@@ -62,8 +62,8 @@
 
 .cc__icon_camera {
   align-items: center;
-  border-radius: 0.8rem;
-  border: 1px solid #5b54b1;
+  border-radius: 0.5rem;
+  border: 1px solid #cccccc;
   color: #5b54b1;
   cursor: pointer;
   display: flex;
@@ -80,14 +80,10 @@
   padding: 0.8rem;
 }
 
-.cc__input_name {
-  border: 1px solid #5b54b1;
-}
-
 .cc__description_textarea {
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   border: none;
-  border: 1px solid #5b54b1;
+  border: 1px solid #cccccc;
   font-size: 1.1rem;
   height: 20rem;
   padding: 1rem;
@@ -122,10 +118,6 @@
   }
 
   .cc__content_quatity_categories {
-    width: 100%;
-  }
-
-  .cc__icon_camera {
     width: 100%;
   }
 

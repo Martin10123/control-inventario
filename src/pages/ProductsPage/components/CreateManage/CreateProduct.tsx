@@ -1,26 +1,27 @@
-import { FC, useState } from "react";
+import { useState } from "react";
 
 import { BsCamera } from "react-icons/bs";
 import {
   SelectForm,
   ButtonForm,
   FiltersByWarehouse,
-} from "../../../components";
+} from "../../../../components";
 
-import { LayoutModal } from "../../Layout";
-import { photoUser } from "../../../assets";
+import { LayoutModal } from "../../../Layout";
+import { photoUser } from "../../../../assets";
 
 import styles from "./stylesComponents.module.css";
+import { optionsSelect } from "../../interfaces/interfaces";
 
 interface PropsProduct {
   onOpenAddNewProduct: () => void;
   openCreateProduct: boolean;
 }
 
-export const CreateProduct: FC<PropsProduct> = ({
+export const CreateProduct = ({
   onOpenAddNewProduct,
   openCreateProduct,
-}) => {
+}: PropsProduct) => {
   const [openSelectWarehouse, setOpenSelectWarehouse] = useState(false);
 
   return (
@@ -42,13 +43,9 @@ export const CreateProduct: FC<PropsProduct> = ({
 
         <div className={styles.cp__contain_inputs}>
           <div className={styles.cp__content_separate}>
-            <SelectForm className={styles.cp__select} titleLabel="Categoria">
-              <option value="">Escoger</option>
-            </SelectForm>
+            <SelectForm options={optionsSelect} titleLabel="Categoria" />
 
-            <SelectForm className={styles.cp__select} titleLabel="Tipo">
-              <option value="">Escoger</option>
-            </SelectForm>
+            <SelectForm options={optionsSelect} titleLabel="Tipo" />
 
             <div className={styles.cp__content_select_warehouse}>
               <label htmlFor="selectWarehouse">Bodega</label>
@@ -62,9 +59,7 @@ export const CreateProduct: FC<PropsProduct> = ({
               </div>
             </div>
 
-            <SelectForm className={styles.cp__select} titleLabel="Proveedor">
-              <option value="">Escoger</option>
-            </SelectForm>
+            <SelectForm options={optionsSelect} titleLabel="Proveedor" />
           </div>
 
           <FiltersByWarehouse
@@ -74,12 +69,12 @@ export const CreateProduct: FC<PropsProduct> = ({
 
           <div className={styles.cp__content_separate}>
             <SelectForm
-              className={styles.cp__select}
+              options={[
+                { label: "Simple", value: "Simple" },
+                { label: "Compuesto", value: "Compuesto" },
+              ]}
               titleLabel="Es simple o compuesto?"
-            >
-              <option value="">Simple</option>
-              <option value="">Compuesto</option>
-            </SelectForm>
+            />
 
             <textarea
               className={styles.cp__description_textarea}

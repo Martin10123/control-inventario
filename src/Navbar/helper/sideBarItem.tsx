@@ -69,12 +69,13 @@ export const sideBarItem: ListData[] = [
           {
             Icon: <TbDeviceIpadMinus />,
             isSubMenu: false,
-            linkGoTo: "/products",
+            linkGoTo: "/products/manage",
             titleItem: "Administrar",
           },
           {
             Icon: <LiaTruckMovingSolid />,
             isSubMenu: false,
+            linkGoTo: "/products/movement",
             titleItem: "Movimientos",
           },
           {

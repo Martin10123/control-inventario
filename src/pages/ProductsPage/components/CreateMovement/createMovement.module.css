@@ -1,0 +1,47 @@
+.cm__form,
+.cm__content_stock_each_product_item,
+.cm__content_stock_each_product,
+.cm__content_form_without_stock {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.cm__content_input_check {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cm__content_input_check > input {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.cm__content_input_check > label {
+  color: #5b54b1;
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: fit-content;
+}
+
+.cm__content_stock_each_product_item,
+.cm__content_stock_each_product,
+.cm__content_form_without_stock {
+  padding: 0;
+}
+
+@media screen and (min-width: 800px) {
+  .cm__content_input_check > input {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .cm__form {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}

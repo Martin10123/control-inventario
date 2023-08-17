@@ -1,21 +1,17 @@
-import { FC, SelectHTMLAttributes } from "react";
+import Select from "react-select";
+
+import { GroupBase } from "./interfaces";
 
 import styles from "./selectForm.module.css";
 
-interface PropsSelect extends SelectHTMLAttributes<HTMLSelectElement> {
-  children: JSX.Element | JSX.Element[];
-  titleLabel?: string;
-}
-
-export const SelectForm: FC<PropsSelect> = ({
-  children,
+export const SelectForm = ({
+  defaultValue,
+  isMulti,
+  name,
+  onChange,
+  options,
   titleLabel,
-  ...rest
-}) => {
-  const stylesRequired = rest.className
-    ? `${styles.sf__select} ${rest.className} `
-    : styles.sf__select;
-
+}: GroupBase) => {
   return (
     <div className={styles.sf__content_label_select}>
       {titleLabel && (
@@ -23,9 +19,25 @@ export const SelectForm: FC<PropsSelect> = ({
           {titleLabel}
         </label>
       )}
-      <select {...rest} className={stylesRequired} id={titleLabel}>
-        {children}
-      </select>
+
+      <Select
+        className={styles.sf__select}
+        defaultValue={defaultValue}
+        isClearable
+        isMulti={isMulti}
+        name={name}
+        onChange={onChange}
+        options={options}
+        styles={{
+          control: (baseStyles) => ({
+            ...baseStyles,
+            cursor: "text",
+            fontSize: "1.1rem",
+            height: "3.5rem",
+            overflow: "auto",
+          }),
+        }}
+      />
     </div>
   );
 };

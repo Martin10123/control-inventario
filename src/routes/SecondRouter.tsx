@@ -16,7 +16,8 @@ export const SecondRouter = () => {
         <Route Component={screen.UsersPage} path="/users" />
         <Route Component={screen.SupplierPage} path="/supplier" />
         <Route Component={screen.CategorysPage} path="/categories" />
-        <Route Component={screen.ProductsPage} path="/products" />
+        <Route Component={screen.ProductsPage} path="/products/manage" />
+        <Route Component={screen.MovementPage} path="/products/movement" />
         <Route Component={screen.ProfilesPage} path="/profiles" />
 
         {/* Those screen are in sidebar in the report part */}

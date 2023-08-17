@@ -21,10 +21,6 @@
   padding: 1rem 0 0;
 }
 
-.lyp__input_search {
-  box-shadow: 1px 1px 6px #80808047;
-}
-
 @media screen and (min-width: 800px) {
   .lyp__content_input_search_table {
     width: 50%;

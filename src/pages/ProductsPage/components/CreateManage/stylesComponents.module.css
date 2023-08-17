@@ -1,5 +1,3 @@
-/* CreateProduct */
-
 .cp__form {
   display: flex;
   flex-direction: column;
@@ -65,8 +63,8 @@
 
 .cp__select_warehouse {
   align-items: center;
-  border-radius: 0.8rem;
-  box-shadow: 1px 1px 6px #80808057;
+  border-radius: 0.25rem;
+  border: 1px solid #cccccc;
   color: #5c54b1;
   cursor: pointer;
   display: flex;
@@ -76,21 +74,9 @@
   width: 100%;
 }
 
-.cp__select {
-  background: #ffffff;
-  box-shadow: 1px 1px 6px #80808057;
-  color: #5c54b1;
-  width: 100%;
-}
-
-.cp__input {
-  box-shadow: 1px 1px 6px #80808057;
-}
-
 .cp__description_textarea {
-  border-radius: 0.8rem;
-  border: none;
-  box-shadow: 1px 1px 6px #80808057;
+  border-radius: 0.25rem;
+  border: 1px solid #cccccc;
   font-size: 1.2rem;
   min-height: 15rem;
   max-height: 20rem;
@@ -103,59 +89,10 @@
   color: #5c54b1;
 }
 
-/* SearchProduct */
-
-.sp__container_selects {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 1rem 0 2rem;
-}
-
-.sp__contain_info_outside_title,
-.sp__content_selects_search {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  width: 100%;
-}
-
-.sp__select,
-.sp__select_filter {
-  background: #fff;
-  border: none;
-  box-shadow: 1px 1px 6px #80808047;
-  color: #5d5abf;
-}
-
-.sp__container_selects p {
-  color: #5d5abf;
-  font-size: 1.5rem;
-}
-
-.sp__content_buttons {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
-
-.sp__btn {
-  align-items: center;
-  background: #fceef7;
-  border-radius: 0.5rem;
-  border: none;
-  box-shadow: 1px 1px 6px #8080807a;
-  color: #5155a6;
-  cursor: pointer;
-  display: flex;
-  font-size: 1.5rem;
-  height: 3rem;
-  justify-content: center;
-  width: 3rem;
-}
-
 @media screen and (min-width: 800px) {
-  /* CreateProduct */
+  .cp__form {
+    flex-direction: row;
+  }
 
   .cp__contain_photo {
     align-items: flex-start;
@@ -179,22 +116,6 @@
   .cp__description_textarea {
     font-size: 1rem;
     height: 18.2rem;
-  }
-
-  /* SearchProduct */
-
-  .sp__contain_info_outside_title {
-    max-width: 41rem;
-  }
-
-  .cp__form,
-  .sp__content_selects_search {
-    flex-direction: row;
-  }
-
-  .sp__content_buttons {
-    gap: 1rem;
-    justify-content: flex-end;
   }
 
   .cp__content_select_warehouse {

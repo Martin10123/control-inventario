@@ -34,6 +34,7 @@ export const LoginPage = () => {
                   icon={<LiaLockSolid />}
                   placeholder="Ingrese su contraseña..."
                   type={showPassword ? "text" : "password"}
+                  classNameDiv={styles.login__input_p}
                 />
 
                 {showPassword ? (

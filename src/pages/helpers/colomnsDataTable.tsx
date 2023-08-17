@@ -111,6 +111,35 @@ export const columnsProducts = [
   },
 ];
 
+// products Movement
+
+export const columnsProductMovement = [
+  {
+    accessorKey: "date",
+    header: "Fecha",
+  },
+  {
+    accessorKey: "supplier",
+    header: "Proveedor",
+  },
+  {
+    accessorKey: "warehouseOrigin",
+    header: "Bodega origen",
+  },
+  {
+    accessorKey: "warehouseDestiny",
+    header: "Bodega destino",
+  },
+  {
+    accessorKey: "stock",
+    header: "Existencias",
+  },
+  {
+    accessorKey: "qualityProducts",
+    header: "Cantidad de productos",
+  },
+];
+
 // profiles
 
 export const columnsProfiles = [

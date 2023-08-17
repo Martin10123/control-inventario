@@ -42,15 +42,15 @@
   gap: 1rem;
 }
 
-.login__input {
-  box-shadow: 1px 1px 6px #80808047;
-}
-
 .login__form_input {
   align-items: center;
   border-radius: 0.5rem;
-  box-shadow: 1px 1px 6px #80808047;
+  border: 1px solid #cccccc;
   display: flex;
+}
+
+.login__input_p {
+  border: none;
 }
 
 .login__form_input > svg {

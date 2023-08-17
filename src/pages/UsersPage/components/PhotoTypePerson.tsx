@@ -5,10 +5,7 @@ import { PropsPhotoTypePerson, USERSSTATE } from "../interfaces";
 
 import styles from "./cuStyles.module.css";
 
-export const PhotoTypePerson = ({
-  onChangeSelect,
-  typePersonAre,
-}: PropsPhotoTypePerson) => {
+export const PhotoTypePerson = ({ onChangeSelect }: PropsPhotoTypePerson) => {
   const { OPTIONLEGAL, OPTIONNATIVE } = USERSSTATE;
 
   return (
@@ -24,14 +21,13 @@ export const PhotoTypePerson = ({
       </div>
 
       <SelectForm
-        className={styles.cu__select_text}
-        onChange={onChangeSelect}
         titleLabel="Persona"
-        value={typePersonAre}
-      >
-        <option value={OPTIONLEGAL}>Juridica</option>
-        <option value={OPTIONNATIVE}>Natural</option>
-      </SelectForm>
+        onChange={onChangeSelect}
+        options={[
+          { label: OPTIONLEGAL, value: OPTIONLEGAL },
+          { label: OPTIONNATIVE, value: OPTIONNATIVE },
+        ]}
+      />
     </div>
   );
 };

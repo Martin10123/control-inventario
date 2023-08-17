@@ -37,7 +37,6 @@ export const Table = <T extends object>({
     <>
       <div className={styles.lyp__content_input_search_table}>
         <InputForm
-          classNameDiv={styles.lyp__input_search}
           icon={<BiSearchAlt />}
           name="searchUser"
           onChange={onChangeInputFilter}

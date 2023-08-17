@@ -14,11 +14,12 @@
 
 .if__content_input_form {
   align-items: center;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #cccccc;
   display: grid;
   gap: 0.5rem;
   grid-template-columns: 0fr 1fr;
-  height: 4rem;
+  height: 3.7rem;
   padding: 0 0.5rem;
   position: relative;
   width: 100%;
@@ -55,10 +56,6 @@
 }
 
 @media screen and (min-width: 800px) {
-  .if__content_input_form {
-    height: 3.7rem;
-  }
-
   .if__input_form,
   .if__title_error {
     font-size: 1rem;

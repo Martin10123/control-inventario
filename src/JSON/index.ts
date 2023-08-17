@@ -1,6 +1,7 @@
 import balanceSheet from "./balanceSheet.json"
 import categories from "./categories.json"
 import clientsList from "./clientsList.json"
+import movement from "./movement.json"
 import products from "./products.json"
 import profiles from "./profiles.json"
 import proofOfIncome from "./proofOfIncome.json"
@@ -15,6 +16,7 @@ export {
     balanceSheet,
     categories,
     clientsList,
+    movement,
     products,
     profiles,
     proofOfIncome,

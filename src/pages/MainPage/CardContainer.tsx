@@ -1,9 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import { MdArrowForwardIos } from "react-icons/md";
 import { PropsCard } from "../interfaces/interfaces";
 
 import styles from "./mainPage.module.css";
 
 export const CardContainer = ({ dataCard }: PropsCard) => {
+  const navigate = useNavigate();
   const {
     backgroundBtn,
     backgroundCard,
@@ -11,8 +13,13 @@ export const CardContainer = ({ dataCard }: PropsCard) => {
     colorTitle,
     descripcionCard,
     imageCard,
+    linkGoToCard,
     nameCard,
   } = dataCard;
+
+  const onGoToPage = () => {
+    navigate(linkGoToCard);
+  };
 
   return (
     <div
@@ -39,6 +46,7 @@ export const CardContainer = ({ dataCard }: PropsCard) => {
         <div className={styles.main__card_content_btn}>
           <button
             className={styles.main__card_btn}
+            onClick={onGoToPage}
             style={{ background: backgroundBtn }}
           >
             <MdArrowForwardIos />

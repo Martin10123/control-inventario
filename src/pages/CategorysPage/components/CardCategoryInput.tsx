@@ -32,7 +32,7 @@ export const CardCategoryInput: FC<PropsCard> = ({
         </figure>
 
         <span className={styles.cc__icon_camera}>
-          <BsCamera /> Seleccionar una foto
+          <BsCamera /> Foto
         </span>
       </div>
 

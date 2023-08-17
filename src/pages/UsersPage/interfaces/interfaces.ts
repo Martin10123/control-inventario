@@ -1,3 +1,5 @@
+import { NewValueProps } from "../../../components";
+
 export interface PropsCU {
     onOpenAddNewUser: () => void;
     openCreateUsers: boolean;
@@ -24,6 +26,5 @@ export interface PropsShowInputs {
 }
 
 export interface PropsPhotoTypePerson {
-    onChangeSelect: ({ target }: { target: HTMLSelectElement; }) => void;
-    typePersonAre: string;
+    onChangeSelect: (v: NewValueProps) => void;
 }
